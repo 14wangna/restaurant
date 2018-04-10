@@ -1,0 +1,59 @@
+<layout name="layout_admin"/>
+<div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Job/lists">职位管理</a><span class="crumb-step">&gt;</span><span>新增职位</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__MODULE__/Job/doEdit" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr><td>
+                                <input type="hidden" name="id" value="{$job.id}">
+                            </td></tr>
+                            <tr>
+                                <th>职位：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="title" size="50" value="{$job.title}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>发布时间：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style" size="50" name="time" value="{$time}" type="text" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>工作地点：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="place" size="50" value="{$job.place}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>招聘人数：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="num" size="50" value="{$job.num}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>工作内容：</th>
+                                <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10">{$job.content}</textarea></td>
+                            </tr>
+                            <tr>
+                                <th>岗位要求：</th>
+                                <td><textarea name="demand" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10">{$job.demand}</textarea></td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>

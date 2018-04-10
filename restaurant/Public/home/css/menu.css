@@ -1,0 +1,30 @@
+.menu-list{
+	width:90%;
+	margin:20px auto;
+}
+.menu-item{
+	width:100%;
+}
+.menu-item ul{
+	width:100%;
+	margin-bottom: 0;
+}
+.menu-item ul li{
+	width:10%;
+	font-size:18px;
+	float:left;
+	text-align: center;
+	padding:5px 0;
+	
+}
+.item-actived{
+	border-bottom:3px solid #ff6767;
+}
+.menu-item ul li a{
+	color:#333;
+
+}
+.menu-item ul li a:hover{
+	text-decoration: none;
+	color:#ff6767;
+}

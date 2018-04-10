@@ -1,0 +1,1944 @@
+[ 2016-12-21T08:16:11+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001411s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T08:17:01+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000265s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006087s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T08:48:11+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003347s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T09:49:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T21:33:11+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002110s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T21:33:19+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T21:38:25+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003172s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T21:38:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T21:39:38+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005828s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T21:48:05+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T21:48:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003816s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T21:48:59+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:02:51+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004648s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:03:56+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004972s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:05:53+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:07:33+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:07:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002983s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:08:10+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013936s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:08:16+08:00 ] 127.0.0.1 /shanghua/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006384s ]
+ERR: 无法加载模块:Undefined
+
+[ 2016-12-21T22:08:19+08:00 ] 127.0.0.1 /shanghua/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002721s ]
+ERR: 无法加载模块:Undefined
+
+[ 2016-12-21T22:08:43+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001886s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:08:53+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001985s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:09:13+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:09:21+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002274s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:09:32+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:10:21+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:15:19+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:15:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:17:17+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:17:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007714s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:19:38+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002352s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:19:43+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:19:51+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:20:00+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030219s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:20:10+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:20:28+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011502s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:20:33+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:20:53+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001789s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:20:58+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001990s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:21:05+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001889s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:21:41+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002038s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:21:49+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:25:58+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002691s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:03+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001761s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016050s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007681s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003472s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003151s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008364s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001646s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001890s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005286s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:05+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001662s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:05+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002305s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:05+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:05+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:05+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002407s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:05+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:26:05+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:37+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003485s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002996s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003227s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000235s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007978s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029653s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002198s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002075s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007618s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.057752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011500s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026915s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032755s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016284s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004937s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007526s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005157s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.084225s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001869s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.138175s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005397s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002398s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002402s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001902s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035306s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037414s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002999s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004378s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002046s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001939s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007531s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004233s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013638s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003060s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002272s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003612s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002533s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001727s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002186s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:49+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:49+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:49+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:49+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:49+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013149s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:49+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003052s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:55+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:55+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002386s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:55+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001975s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:55+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:55+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003552s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:55+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008502s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:55+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:55+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:57+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:57+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:57+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:57+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:57+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:57+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023298s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:57+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009879s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:57+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011150s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:59+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:59+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002154s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:58+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:59+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.070202s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:59+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025555s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:59+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002766s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:59+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001988s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:27:59+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015354s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:00+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:00+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002221s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:02+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:02+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:02+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:02+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:02+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:02+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:02+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:02+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024395s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:40+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002493s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001860s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:28:57+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001646s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:35+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004499s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002299s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000353s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005863s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001949s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008390s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005688s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002233s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002070s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043123s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004382s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020495s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009716s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.125758s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001837s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006343s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001817s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021322s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023299s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018362s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002956s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002312s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001897s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010070s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023073s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002509s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002218s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003785s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003289s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:48+08:00 ] 127.0.0.1 /shanghua/Public/home/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001959s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:29:58+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:30:05+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:38:02+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001513s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:38:10+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024997s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:38:37+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:38:45+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001737s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:45:04+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003759s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:48:27+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002323s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:49:24+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:49:46+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017693s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:49:47+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:49:50+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:51:29+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:55:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:56:00+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:56:10+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013103s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T22:56:56+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:06:15+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:06:33+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:08:11+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001826s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:09:45+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000444s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011263s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:11:21+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:11:26+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002112s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:11:29+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004310s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:12:08+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:12:23+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005696s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:12:29+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001971s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:12:34+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:12:46+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:12:51+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030161s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:12:57+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:15:12+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029994s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:15:38+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:15:41+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002192s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:15:51+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002519s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:20:37+08:00 ] 127.0.0.1 /shanghua/Public/home/images/indusry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:25:52+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:27:53+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:31:29+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:31:33+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002536s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:31:37+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:31:53+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:32:17+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002364s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:33:32+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:33:34+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013742s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:33:51+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:34:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:34:06+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002055s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:34:11+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:34:21+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029506s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:34:27+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002926s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:34:41+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014220s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:38:30+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:38:34+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:39:29+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:41:52+08:00 ] 127.0.0.1 /shanghua/Public/home/fonts/kalinga.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002795s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:41:53+08:00 ] 127.0.0.1 /shanghua/Public/home/fonts/kalinga.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:46:46+08:00 ] 127.0.0.1 /shanghua/Public/home/images/gongyi,jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001419s ]
+INFO: [ app_init ] --END-- [ RunTime:0.055591s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:46:58+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001705s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:52:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/wenhua.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:52:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001948s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:53:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003273s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:54:00+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:54:24+08:00 ] 127.0.0.1 /shanghua/Public/home/images/gongyi,jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:54:44+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001979s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:55:24+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041292s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:55:30+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:55:42+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010980s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:55:47+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002974s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:55:55+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001624s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:56:41+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:56:43+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:56:47+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003054s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:56:53+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:57:58+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:58:12+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:58:18+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:58:23+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:58:26+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:58:39+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002186s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:58:43+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033739s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:58:53+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-21T23:58:59+08:00 ] 127.0.0.1 /shanghua/Public/admin/js/showdate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002723s ]
+ERR: 无法加载模块:Public
+

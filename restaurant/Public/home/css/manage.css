@@ -1,0 +1,36 @@
+.page-theme{
+	width: 1000px;
+	margin:20px auto;
+}
+/*.page-theme table{
+	width:1000px;
+	margin:20px auto;
+}
+.page-theme table th{
+	text-align: center;
+	padding:10px 0;
+}
+.page-theme table td{
+	text-align: center;
+	padding:10px 0;
+}
+.page-theme table td a{
+	color: #333;
+}
+.page-theme table td a:hover{
+	color: #ff6767;
+}*/
+.page-manage{
+	width:1000px;
+	margin:50px auto;
+	border: 1px solid black;
+	border-bottom:0;
+}
+.manage-item{
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px 20px;
+}

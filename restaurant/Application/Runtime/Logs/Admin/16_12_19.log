@@ -1,0 +1,1856 @@
+[ 2016-12-19T14:34:22+08:00 ] 127.0.0.1 /shanghua/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-12-19T14:34:26+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002337s ]
+
+[ 2016-12-19T15:36:57+08:00 ] 127.0.0.1 /shanghua/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001458s ]
+
+[ 2016-12-19T15:37:00+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002314s ]
+
+[ 2016-12-19T15:37:10+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0860s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `username` = 'wuhongjia' AND `password` = '123456' LIMIT 1   [ RunTime:0.0493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002089s ]
+
+[ 2016-12-19T15:37:12+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2016-12-19T15:37:16+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Indexen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003749s ]
+
+[ 2016-12-19T15:37:20+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Producten/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+SQL: SHOW COLUMNS FROM `producten` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `producten`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002639s ]
+
+[ 2016-12-19T15:37:35+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Producten/editen/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+SQL: SHOW COLUMNS FROM `producten` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `producten` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2016-12-19T15:38:30+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Producten/doEditen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003464s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wwwroot\shanghua\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `producten` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `producten` SET `title`='PDMS Synthetic',`content`='Based on the affiliated with EXCEL VBA language
+      Focus on the 3 d pipeline design',`thumb`='../Public/uploads/2016-12-19/58578e74ea207.png' WHERE `id` = 5 [ RunTime:0.1262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003263s ]
+
+[ 2016-12-19T15:38:32+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Producten/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `producten` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `producten`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' E:\wwwroot\shanghua\Application\Runtime\Cache\Admin\6024bbad230fb91332bc54b68e22b9ff.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003163s ]
+
+[ 2016-12-19T15:45:05+08:00 ] 127.0.0.1 /shanghua/index.php/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003089s ]
+
+[ 2016-12-19T15:45:05+08:00 ] 127.0.0.1 /shanghua/index.php/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003702s ]
+
+[ 2016-12-19T19:34:40+08:00 ] 127.0.0.1 /shanghua/index.php/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+
+[ 2016-12-19T19:34:44+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003335s ]
+
+[ 2016-12-19T19:34:46+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `username` = 'wangna' AND `password` = '123456' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003742s ]
+
+[ 2016-12-19T19:34:48+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000695s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004525s ]
+
+[ 2016-12-19T19:34:52+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/New/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003439s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003958s ]
+
+[ 2016-12-19T19:35:00+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/New/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003506s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `news` WHERE `title` = '新闻'  [ RunTime:0.0024s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\PHP\shanghua\Application\Admin\Controller\NewController.class.php 第 116 行.
+
+[ 2016-12-19T19:35:17+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Apply/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003616s ]
+SQL: SHOW COLUMNS FROM `apply` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\69b4f873f6d0f6ef7d3acee93d77630a.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003232s ]
+
+[ 2016-12-19T19:35:23+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Job/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002876s ]
+SQL: SHOW COLUMNS FROM `job` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `job`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 120 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 120 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 120 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 120 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 120 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\de77eeaa0453fc11c4b43e298fe79f12.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002800s ]
+
+[ 2016-12-19T19:35:27+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Advice/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `advice` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `advice`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\42b015d9fef8966450f1d0e24192cb99.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2016-12-19T19:35:49+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Users/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004174s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `admin_user`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000778s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003485s ]
+
+[ 2016-12-19T19:35:55+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Indexen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004232s ]
+
+[ 2016-12-19T19:36:02+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Caseen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012096s ]
+SQL: SHOW COLUMNS FROM `caseen` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `caseen`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined variable: case D:\PHP\shanghua\Application\Runtime\Cache\Admin\32701d6b1365707f9cce6747aa909519.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002149s ]
+
+[ 2016-12-19T19:36:05+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Applyen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002875s ]
+ERR: 无法加载控制器:Applyen
+
+[ 2016-12-19T19:36:10+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Applyen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007350s ]
+ERR: 无法加载控制器:Applyen
+
+[ 2016-12-19T19:36:15+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Honoren/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002823s ]
+SQL: SHOW COLUMNS FROM `honoren` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `honoren`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\871c407edff246a775067242bd2d9456.php 第 112 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\871c407edff246a775067242bd2d9456.php 第 112 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\871c407edff246a775067242bd2d9456.php 第 112 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\871c407edff246a775067242bd2d9456.php 第 112 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\871c407edff246a775067242bd2d9456.php 第 112 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\871c407edff246a775067242bd2d9456.php 第 112 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\871c407edff246a775067242bd2d9456.php 第 112 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\871c407edff246a775067242bd2d9456.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011243s ]
+
+[ 2016-12-19T19:36:19+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Honoren/adden
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003535s ]
+
+[ 2016-12-19T20:12:34+08:00 ] 127.0.0.1 /shanghua/index.php/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008958s ]
+
+[ 2016-12-19T20:14:32+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/New/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004749s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 122 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011967s ]
+
+[ 2016-12-19T20:14:39+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005392s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `industry`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016537s ]
+
+[ 2016-12-19T20:14:45+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002854s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2016-12-19T20:15:28+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/doEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004729s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\PHP\shanghua\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0356s ]
+NOTIC: [8] Undefined index: validate D:\PHP\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `industry` SET `title`='贯彻“发动机”文化 做“奔日子的人”',`time`='2016-12-19',`content`='11月26日,在收到“联想30年”柳总致全体员工的一封信后，金融第一时间将信件以邮件形式发送给每一位员工,并组织召开了学习讨论会，认真学习贯彻柳总信中的精神。会议由公司董事长兼总裁俞能宏主持,公司总裁室成员',`thumb`='../Public/uploads/2016-12-19/5857cf5f2471a.png' WHERE `id` = 1 [ RunTime:0.1325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002851s ]
+
+[ 2016-12-19T20:15:30+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003597s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `industry`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004034s ]
+
+[ 2016-12-19T20:15:34+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003376s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003327s ]
+
+[ 2016-12-19T20:15:52+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/doEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002966s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\PHP\shanghua\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0424s ]
+NOTIC: [8] Undefined index: validate D:\PHP\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PHP\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `industry` SET `title`='助力合伙人把握转型时代新机遇',`time`='2016-12-19',`content`='近400位来自金融、零售、创服、教育、通信、培训、电商等数十个行业的企业家及公司高管齐聚微创大厦，解读传统企业互联网+转型战略布局与运营模式的发展趋势，分享互联网思维在不同行业、业务流程和应用场景中的成功实践',`thumb`='../Public/uploads/2016-12-19/5857cf770f3cf.png' WHERE `id` = 2 [ RunTime:0.0632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003952s ]
+
+[ 2016-12-19T20:15:54+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003549s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `industry`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\abd1255a7522e96e5c515da10dd63e97.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003121s ]
+
+[ 2016-12-19T20:16:00+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002647s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002352s ]
+
+[ 2016-12-19T20:16:09+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/doEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004994s ]
+
+[ 2016-12-19T20:16:15+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Industry/doEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+
+[ 2016-12-19T21:43:44+08:00 ] 127.0.0.1 /shanghua/index.php/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001672s ]
+
+[ 2016-12-19T21:43:48+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003236s ]
+
+[ 2016-12-19T21:43:51+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006070s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0582s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `username` = 'wangna' AND `password` = '123456' LIMIT 1   [ RunTime:0.0579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003277s ]
+
+[ 2016-12-19T21:43:52+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013237s ]
+
+[ 2016-12-19T21:43:55+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Indexen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003958s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008850s ]
+
+[ 2016-12-19T21:43:58+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Applyen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] Undefined variable: apply D:\PHP\shanghua\Application\Runtime\Cache\Admin\e0c41aa7e38406354102f1a4fb0a3526.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002956s ]
+
+[ 2016-12-19T21:49:21+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Applyen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Undefined variable: apply D:\PHP\shanghua\Application\Runtime\Cache\Admin\e0c41aa7e38406354102f1a4fb0a3526.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004012s ]
+
+[ 2016-12-19T21:50:09+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Applyen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined variable: applyen D:\PHP\shanghua\Application\Runtime\Cache\Admin\e0c41aa7e38406354102f1a4fb0a3526.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003182s ]
+
+[ 2016-12-19T21:52:28+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Applyen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001041s ]
+NOTIC: [8] Undefined variable: applyen D:\PHP\shanghua\Application\Runtime\Cache\Admin\e0c41aa7e38406354102f1a4fb0a3526.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004011s ]
+
+[ 2016-12-19T22:11:47+08:00 ] 127.0.0.1 /shanghua/index.php/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000592s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004053s ]
+
+[ 2016-12-19T22:11:48+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Indexen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018523s ]
+
+[ 2016-12-19T22:11:56+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Joben/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003992s ]
+SQL: SHOW COLUMNS FROM `joben` [ RunTime:0.0689s ]
+SQL: SELECT * FROM `joben`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 120 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 120 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 120 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 120 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\1c6d1044e336566233ace8b54caa8a5a.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003788s ]
+
+[ 2016-12-19T22:12:04+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Applyen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: applyen D:\PHP\shanghua\Application\Runtime\Cache\Admin\e0c41aa7e38406354102f1a4fb0a3526.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003655s ]
+
+[ 2016-12-19T22:12:14+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Adviceen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004359s ]
+ERR: 无法加载控制器:Adviceen
+
+[ 2016-12-19T22:34:17+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Applyen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `applyen` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `applyen`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\e0c41aa7e38406354102f1a4fb0a3526.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003563s ]
+
+[ 2016-12-19T22:34:26+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Adviceen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003159s ]
+ERR: 无法加载控制器:Adviceen
+
+[ 2016-12-19T22:38:17+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Adviceen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004823s ]
+ERR: 无法加载控制器:Adviceen
+
+[ 2016-12-19T22:38:19+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Adviceen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003664s ]
+ERR: 无法加载控制器:Adviceen
+
+[ 2016-12-19T22:38:28+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Adviceen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004762s ]
+ERR: 无法加载控制器:Adviceen
+
+[ 2016-12-19T22:38:54+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Adviceen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003968s ]
+ERR: 无法加载控制器:Adviceen
+
+[ 2016-12-19T22:39:21+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Adviceen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+ERR: 无法加载控制器:Adviceen
+
+[ 2016-12-19T22:39:37+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Adviceen/listsen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004140s ]
+SQL: SHOW COLUMNS FROM `adviceen` [ RunTime:0.0681s ]
+SQL: SELECT * FROM `adviceen`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\93b412b07caa5df35a9f1e3b8e1cf682.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003836s ]
+
+[ 2016-12-19T22:40:01+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000756s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003730s ]
+
+[ 2016-12-19T22:40:10+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Case/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003810s ]
+SQL: SHOW COLUMNS FROM `case` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `case`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 114 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\PHP\shanghua\Application\Runtime\Cache\Admin\b190d67ea81a3a1c57d0504791efd73b.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005452s ]
+
+[ 2016-12-19T22:40:16+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Users/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003726s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `admin_user`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013082s ]
+
+[ 2016-12-19T22:59:36+08:00 ] 127.0.0.1 /shanghua/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004999s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010952s ]
+
+[ 2016-12-19T22:59:38+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Indexen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000507s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000896s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005916s ]
+
+[ 2016-12-19T23:00:21+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Indexen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001711s ]
+
+[ 2016-12-19T23:00:25+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003505s ]
+
+[ 2016-12-19T23:00:35+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003307s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `username` = 'wangna' AND `password` = '123456' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002631s ]
+
+[ 2016-12-19T23:00:37+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004226s ]
+
+[ 2016-12-19T23:00:39+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Indexen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000563s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000954s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006149s ]
+
+[ 2016-12-19T23:01:44+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Indexen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001881s ]
+
+[ 2016-12-19T23:01:48+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003992s ]
+
+[ 2016-12-19T23:01:57+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010791s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0445s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `username` = 'wangna' AND `password` = '123456' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004949s ]
+
+[ 2016-12-19T23:01:58+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000739s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007702s ]
+
+[ 2016-12-19T23:02:00+08:00 ] 127.0.0.1 /shanghua/index.php/Admin/Indexen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006994s ]
+

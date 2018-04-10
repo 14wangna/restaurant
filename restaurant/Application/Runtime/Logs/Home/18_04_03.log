@@ -1,0 +1,24 @@
+[ 2018-04-03T16:06:34+08:00 ] 127.0.0.1 /shanghua/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016772s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1311s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000587s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000827s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019424s ]
+

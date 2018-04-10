@@ -1,0 +1,78 @@
+[ 2016-12-11T21:29:06+08:00 ] 127.0.0.1 /shanghua/Public/home/images/detail-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021217s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:29:06+08:00 ] 127.0.0.1 /shanghua/Public/home/images/detail-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002082s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:29:06+08:00 ] 127.0.0.1 /shanghua/Public/home/images/detail-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:29:07+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:29:07+08:00 ] 127.0.0.1 /shanghua/images/weixin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004601s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-11T21:29:10+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:39:27+08:00 ] 127.0.0.1 /shanghua/Public/home/images/detail-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001902s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:39:27+08:00 ] 127.0.0.1 /shanghua/Public/home/images/detail-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005982s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:39:27+08:00 ] 127.0.0.1 /shanghua/Public/home/images/detail-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001905s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:39:28+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:46:01+08:00 ] 127.0.0.1 /shanghua/Public/home/fonts/kalinga.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:46:01+08:00 ] 127.0.0.1 /shanghua/Public/home/images/r_b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002031s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-11T21:46:01+08:00 ] 127.0.0.1 /shanghua/Public/home/fonts/kalinga.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002801s ]
+ERR: 无法加载模块:Public
+

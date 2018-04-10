@@ -1,0 +1,18 @@
+[ 2018-04-09T20:39:54+08:00 ] 127.0.0.1 /restaurant/index.php/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+ERR: 无法加载模块:About
+
+[ 2018-04-09T20:40:15+08:00 ] 127.0.0.1 /restaurant/index.php/About/about.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:About
+
+[ 2018-04-09T20:51:35+08:00 ] 127.0.0.1 /restaurant/index.php/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+ERR: 无法加载模块:Images
+

@@ -1,0 +1,148 @@
+[ 2018-01-29T17:00:47+08:00 ] 127.0.0.1 /shanghua/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018792s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1200s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000872s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028492s ]
+
+[ 2018-01-29T17:01:41+08:00 ] 127.0.0.1 /shanghua/index.php/Home/New/company/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002655s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0231s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\apa\PHP1\shanghua\Application\Home\Controller\NewController.class.php on line 10 and defined D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` ORDER BY time desc LIMIT 0,3   [ RunTime:0.0560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\shanghua\Application\Runtime\Cache\Home\119279b27ec7e72f58d56ac028020dbd.php 第 188 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\shanghua\Application\Runtime\Cache\Home\119279b27ec7e72f58d56ac028020dbd.php 第 188 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\shanghua\Application\Runtime\Cache\Home\119279b27ec7e72f58d56ac028020dbd.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002309s ]
+
+[ 2018-01-29T17:02:08+08:00 ] 127.0.0.1 /shanghua/index.php/Home/New/content/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002924s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `news` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0438s ]
+SQL: SELECT * FROM `news` WHERE ( id<8 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `news` WHERE ( id>8 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004329s ]
+
+[ 2018-01-29T17:02:15+08:00 ] 127.0.0.1 /shanghua/index.php/Home/New/content/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news` WHERE ( id<3 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` WHERE ( id>3 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003626s ]
+
+[ 2018-01-29T17:02:20+08:00 ] 127.0.0.1 /shanghua/index.php/Home/New/content/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002629s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `news` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news` WHERE ( id<2 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE ( id>2 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2018-01-29T17:02:28+08:00 ] 127.0.0.1 /shanghua/index.php/Home/Product/operation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000524s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000771s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003385s ]
+

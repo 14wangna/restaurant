@@ -1,0 +1,67 @@
+.topbar-wrap{
+	background-color: #528B8B;
+}
+.top-a{
+	font-size: 14px;
+}
+.short-wrap ul{
+	margin-left: 90px;
+}
+.index-top-lists{
+	padding-top: 10px;
+}
+/*登陆*/
+.admin-login{
+	/*background-color: red;*/
+	width: 300px;
+	height: auto;
+	position: absolute;
+	top:30%;
+	left:31%;
+}
+.admin-login span{
+	/*background-color: red;*/
+	margin-left: 60%;
+}
+.admin-login form{
+	margin-top: 7%;
+
+}
+.input-group{
+	float: right;
+	/*background-color: red;*/
+	margin-top: 10px;
+}
+.input-group img,.input-group a{
+	margin-right: 30px;
+}
+#button{
+	margin-top: 20px;
+	margin-right: 80px;
+}
+.result-tab tr th{
+	text-align: center;
+}
+td{
+	text-align: center;
+}
+#read-style{
+	background-color: #F0F0F0;
+}
+#alldelete button{
+	margin-top:1%;
+}
+.short-list{
+	float:left;
+}
+.result-wrap{
+	height:320px;
+}
+.short-list li{
+	margin-top:20px;
+}
+.result-content1{
+	margin-left: 80px;
+	line-height: 35px;
+	margin-top:0px;
+} 

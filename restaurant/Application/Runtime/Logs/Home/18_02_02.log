@@ -1,0 +1,84 @@
+[ 2018-02-02T11:08:14+08:00 ] 127.0.0.1 /shanghua/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018351s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `news`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000929s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016692s ]
+
+[ 2018-02-02T11:08:22+08:00 ] 127.0.0.1 /shanghua/index.php/Home/New/company/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0214s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\apa\PHP1\shanghua\Application\Home\Controller\NewController.class.php on line 10 and defined D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` ORDER BY time desc LIMIT 0,3   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\shanghua\Application\Runtime\Cache\Home\119279b27ec7e72f58d56ac028020dbd.php 第 188 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\shanghua\Application\Runtime\Cache\Home\119279b27ec7e72f58d56ac028020dbd.php 第 188 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\shanghua\Application\Runtime\Cache\Home\119279b27ec7e72f58d56ac028020dbd.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002771s ]
+
+[ 2018-02-02T11:08:37+08:00 ] 127.0.0.1 /shanghua/index.php/Home/Industry/industry/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0220s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\apa\PHP1\shanghua\Application\Home\Controller\IndustryController.class.php on line 10 and defined D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\apa\PHP1\shanghua\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `industry` ORDER BY time desc LIMIT 0,3   [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `industry` LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\shanghua\Application\Runtime\Cache\Home\c26c818421f70c3910bde0a1f8de4210.php 第 186 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\shanghua\Application\Runtime\Cache\Home\c26c818421f70c3910bde0a1f8de4210.php 第 186 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\shanghua\Application\Runtime\Cache\Home\c26c818421f70c3910bde0a1f8de4210.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003611s ]
+

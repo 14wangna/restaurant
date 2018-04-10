@@ -1,0 +1,37 @@
+
+.page-about{
+	width:1000px;
+	margin:30px auto;
+}
+.about-mo{
+	width:1000px;
+	margin:0 auto;
+	color: #ff6767;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 0 20px 25px;
+    background: rgba(0,0,0,0) url(../images/mo.png) no-repeat scroll left center;
+}
+.about-mo>h2{
+	margin-top:12px;
+}
+.about-mo>p{
+	font-size: 18px;
+    padding: 0 0 1.6em 0;
+}
+.about-submit{
+	text-align: center;
+}
+.submit{
+	background: #FFF;
+    border: 1px solid #999;
+    /*border-radius: 100px;*/
+    font-size: 14px;
+    color: #333;
+    height: 40px;
+    width: 82px;
+    cursor: pointer;
+    margin: 10px 0;
+    line-height: 40px;
+    text-align: center;
+}

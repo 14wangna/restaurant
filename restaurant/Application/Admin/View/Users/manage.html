@@ -1,0 +1,56 @@
+<layout name="layout_admin"/>
+<div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Users/lists">用户管理</a><span class="crumb-step">&gt;</span><span>修改用户</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__MODULE__/Users/doManage" method="post" role="form">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr><td>
+                                <input type="hidden" name="id" value="{$users.id}">
+                            </td></tr>
+                            <tr>
+                                <th>用户名：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style" size="50" value="{$users.username}" type="text" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>真实姓名：</th>
+                                <td>
+                                    <input class="common-text required" name="truename" size="50" value="{$users.truename}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>手机号码：</th>
+                                <td>
+                                    <input class="common-text required" name="phonenum" size="50" value="{$users.phonenum}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>电子邮箱：</th>
+                                <td>
+                                    <input class="common-text required" name="email" size="50" value="{$users.email}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>添加时间：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style"size="50" type="text" value="{$users.createtime}" readonly>
+                                </td>
+                            </tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="保存" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>

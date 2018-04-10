@@ -1,0 +1,36 @@
+[ 2016-12-06T08:23:26+08:00 ] 127.0.0.1 /shanghua/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015175s ]
+ERR: 1146:Table 'shanghua.categorys' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `categorys`
+ERR: 1146:Table 'shanghua.categorys' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `categorys`
+
+[ 2016-12-06T08:23:44+08:00 ] 127.0.0.1 /shanghua/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+ERR: 1146:Table 'shanghua.categorys' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `categorys`
+ERR: 1146:Table 'shanghua.categorys' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `categorys`
+
+[ 2016-12-06T17:07:02+08:00 ] 127.0.0.1 /shanghua/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+ERR: 1146:Table 'shanghua.categorys' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `categorys`
+ERR: 1146:Table 'shanghua.categorys' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `categorys`
+

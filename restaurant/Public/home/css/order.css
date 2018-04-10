@@ -1,0 +1,35 @@
+.menu-theme{
+	width:90%;
+	margin:10px auto;
+}
+.item-order{
+	width:300px;
+	padding:20px 115px;
+	border: 1px solid #999;
+}
+.menu-list{
+	width:90%;
+	margin:50px auto;
+}
+/*.menu-list*/
+.menu-list ul li{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #999;
+	padding-right: 20px;
+	margin:10px 0;
+}
+.menu-number input{
+	text-align: center;
+	width:50px;
+}
+.menu-list ul li a{
+	text-decoration: none;
+	color:#333;
+}
+.menu-list ul li a:hover{
+	text-decoration: underline;
+	color:#ff6767;
+}
