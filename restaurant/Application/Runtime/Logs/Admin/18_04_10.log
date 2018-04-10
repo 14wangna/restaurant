@@ -1691,3 +1691,1219 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002337s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002646s ]
 
+[ 2018-04-10T20:57:06+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+
+[ 2018-04-10T20:57:10+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2018-04-10T20:57:12+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0893s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `username` = 'wangna' AND `password` = '123456' LIMIT 1   [ RunTime:0.0215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+
+[ 2018-04-10T20:57:15+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2018-04-10T20:57:22+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002962s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0331s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `username` = 'wangna' AND `password` = '123456' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+
+[ 2018-04-10T20:57:25+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2018-04-10T20:59:04+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002020s ]
+
+[ 2018-04-10T20:59:07+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+ERR: 1146:Table 'restaurant.admin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin_user`
+ERR: 1146:Table 'restaurant.admin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin_user`
+
+[ 2018-04-10T21:00:20+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `username` = 'wangna' AND `password` = '123456' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-04-10T21:00:21+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2018-04-10T21:00:28+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Users/lists/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0229s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\UsersController.class.php on line 17 and defined D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `admin_user` LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2018-04-10T21:00:38+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/New/lists/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0256s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\NewController.class.php on line 16 and defined D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 117 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2018-04-10T21:00:44+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/New/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2018-04-10T21:00:49+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/New/lists/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0159s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\NewController.class.php on line 16 and defined D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 117 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2018-04-10T21:00:53+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/New/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2018-04-10T21:01:39+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/New/lists/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0279s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\NewController.class.php on line 16 and defined D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 117 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\b82f6166dc7ce355fc0a2ad75d1410cb.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002521s ]
+
+[ 2018-04-10T21:01:50+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2018-04-10T21:18:28+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: food D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 121 行.
+NOTIC: [8] Undefined variable: food D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2018-04-10T21:18:52+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 121 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002117s ]
+
+[ 2018-04-10T21:19:18+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2018-04-10T21:19:38+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2018-04-10T21:19:40+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002017s ]
+
+[ 2018-04-10T21:19:53+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 121 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2018-04-10T21:21:19+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002178s ]
+
+[ 2018-04-10T21:22:24+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2018-04-10T21:24:38+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001967s ]
+
+[ 2018-04-10T21:24:52+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002054s ]
+
+[ 2018-04-10T21:24:58+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+NOTIC: [8] Undefined variable: foodtype D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2018-04-10T22:23:41+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0350s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001896s ]
+
+[ 2018-04-10T22:24:24+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0315s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003413s ]
+
+[ 2018-04-10T22:24:53+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001913s ]
+
+[ 2018-04-10T22:25:16+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0316s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001899s ]
+
+[ 2018-04-10T22:34:45+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0258s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2018-04-10T22:35:18+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0316s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002587s ]
+
+[ 2018-04-10T22:35:55+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+
+[ 2018-04-10T22:35:58+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2018-04-10T22:36:00+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `username` = 'wangna' AND `password` = '123456' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-04-10T22:36:00+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2018-04-10T22:36:06+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0278s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2018-04-10T22:36:49+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: foodtypes D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\a87c0194f6caf2689df52d0b68bf56ab.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2018-04-10T22:37:02+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0184s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2018-04-10T22:38:07+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+
+[ 2018-04-10T22:38:18+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2018-04-10T22:38:23+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0286s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001894s ]
+
+[ 2018-04-10T22:41:23+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0236s ]
+NOTIC: [8] Undefined variable: name D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002362s ]
+
+[ 2018-04-10T22:42:03+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0315s ]
+NOTIC: [8] Undefined variable: name D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001877s ]
+
+[ 2018-04-10T22:42:29+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0283s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001902s ]
+
+[ 2018-04-10T22:43:37+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0203s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2018-04-10T22:44:27+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0292s ]
+NOTIC: [8] Undefined index: validate D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `food` (`price`,`batch`,`type`,`time`,`function`,`thumb`) VALUES ('24','青椒，胡萝卜','早餐','2018-04-10','少时诵诗书所所所所所所所所所所所所所','../Public/uploads/2018-04-10/5acccdca6ef4a.jpg') [ RunTime:0.0592s ]
+
+[ 2018-04-10T22:44:28+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/lists/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0233s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php on line 16 and defined D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `food` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `food` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined index: title D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 122 行.
+NOTIC: [8] Undefined index: title D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 122 行.
+NOTIC: [8] Undefined index: title D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 122 行.
+NOTIC: [8] Undefined index: title D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003059s ]
+
+[ 2018-04-10T22:45:50+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+SQL: SHOW COLUMNS FROM `foodtype` [ RunTime:0.0319s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php 第 29 行.
+SQL: SELECT * FROM `foodtype`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001879s ]
+
+[ 2018-04-10T22:46:35+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0285s ]
+NOTIC: [8] Undefined index: validate D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `food` (`name`,`price`,`batch`,`type`,`time`,`function`,`thumb`) VALUES ('小米粥','3','小米','晚餐','2018-04-10','的点点滴滴多多多多多多多多多多多','../Public/uploads/2018-04-10/5accce4a293c1.jpg') [ RunTime:0.0539s ]
+
+[ 2018-04-10T22:46:36+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Food/lists/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0249s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\FoodController.class.php on line 16 and defined D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `food` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `food` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: title D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 122 行.
+NOTIC: [8] Undefined index: title D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 122 行.
+NOTIC: [8] Undefined index: title D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 122 行.
+NOTIC: [8] Undefined index: title D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 122 行.
+NOTIC: [8] Undefined index: title D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Admin\7b4f8e2c74b22de9df84ffc1dcade0ad.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002045s ]
+
+[ 2018-04-10T22:49:03+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/New/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2018-04-10T22:49:49+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Users/lists/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0245s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\soft\PHP1\restaurant1\restaurant\Application\Admin\Controller\UsersController.class.php on line 17 and defined D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `admin_user` LIMIT 0,8   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002526s ]
+
+[ 2018-04-10T22:49:57+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Admin/Users/manage/data/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `admin_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001714s ]
+

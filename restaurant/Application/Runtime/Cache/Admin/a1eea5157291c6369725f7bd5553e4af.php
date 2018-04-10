@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>北京上华软件</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" href="/restaurant/Public/admin/css/style.css">
-    <script type="text/javascript" src="/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant/Public/admin/js/showdate.js"></script>
-    <script type="text/javascript" src="/restaurant/Public/admin/js/quanxuan.js"></script>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" href="/restaurant1/restaurant/Public/admin/css/style.css">
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/showdate.js"></script>
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/quanxuan.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
             <!-- <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1> -->
-            <img src="/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
@@ -46,8 +46,8 @@
 
         <h1><i class="icon-font">&#xe005;</i>菜品管理</h1>
         <div>
-            <h2><a href="<?php echo U('Industry/lists?p=1');?>"><i class="icon-font">&#xe050;</i>菜品列表</a></h2>
-            <h2><a href="<?php echo U('Industry/add');?>"><i class="icon-font">&#xe026;</i>新增菜品</a></h2>
+            <h2><a href="<?php echo U('Food/lists?p=1');?>"><i class="icon-font">&#xe050;</i>菜品列表</a></h2>
+            <h2><a href="<?php echo U('Food/add');?>"><i class="icon-font">&#xe026;</i>新增菜品</a></h2>
         </div>
 
         <h1><i class="icon-font">&#xe018;</i>评价管理</h1>
@@ -89,11 +89,11 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/index.php/Admin/New/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>新增新闻</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant1/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant1/restaurant/index.php/Admin/New/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>新增新闻</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
-                <form action="/restaurant/index.php/Admin/New/doAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                <form action="/restaurant1/restaurant/index.php/Admin/New/doAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
                     <table class="insert-tab" width="100%">
                         <tbody>
                             <tr>
@@ -105,7 +105,7 @@
                             <tr>
                                 <th>新闻配图：</th>
                                 <td>
-                                <input name="thumb" id="" type="file"></td>
+                                <input name="thumb" id="thumb" type="file"></td>
                             </tr>
                             <tr>
                                 <th><i class="require-red"></i>发布时间：</th>
@@ -132,7 +132,7 @@
     </div>
 
 
-<script src="/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
-<script src="/restaurant/Public/admin/js/index.js"></script>
+<script src="/restaurant1/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
+<script src="/restaurant1/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>

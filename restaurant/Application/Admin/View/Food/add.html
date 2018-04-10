@@ -12,7 +12,7 @@
                             <tr>
                                 <th><i class="require-red">*</i>名称：</th>
                                 <td>
-                                    <input class="common-text required" id="title" name="title" size="50" value="" type="text">
+                                    <input class="common-text required" id="name" name="name" size="50" value="" type="text">
                                 </td>
                             </tr>
                             <tr>
@@ -27,6 +27,16 @@
                                     <input class="common-text required" id="batch" name="batch" size="50" value="" type="text">
                                 </td>
                             </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>类型：</th>
+                                <td>
+                                    <select  class="common-text required" id="type" name="type" value="" style="width:200px">
+                                        <volist name="foodtypes" id="data">
+                                            <option value="{$data.name}">{$data.name}</option>
+                                        </volist>
+                                    </select>
+                                </td>
+                            </tr> 
                             <tr>
                                 <th>菜品配图：</th>
                                 <td>

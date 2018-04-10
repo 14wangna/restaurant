@@ -25,11 +25,17 @@ class FoodController extends Controller {
         	return date("Y-m-d");
     }
          public function add(){
+         	$foodModel = M('foodtype');
+			$data =$foodModel ->select($id);
+		    
+			//分配数据
+			$this->assign('foodtypes',$data);
          	$time = $this->get_time();
          	$this->assign('time',$time);
             $this->display();
          }
          public function doAdd(){
+
     		$upload = new \Think\Upload();// 实例化上传类
 		    $upload->maxSize   =     3145728 ;// 设置附件上传大小
 		    $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
@@ -87,6 +93,7 @@ class FoodController extends Controller {
 			$data =$foodModel ->find($id);
 			//分配数据
 			$this->assign('food',$data);
+
 			$time = $this->get_time();
          	$this->assign('time',$time);
 			$this->display();

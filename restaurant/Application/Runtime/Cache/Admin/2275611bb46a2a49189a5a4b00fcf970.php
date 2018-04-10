@@ -2,23 +2,23 @@
 <html>
 <head>
 	<title>后台登陆</title>
-	<link rel="stylesheet" type="text/css" href="/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/Public/admin/css/login.css"/>
-    <script type="text/javascript" src="/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant/Public/admin/js/login.js"></script>
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/login.css"/>
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/login.js"></script>
 </head>
 <body style="background-color:rgb(249,249,249)">
 <div >
 	<div class="topbar-wrap white">
     	<div class="topbar-inner clearfix">
 	        <div class="topbar-logo-wrap clearfix">
-	            <img src="/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+	            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
 	        </div>
 	        <div class="top-info-wrap">
 	            <ul class="top-info-list clearfix">
-	                <li><a href="/restaurant/index.php/Admin/Index/index" class="top-a">后台首页</a></li>
+	                <li><a href="/restaurant1/restaurant/index.php/Admin/Index/index" class="top-a">后台首页</a></li>
 	                <li><a href="#" class="top-a">前台首页</a></li>
 	                <li><a href="#" class="top-a">退出</a></li>
 	            </ul>
