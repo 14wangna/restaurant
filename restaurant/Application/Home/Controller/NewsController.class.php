@@ -1,9 +1,10 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class ManageController extends Controller {
-    public function manage(){
+class NewsController extends Controller {
+    public function news(){
      
     	$this->display();
     }
+    
 }

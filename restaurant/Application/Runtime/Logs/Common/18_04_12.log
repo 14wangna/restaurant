@@ -1,0 +1,30 @@
+[ 2018-04-12T21:10:13+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Person/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+ERR: 无法加载模块:Person
+
+[ 2018-04-12T21:10:36+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Person/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+ERR: 无法加载模块:Person
+
+[ 2018-04-12T21:12:18+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Person/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+ERR: 无法加载模块:Person
+
+[ 2018-04-12T21:12:19+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Person/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+ERR: 无法加载模块:Person
+
+[ 2018-04-12T21:12:20+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Person/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+ERR: 无法加载模块:Person
+

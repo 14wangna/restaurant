@@ -6,9 +6,4 @@ class AboutController extends Controller {
      
     	$this->display();
     }
-    public function aboute(){
-
-        
-    	$this->display();
-    }
 }

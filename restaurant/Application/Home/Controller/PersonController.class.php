@@ -6,9 +6,4 @@ class PersonController extends Controller {
      
     	$this->display();
     }
-    public function persone(){
-
-        
-    	$this->display();
-    }
 }

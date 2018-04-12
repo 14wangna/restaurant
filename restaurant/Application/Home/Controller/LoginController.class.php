@@ -6,9 +6,4 @@ class LoginController extends Controller {
      
     	$this->display();
     }
-    public function logine(){
-
-        
-    	$this->display();
-    }
 }

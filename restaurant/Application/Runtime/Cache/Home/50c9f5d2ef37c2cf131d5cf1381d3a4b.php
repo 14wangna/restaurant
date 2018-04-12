@@ -1,20 +1,66 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>登录</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant/Public/home/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="/restaurant/Public/home/css/login.css">
-    <link rel="stylesheet" href="/restaurant/Public/home/css/bootstrap.css">
-    <script src="/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-    <script src="/restaurant/Public/home/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/restaurant/Public/home/js/index.js"></script>
+	<title>登录注册</title>
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/register.css">
+    <link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
+    <script src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
+    <script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
+        <script type="text/javascript">  
+
+     var code ; //在全局 定义验证码   
+     function createCode()   
+     {    
+       code = "";   
+       var codeLength = 4;//验证码的长度   
+       var checkCode = document.getElementById("checkCode");   
+       var selectChar = new Array(0,1,2,3,4,5,6,7,8,9);//所有候选组成验证码的字符，当然也可以用中文的   
+
+       for(var i=0;i<codeLength;i++)   
+       {   
+
+           
+       var charIndex = Math.floor(Math.random()*10);   
+       code +=selectChar[charIndex];   
+
+          
+       }   
+//       alert(code);   
+       if(checkCode)   
+       {   
+         checkCode.className="code";   
+         checkCode.value = code;   
+       }   
+
+     }   
+
+      function validate ()   
+     {   
+       var inputCode = document.getElementById("input1").value;   
+       if(inputCode.length <=0)   
+       {   
+           alert("请输入验证码！");   
+       }   
+       else if(inputCode != code )   
+       {   
+          alert("验证码输入错误！");   
+          createCode();//刷新验证码   
+       }   
+       else   
+       {   
+         alert("OK");   
+       }   
+
+       }   
+    </script>
 </head>
-<body>
-    <div class="head">
+<body onload="createCode()">
+	<div class="head">
         <div class="head-left">
             <ul class="xm-nav">
-                <li><img src="/restaurant/Public/home/images/ms02.png"></li>
+                <li><img src="/restaurant1/restaurant/Public/home/images/ms03.png"></li>
                 <li><a href="#">首页</a></li>
                 <li><a href="#">订单查询</a></li>
                 <li><a href="#">个人中心</a></li>
@@ -30,56 +76,64 @@
         </div>
         <div class="clear"></div>
     </div>
-    <div class="page-theme" >
-        <div class="banner">
-            <img src="/restaurant/Public/home/images/banner5.jpg" width="100%" height="100%">
-        </div>
-        <div class="xm-content">
+    <div class="page-theme">
+    	<div class="register_banner">
+    		<img src="/restaurant1/restaurant/Public/home/images/banner26.png" width="100%" >
+    	</div>
+    	<div class="xm-content">
             <div class="content-header">
-                    <a href="#" id="login" class="actived" style="color:#fff" onclick="login()">登录</a>
-                    <a href="#" id="register" onclick="register()">注册</a>
-                    <div class="clear"></div>
+                <a href="#" id="login" class="actived" style="color:#fff" onclick="login()">登录</a>
+                <a href="#" id="register" onclick="register()">注册</a>
+                <div class="clear"></div>
             </div>
+            <form action="" name="myform" method="post">
             <div class="content-login" >
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
                     <input type="text" placeholder="工号">
                 </div>
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
-                    <input type="text" placeholder="密码">
+                    <input type="text"  placeholder="密码">
                 </div>
-                <div class="xm-dlu"><input  type="button" value="登录"></div>
+                <div class="xm-input-box">
+                    <input  type="text"   id="input1" />  
+                    <input type="text" onclick="createCode()" readonly="readonly" id="checkCode" class="unchanged" style="width: 80px"  /><br />  
+                </div>
+                <div class="xm-dlu"><input type="button" id="Button1"  onclick="validate();" value="登录"></div>
                 <!-- <div class="signup-guide"><p>还没有账号？<a href="#">免费注册</a></p></div> -->
             </div>
+            </form>
             <div class="content-register" >
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
                     <input type="text" placeholder="工号">
                 </div>
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
                     <input type="text" placeholder="密码">
                 </div>
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
                     <input type="text" placeholder="确认密码">
                 </div>
-                <div class="xm-dlu"><input type="button" value="注册"></div>
+                <!-- <div class="xm-input-box">
+                    <input  type="text"   id="input1" />  
+                    <input type="text" onclick="createCode()" readonly="readonly" id="checkCode" class="unchanged" style="width: 80px"  /><br />  
+                </div> -->
+                <div class="xm-dlu"><input type="button" id="Button1"  onclick="validate();" value="注册"></div>
             </div>
-
         </div>
     </div>
-</div>
 </body>
 </html>

@@ -13,11 +13,11 @@
 	<div class="head">
 		<div class="head-left">
 			<ul class="xm-nav">
-				<li><img src="/restaurant1/restaurant/Public/home/images/ms02.png" width="100%" height="100%">
+				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="#">首页</a></li>
 				<li><a href="#">订单查询</a></li>
 				<li><a href="#">个人中心</a></li>
-				<li><a href="#">话题讨论</a></li>
+				<li><a href="#">新闻中心</a></li>
 				<li><a href="#">关于我们</a></li>
 				<div class="clear"></div>
 			</ul>
@@ -43,7 +43,7 @@
 					<a href="javascript: void (0);">首页</a>
 					<a href="javascript: void (0);">订单查询</a>
 					<a href="javascript: void (0);">个人中心</a>
-					<a href="javascript: void (0);">话题讨论</a>
+					<a href="javascript: void (0);">新闻中心</a>
 					<a href="javascript: void (0);">关于我们</a>
 				</li>
 				<li class="nav-theme-search">
@@ -55,6 +55,9 @@
 				<div class="clear"></div>
 			</ul>
 		</div>
+		
+	<!--主体部分 开始-->
+
 		<!--导航 结束-->
 
 		<!--轮播图 开始-->
@@ -331,7 +334,8 @@
 		<a><img src="/restaurant1/restaurant/Public/home/images/back.png"></a>
 	</div>
 	<!-- 页脚 -->
-	<div class="footers">
+	
+		<div class="footers">
 		<div class="footer">
 			<div class="footer-left">
 				<p class="feel">职工餐厅-公司给您家的感觉</p>

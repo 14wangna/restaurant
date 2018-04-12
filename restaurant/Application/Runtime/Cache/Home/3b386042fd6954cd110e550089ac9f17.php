@@ -2,17 +2,17 @@
 <html>
 <head>
 	<title>管理中心</title>
-	<link rel="stylesheet" type="text/css" href="/restaurant/Public/home/css/nav.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/Public/home/css/person.css">
-	<link rel="stylesheet" href="/restaurant/Public/home/css/bootstrap.css">
-	<script type="text/javascript" src="/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-	<script type="text/javascript" src="/restaurant/Public/home/js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/person.css">
+	<link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
+	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
 </head>
 <body>
 	<div class="head">
 		<div class="head-left">
 			<ul class="xm-nav">
-				<li><img src="/restaurant/Public/home/images/ms02.png"></li>
+				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png"></li>
 				<li><a href="#">首页</a></li>
 				<li><a href="#">订单查询</a></li>
 				<li><a href="#">个人中心</a></li>
@@ -34,7 +34,7 @@
 			<ul class="nav-theme">
 				<li class="nav-theme-logo">
 					<a href="javascript: void (0);">
-						<img src="/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
+						<img src="/restaurant1/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
 					</a>
 				</li>
 				<li class="nav-theme-nav">
@@ -61,7 +61,7 @@
 				</div>
 				<div class="left-mes">
 					<div class="mes-img">
-						<img src="/restaurant/Public/home/images/timg.png" width="100%" height="100%">
+						<img src="/restaurant1/restaurant/Public/home/images/timg.png" width="100%" height="100%">
 					</div>
 					<div class="mes-name">张三</div>
 				</div>
@@ -77,7 +77,7 @@
 						<p>头像</p>
 					</div>
 					<div class="item-img">
-						<img src="/restaurant/Public/home/images/timg.png" id="imghead" width="48px" height="48px">
+						<img src="/restaurant1/restaurant/Public/home/images/timg.png" id="imghead" width="48px" height="48px">
 					</div>
 					<div class="btn-upload">
 						<input id="previewImg" type="file" onchange="previewImage(this)" style="display: none">
@@ -239,10 +239,10 @@
 			<div class="footer-right">
 				<p class="feel">餐厅展景</p>
 				<ul>
-					<li><img src="/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
 					<div class="clear"></div>
 				</ul>
 			</div>

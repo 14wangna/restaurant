@@ -6,18 +6,8 @@ class MenuController extends Controller {
      
     	$this->display();
     }
-    public function menue(){
-
-        
-    	$this->display();
-    }
     public function content(){
      
-    	$this->display();
-    }
-    public function contentee(){
-
-        
     	$this->display();
     }
 }

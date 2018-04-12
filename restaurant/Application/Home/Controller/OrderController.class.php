@@ -6,9 +6,4 @@ class OrderController extends Controller {
      
     	$this->display();
     }
-    public function ordere(){
-
-        
-    	$this->display();
-    }
 }

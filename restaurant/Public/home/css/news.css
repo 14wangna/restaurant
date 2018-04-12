@@ -1,0 +1,17 @@
+.page-news{
+      width:70%;
+      margin:20px auto;
+}
+.Box_con {position: relative;}
+.Box_con .btnl {position: absolute;}
+.Box_con .btn {display: block;width: 41px;height: 41px;position: absolute;top: 80px;cursor: pointer;}
+.Box_con .btnl {background: url(../images/jtl02.png) no-repeat center;left: -72px;}
+.Box_con .btnr {background: url(../images/jtr02.png) no-repeat center;right: -72px;}
+.Box_con .btnl:hover {background: url(../images/jtl03.png) no-repeat center;}
+.Box_con .btnr:hover {background: url(../images/jtr03.png) no-repeat center;}
+.Box_con .conbox {position: relative;overflow: hidden;}
+.Box_con .conbox ul {position: relative;list-style: none;}
+.Box_con .conbox ul li {float: left;width: 285px;height: 200px;margin-left: 20px;overflow: hidden;}
+.Box_con .conbox ul li:first-child {margin-left: 0;}
+.Box_con .conbox ul li img {display: block;width: 285px;height: 200px;transition: all 0.5s;}
+.Box_con .conbox ul li:hover img {transform: scale(1.1);}

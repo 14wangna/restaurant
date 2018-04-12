@@ -1,6 +1,6 @@
 .menu-theme{
 	width:90%;
-	margin:10px auto;
+	margin:50px auto 0 auto;
 }
 .item-order{
 	width:300px;
@@ -9,7 +9,7 @@
 }
 .menu-list{
 	width:90%;
-	margin:50px auto;
+	margin:20px auto;
 }
 /*.menu-list*/
 .menu-list ul li{
@@ -25,11 +25,17 @@
 	text-align: center;
 	width:50px;
 }
+.menu-list ul li img{
+	margin:5px 8px;
+}
 .menu-list ul li a{
 	text-decoration: none;
 	color:#333;
 }
 .menu-list ul li a:hover{
 	text-decoration: underline;
+	color:#ff6767;
+}
+.color{
 	color:#ff6767;
 }
