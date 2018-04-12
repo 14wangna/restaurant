@@ -87,13 +87,13 @@ class FoodController extends Controller {
         }
     	public function edit() {
     		$foodModel = M('foodtype');
-			$data =$foodModel ->select($id);
-			$this->assign('foodtypes',$data);
+			$datas =$foodModel ->select($id);
+			$this->assign('foodtypes',$datas);
 	        
 			$id=I('id');
 			//获取数据
-			$foodModel = M('food');
-			$data =$foodModel ->find($id);
+			$foodsModel = M('food');
+			$data =$foodsModel ->find($id);
 			//分配数据
 			$this->assign('food',$data);
 

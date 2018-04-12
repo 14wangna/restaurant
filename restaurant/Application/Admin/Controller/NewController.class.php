@@ -86,14 +86,16 @@ class NewController extends Controller {
     	public function edit() {
 
     		$newsModel = M('newstype');
-			$data =$newsModel ->select($id);
+			$datas =$newsModel ->select($id);
+
 			// print_r($data);
-			$this->assign('newstypes',$data);
-	        
+			$this->assign('newstypes',$datas);
+	   		
 			$id=I('id');
 			//获取数据
-			$newsModel = M('news');
-			$data =$newsModel ->find($id);
+			$newModel = M('news');
+			$data =$newModel ->find($id);
+			// print_r($data[type]);
 			//分配数据
 			$this->assign('news',$data);
 			$time = $this->get_time();

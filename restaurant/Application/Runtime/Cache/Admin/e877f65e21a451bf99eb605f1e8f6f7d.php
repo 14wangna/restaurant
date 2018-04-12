@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>北京上华软件</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
-    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/showdate.js"></script>
-    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" href="/restaurant1/restaurant/Public/admin/css/style.css">
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/showdate.js"></script>
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/quanxuan.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
             <!-- <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1> -->
-            <img src="/restaurant/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
@@ -31,11 +31,16 @@
 
 
     <aside class="accordion" style="float:left">
-        <h1><i class="icon-font">&#xe051;</i>账户管理</h1>
+        <h1><i class="icon-font">&#xe001;</i>管理员管理</h1>
         <div class="opened-for-codepen">
-            <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户管理</a></h2>
+            <h2><a href="<?php echo U('Admin/lists?p=1');?>"><i class="icon-font">&#xe050;</i>管理员列表</a></h2>
+            <h2><a href="<?php echo U('Admin/add');?>"><i class="icon-font">&#xe026;</i>添加管理员</a></h2>
+            <h2><a href="<?php echo U('Admin/pass');?>"><i class="icon-font">&#xe051;</i>修改个人密码</a></h2>
+        </div>
+        <h1><i class="icon-font">&#xe051;</i>用户管理</h1>
+        <div >
+            <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户列表</a></h2>
             <h2><a href="<?php echo U('Users/add');?>"><i class="icon-font">&#xe026;</i>添加用户</a></h2>
-            <h2><a href="<?php echo U('Users/pass');?>"><i class="icon-font">&#xe051;</i>修改个人密码</a></h2>
         </div>
 
         <h1><i class="icon-font">&#xe001;</i>新闻管理</h1>
@@ -52,13 +57,13 @@
 
         <h1><i class="icon-font">&#xe018;</i>评价管理</h1>
         <div>
-            <h2><a href="<?php echo U('Product/lists?p=1');?>"><i class="icon-font">&#xe050;</i>评价列表</a></h2>
+            <h2><a href="<?php echo U('Evaluate/lists?p=1');?>"><i class="icon-font">&#xe050;</i>评价列表</a></h2>
             <!-- <h2><a href="<?php echo U('Product/add');?>"><i class="icon-font">&#xe026;</i>添加产品</a></h2> -->
         </div>
 
         <h1><i class="icon-font">&#xe060;</i>留言簿</h1>
         <div>
-            <h2><a href="<?php echo U('Case/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
+            <h2><a href="<?php echo U('Advice/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
             <!-- <h2><a href="<?php echo U('Case/add');?>"><i class="icon-font">&#xe026;</i>新增案列</a></h2> -->
         </div>
 
@@ -89,11 +94,11 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Food/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>修改新闻</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant1/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant1/restaurant/index.php/Admin/Food/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>修改新闻</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
-                <form action="/restaurant/restaurant/index.php/Admin/Food/doEdit" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                <form action="/restaurant1/restaurant/index.php/Admin/Food/doEdit" method="post" id="myform" name="myform" enctype="multipart/form-data">
                     <table class="insert-tab" width="100%">
                         <tbody>
                              <tr><td>
@@ -114,7 +119,7 @@
                             <tr>
                                 <th>新闻配图：</th>
                                 <td>
-                                <img src="/restaurant/restaurant/Public/<?php echo ($food["thumb"]); ?>" width="60px" height="60px">
+                                <img src="/restaurant1/restaurant/Public/<?php echo ($food["thumb"]); ?>" width="60px" height="60px">
                                 <input name="thumb" id="" type="file"></td>
                             </tr>
                             <tr>
@@ -127,7 +132,9 @@
                                 <th><i class="require-red">*</i>类型：</th>
                                 <td>
                                     <select  class="common-text required" id="type" name="type" value="" style="width:200px">
-                                        <?php if(is_array($foodtypes)): $i = 0; $__LIST__ = $foodtypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><option value="<?php echo ($data["name"]); ?>"><?php echo ($data["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                        <?php if(is_array($foodtypes)): $i = 0; $__LIST__ = $foodtypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i; if($food[type] == $data[name]): ?><option value="" selected="selected"><?php echo ($data["name"]); ?></option>
+                                            <?php else: ?>
+                                               <option value="<?php echo ($data["name"]); ?>"><?php echo ($data["name"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
                                     </select>
                                 </td>
                             </tr> 
@@ -150,7 +157,7 @@
     </div>
 
 
-<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
-<script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
+<script src="/restaurant1/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
+<script src="/restaurant1/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>
