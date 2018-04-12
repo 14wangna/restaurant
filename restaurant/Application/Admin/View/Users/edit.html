@@ -13,6 +13,12 @@
                                 <input type="hidden" name="id" value="{$users.id}">
                             </td></tr>
                             <tr>
+                                <th>工号：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style" size="50" value="{$users.number}" type="text" readonly>
+                                </td>
+                            </tr>
+                            <tr>
                                 <th>用户名：</th>
                                 <td>
                                     <input class="common-text required" id="read-style" size="50" value="{$users.username}" type="text" readonly>
@@ -25,15 +31,21 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>手机号码：</th>
+                                <th>所属部门：</th>
                                 <td>
-                                    <input class="common-text required" name="phonenum" size="50" value="{$users.phonenum}" type="text">
+                                    <input class="common-text required" name="branch" size="50" value="{$users.branch}" type="text">
                                 </td>
                             </tr>
                             <tr>
-                                <th>电子邮箱：</th>
+                                <th>职位：</th>
                                 <td>
-                                    <input class="common-text required" name="email" size="50" value="{$users.email}" type="text">
+                                    <input class="common-text required" name="job" size="50" value="{$users.job}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>手机号码：</th>
+                                <td>
+                                    <input class="common-text required" name="phone" size="50" value="{$users.phone}" type="text">
                                 </td>
                             </tr>
                             <tr>

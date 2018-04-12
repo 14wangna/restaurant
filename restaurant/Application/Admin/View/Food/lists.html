@@ -19,6 +19,7 @@
                         <tr>
                             <th class="tc" width="6%"><input class="allChoose" name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'></th>
                             <th width="12%">菜品配图</th>
+                            <th width="12%">菜品类型</th>
                             <th width="12%">菜品名称</th>
                             <th width="12%">菜品价格</th>
                             <th width="12%">菜品配料</th>
@@ -30,7 +31,8 @@
                         <tr>
                             <td><input type="checkbox" name="foodId[]" id="checkbox" value="{$data.id}"><label for="checkbox"></label></td>
                             <td><img src="__PUBLIC__/{$data.thumb}" width="60px" height="60px"></td>
-                            <td>{$data.title|msubstr=0,8,'utf-8',ture}</td>
+                            <td>{$data.type}</td>
+                            <td>{$data.name|msubstr=0,8,'utf-8',ture}</td>
                             <td>{$data.price}</td>
                             <td>{$data.batch|msubstr=0,8,'utf-8',ture}</td>
                             <td>{$data.function|msubstr=0,8,'utf-8',ture}</td>

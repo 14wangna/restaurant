@@ -1,0 +1,47 @@
+<layout name="layout_admin"/>
+<div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">评价列表</span></div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" action="__MODULE__/Evaluate/delete">
+                <div class="result-title">
+                    <div class="result-list">
+                        <i class="icon-font"></i>评价列表
+                        <!-- <input type="text" placeholder="请输入关键字..."/>
+                        <a href="__MODULE__/New/search"><input type="button" value="搜索" /></a> -->
+                        
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="6%"><input class="allChoose" name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'></th>
+                            <th width="12%">用户头像</th>
+                            <th width="12%">用户名</th>
+                            <th width="12%">评价内容</th>
+                            <th width="12%">评价时间</th>
+                            <th width="5%">操作</th>
+                        </tr>
+                        <volist name="evaluate" id="data">
+                        <tr>
+                            <td><input type="checkbox" name="evaluateId[]" id="checkbox" value="{$data.id}"><label for="checkbox"></label></td>
+                            <td><img src="__PUBLIC__/{$data.thumb}" width="60px" height="60px"></td>
+                            <td>{$data.username}</td>
+                            <td>{$data.content}</td>
+                            <td>{$data.time}</td>
+                            <td>
+                                <a class="link-del" href="__MODULE__/Evaluate/delete/evaluateId/{$data.id}">删除</a>
+                            </td>
+                        </tr>
+                        </volist>
+                    </table>
+                    <div id="alldelete">
+                        <button type="submit" id="batchDel" class="btn btn-danger " href="__MODULE__/New/delete">批量删除</button> 
+                    </div>
+                    <div class="list-page">{$page}</div>
+                </div>
+            </form>
+        </div>
+    </div>

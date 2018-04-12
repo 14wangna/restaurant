@@ -86,6 +86,9 @@ class FoodController extends Controller {
             }      
         }
     	public function edit() {
+    		$foodModel = M('foodtype');
+			$data =$foodModel ->select($id);
+			$this->assign('foodtypes',$data);
 	        
 			$id=I('id');
 			//获取数据

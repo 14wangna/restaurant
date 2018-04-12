@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>北京上华软件</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" href="/restaurant1/restaurant/Public/admin/css/style.css">
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/showdate.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/quanxuan.js"></script>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/showdate.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
             <!-- <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1> -->
-            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+            <img src="/restaurant/restaurant/Public/admin/images/logo.jpg" height="45px;" >
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
@@ -31,11 +31,16 @@
 
 
     <aside class="accordion" style="float:left">
-        <h1><i class="icon-font">&#xe051;</i>账户管理</h1>
+        <h1><i class="icon-font">&#xe001;</i>管理员管理</h1>
         <div class="opened-for-codepen">
-            <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户管理</a></h2>
+            <h2><a href="<?php echo U('Admin/lists?p=1');?>"><i class="icon-font">&#xe050;</i>管理员列表</a></h2>
+            <h2><a href="<?php echo U('Admin/add');?>"><i class="icon-font">&#xe026;</i>添加管理员</a></h2>
+            <h2><a href="<?php echo U('Admin/pass');?>"><i class="icon-font">&#xe051;</i>修改个人密码</a></h2>
+        </div>
+        <h1><i class="icon-font">&#xe051;</i>用户管理</h1>
+        <div >
+            <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户列表</a></h2>
             <h2><a href="<?php echo U('Users/add');?>"><i class="icon-font">&#xe026;</i>添加用户</a></h2>
-            <h2><a href="<?php echo U('Users/pass');?>"><i class="icon-font">&#xe051;</i>修改个人密码</a></h2>
         </div>
 
         <h1><i class="icon-font">&#xe001;</i>新闻管理</h1>
@@ -58,7 +63,7 @@
 
         <h1><i class="icon-font">&#xe060;</i>留言簿</h1>
         <div>
-            <h2><a href="<?php echo U('Case/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
+            <h2><a href="<?php echo U('Advice/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
             <!-- <h2><a href="<?php echo U('Case/add');?>"><i class="icon-font">&#xe026;</i>新增案列</a></h2> -->
         </div>
 
@@ -89,15 +94,15 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant1/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">新闻列表</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">新闻列表</span></div>
         </div>
         <div class="result-wrap">
-            <form name="myform" id="myform" action="/restaurant1/restaurant/index.php/Admin/New/delete">
+            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/New/delete">
                 <div class="result-title">
                     <div class="result-list">
-                        <a href="/restaurant1/restaurant/index.php/Admin/New/add"><i class="icon-font"></i>新增新闻</a>
+                        <a href="/restaurant/restaurant/index.php/Admin/New/add"><i class="icon-font"></i>新增新闻</a>
                         <!-- <input type="text" placeholder="请输入关键字..."/>
-                        <a href="/restaurant1/restaurant/index.php/Admin/New/search"><input type="button" value="搜索" /></a> -->
+                        <a href="/restaurant/restaurant/index.php/Admin/New/search"><input type="button" value="搜索" /></a> -->
                         
                     </div>
                 </div>
@@ -105,6 +110,7 @@
                     <table class="result-tab" width="100%">
                         <tr>
                             <th class="tc" width="6%"><input class="allChoose" name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'></th>
+                            <th width="15%">新闻类型</th>
                             <th width="15%">新闻配图</th>
                             <th width="20%">新闻标题</th>
                             <th width="20%">新闻内容</th>
@@ -113,18 +119,19 @@
                         </tr>
                         <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
                             <td><input type="checkbox" name="newsId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
-                            <td><img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="60px" height="60px"></td>
+                            <td><img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="60px" height="60px"></td>
+                            <td><?php echo ($data["type"]); ?></td>
                             <td><?php echo (msubstr($data["title"],0,8,'utf-8',ture)); ?></td>
                             <td><?php echo (msubstr($data["content"],0,8,'utf-8',ture)); ?></td>
                             <td><?php echo ($data["time"]); ?></td>
                             <td>
-                                <a class="link-update" href="/restaurant1/restaurant/index.php/Admin/New/edit/id/<?php echo ($data["id"]); ?>">修改</a>
-                                <a class="link-del" href="/restaurant1/restaurant/index.php/Admin/New/delete/newsId/<?php echo ($data["id"]); ?>">删除</a>
+                                <a class="link-update" href="/restaurant/restaurant/index.php/Admin/New/edit/id/<?php echo ($data["id"]); ?>">修改</a>
+                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/New/delete/newsId/<?php echo ($data["id"]); ?>">删除</a>
                             </td>
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     </table>
                     <div id="alldelete">
-                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant1/restaurant/index.php/Admin/New/delete">批量删除</button> 
+                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/New/delete">批量删除</button> 
                     </div>
                     <div class="list-page"><?php echo ($page); ?></div>
                 </div>
@@ -133,7 +140,7 @@
     </div>
 
 
-<script src="/restaurant1/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
-<script src="/restaurant1/restaurant/Public/admin/js/index.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>

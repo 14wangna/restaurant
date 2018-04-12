@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>北京上华软件</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" href="/restaurant1/restaurant/Public/admin/css/style.css">
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/showdate.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/quanxuan.js"></script>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/showdate.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
             <!-- <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1> -->
-            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+            <img src="/restaurant/restaurant/Public/admin/images/logo.jpg" height="45px;" >
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
@@ -31,11 +31,16 @@
 
 
     <aside class="accordion" style="float:left">
-        <h1><i class="icon-font">&#xe051;</i>账户管理</h1>
+        <h1><i class="icon-font">&#xe001;</i>管理员管理</h1>
         <div class="opened-for-codepen">
-            <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户管理</a></h2>
+            <h2><a href="<?php echo U('Admin/lists?p=1');?>"><i class="icon-font">&#xe050;</i>管理员列表</a></h2>
+            <h2><a href="<?php echo U('Admin/add');?>"><i class="icon-font">&#xe026;</i>添加管理员</a></h2>
+            <h2><a href="<?php echo U('Admin/pass');?>"><i class="icon-font">&#xe051;</i>修改个人密码</a></h2>
+        </div>
+        <h1><i class="icon-font">&#xe051;</i>用户管理</h1>
+        <div >
+            <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户列表</a></h2>
             <h2><a href="<?php echo U('Users/add');?>"><i class="icon-font">&#xe026;</i>添加用户</a></h2>
-            <h2><a href="<?php echo U('Users/pass');?>"><i class="icon-font">&#xe051;</i>修改个人密码</a></h2>
         </div>
 
         <h1><i class="icon-font">&#xe001;</i>新闻管理</h1>
@@ -52,13 +57,13 @@
 
         <h1><i class="icon-font">&#xe018;</i>评价管理</h1>
         <div>
-            <h2><a href="<?php echo U('Product/lists?p=1');?>"><i class="icon-font">&#xe050;</i>评价列表</a></h2>
+            <h2><a href="<?php echo U('Evaluate/lists?p=1');?>"><i class="icon-font">&#xe050;</i>评价列表</a></h2>
             <!-- <h2><a href="<?php echo U('Product/add');?>"><i class="icon-font">&#xe026;</i>添加产品</a></h2> -->
         </div>
 
         <h1><i class="icon-font">&#xe060;</i>留言簿</h1>
         <div>
-            <h2><a href="<?php echo U('Case/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
+            <h2><a href="<?php echo U('Advice/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
             <!-- <h2><a href="<?php echo U('Case/add');?>"><i class="icon-font">&#xe026;</i>新增案列</a></h2> -->
         </div>
 
@@ -100,19 +105,19 @@
             <div class="result-content">
                 <div class="short-wrap">
                     <ul class="short-list">
-                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/010.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Users/lists?p=1');?>">用户管理</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/011.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('New/lists?p=1');?>">新闻列表</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/006.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Industry/lists?p=1');?>">菜品管理</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/010.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Users/lists?p=1');?>">用户管理</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/011.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('New/lists?p=1');?>">新闻列表</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/006.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Industry/lists?p=1');?>">菜品管理</a></div></li>
                     </ul>
                     <ul class="short-list">
-                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/008.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Product/lists?p=1');?>">产品列表</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/001.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Case/lists?p=1');?>">成功案例</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/012.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Apply/lists?p=1');?>">申请试用</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/008.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Product/lists?p=1');?>">产品列表</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/001.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Case/lists?p=1');?>">成功案例</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/012.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Apply/lists?p=1');?>">申请试用</a></div></li>
                     </ul>
                     <ul class="short-list">
-                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/003.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Honor/lists?p=1');?>">荣誉列表</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/013.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Job/lists?p=1');?>">职位列表</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/005.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Advice/lists?p=1');?>">咨询列表</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/003.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Honor/lists?p=1');?>">荣誉列表</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/013.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Job/lists?p=1');?>">职位列表</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/005.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Advice/lists?p=1');?>">咨询列表</a></div></li>
                     </ul>
                 </div>
             </div>
@@ -138,7 +143,7 @@
     </div>
 
 
-<script src="/restaurant1/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
-<script src="/restaurant1/restaurant/Public/admin/js/index.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>

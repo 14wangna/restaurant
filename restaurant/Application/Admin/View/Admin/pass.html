@@ -2,11 +2,11 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Users/lists">用户管理</a><span class="crumb-step">&gt;</span><span>修改用户</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Admin/lists">用户管理</a><span class="crumb-step">&gt;</span><span>修改个人密码</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
-                <form action="__MODULE__/Users/doManage" method="post" role="form">
+                <form action="__MODULE__/Admin/doPwd" method="post" role="form">
                     <table class="insert-tab" width="100%">
                         <tbody>
                             <tr><td>
@@ -15,31 +15,31 @@
                             <tr>
                                 <th>用户名：</th>
                                 <td>
-                                    <input class="common-text required" id="read-style" size="50" value="{$users.username}" type="text" readonly>
+                                    <input class="common-text required" id="read-style" name="username" size="50" value="{$users.username}" type="text" readonly>
                                 </td>
                             </tr>
                             <tr>
                                 <th>真实姓名：</th>
                                 <td>
-                                    <input class="common-text required" name="truename" size="50" value="{$users.truename}" type="text">
+                                    <input class="common-text required" id="read-style" name="truename" size="50" value="{$users.truename}" type="text" readonly>
                                 </td>
                             </tr>
                             <tr>
-                                <th>手机号码：</th>
+                                <th>旧密码：</th>
                                 <td>
-                                    <input class="common-text required" name="phonenum" size="50" value="{$users.phonenum}" type="text">
+                                    <input class="common-text required"  size="50" type="password">
                                 </td>
                             </tr>
                             <tr>
-                                <th>电子邮箱：</th>
+                                <th>新密码：</th>
                                 <td>
-                                    <input class="common-text required" name="email" size="50" value="{$users.email}" type="text">
+                                    <input class="common-text required" name="password" size="50" type="password">
                                 </td>
                             </tr>
                             <tr>
-                                <th>添加时间：</th>
+                                <th>确认密码：</th>
                                 <td>
-                                    <input class="common-text required" id="read-style"size="50" type="text" value="{$users.createtime}" readonly>
+                                    <input class="common-text required" name="repassword" size="50" type="password">
                                 </td>
                             </tr>
                                 <th></th>

@@ -31,6 +31,16 @@
                                 </td>
                             </tr>
                             <tr>
+                                <th><i class="require-red">*</i>类型：</th>
+                                <td>
+                                    <select  class="common-text required" value="{$news.type}" style="width:200px">
+                                        <volist name="newstypes" id="data">
+                                            <option value="{$data.type}">{$data.type}</option>
+                                        </volist>
+                                    </select>
+                                </td>
+                            </tr> 
+                            <tr>
                                 <th>内容：</th>
                                 <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10">{$news.content}</textarea></td>
                             </tr>

@@ -25,6 +25,10 @@ class NewController extends Controller {
         	return date("Y-m-d");
     }
          public function add(){
+         	$newsModel = M('newstype');
+			$data =$newsModel ->select($id);
+			// print_r($data);
+			$this->assign('newstypes',$data);
          	$time = $this->get_time();
          	$this->assign('time',$time);
             $this->display();
@@ -80,6 +84,11 @@ class NewController extends Controller {
             }      
         }
     	public function edit() {
+
+    		$newsModel = M('newstype');
+			$data =$newsModel ->select($id);
+			// print_r($data);
+			$this->assign('newstypes',$data);
 	        
 			$id=I('id');
 			//获取数据

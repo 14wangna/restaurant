@@ -1,0 +1,66 @@
+<layout name="layout_admin"/>
+<div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Admin/lists">管理员管理</a><span class="crumb-step">&gt;</span><span>添加信息</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__MODULE__/Admin/doAdd" method="post" role="form">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th>用户名：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="username" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>真实姓名：</th>
+                                <td>
+                                    <input class="common-text required" name="truename" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>手机号码：</th>
+                                <td>
+                                    <input class="common-text required" name="phonenum" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>电子邮箱：</th>
+                                <td>
+                                    <input class="common-text required" name="email" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>添加时间：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style" size="50" name="createtime" value="{$time}" type="text" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>设置密码：</th>
+                                <td>
+                                    <input class="common-text required" name="password" size="50" type="password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>确认密码：</th>
+                                <td>
+                                    <input class="common-text required" size="50" name="repassword" value="" type="password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="保存" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>

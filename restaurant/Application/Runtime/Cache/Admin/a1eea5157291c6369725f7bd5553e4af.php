@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>北京上华软件</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" href="/restaurant1/restaurant/Public/admin/css/style.css">
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/showdate.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/quanxuan.js"></script>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/showdate.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
             <!-- <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1> -->
-            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+            <img src="/restaurant/restaurant/Public/admin/images/logo.jpg" height="45px;" >
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
@@ -89,11 +89,11 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant1/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant1/restaurant/index.php/Admin/New/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>新增新闻</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/New/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>新增新闻</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
-                <form action="/restaurant1/restaurant/index.php/Admin/New/doAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                <form action="/restaurant/restaurant/index.php/Admin/New/doAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
                     <table class="insert-tab" width="100%">
                         <tbody>
                             <tr>
@@ -114,6 +114,14 @@
                                 </td>
                             </tr>
                             <tr>
+                                <th><i class="require-red">*</i>类型：</th>
+                                <td>
+                                    <select  class="common-text required" id="type" name="type" value="" style="width:200px">
+                                        <?php if(is_array($newstypes)): $i = 0; $__LIST__ = $newstypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><option value="<?php echo ($data["type"]); ?>"><?php echo ($data["type"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    </select>
+                                </td>
+                            </tr> 
+                            <tr>
                                 <th>内容：</th>
                                 <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"></textarea></td>
                             </tr>
@@ -132,7 +140,7 @@
     </div>
 
 
-<script src="/restaurant1/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
-<script src="/restaurant1/restaurant/Public/admin/js/index.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>
