@@ -8,7 +8,7 @@
     <script src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
     <script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
     <script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
-        <script type="text/javascript">  
+    <script type="text/javascript">  
 
      var code ; //在全局 定义验证码   
      function createCode()   
@@ -64,7 +64,7 @@
                 <li><a href="#">首页</a></li>
                 <li><a href="#">订单查询</a></li>
                 <li><a href="#">个人中心</a></li>
-                <li><a href="#">管理中心</a></li>
+                <li><a href="#">新闻中心</a></li>
                 <li><a href="#">关于我们</a></li>
                 <div class="clear"></div>
             </ul>

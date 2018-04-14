@@ -22,17 +22,17 @@
 		<div class="head-left">
 			<ul class="xm-nav">
 				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
-				<li><a href="#">首页</a></li>
-				<li><a href="#">订单查询</a></li>
-				<li><a href="#">个人中心</a></li>
-				<li><a href="#">新闻中心</a></li>
-				<li><a href="#">关于我们</a></li>
+				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
+				<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
+				<li><a href="<?php echo U('Home/Person/person');?>">个人中心</a></li>
+				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
+				<li><a href="<?php echo U('Home/About/about');?>">关于我们</a></li>
 				<div class="clear"></div>
 			</ul>
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-				<a href="#">登录</a>/<a href="#">注册</a>
+				<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a>
 			</div>
 		</div>
 		<div class="clear"></div>
@@ -48,11 +48,11 @@
 					</a>
 				</li>
 				<li class="nav-theme-nav">
-					<a href="javascript: void (0);">首页</a>
-					<a href="javascript: void (0);">订单查询</a>
-					<a href="javascript: void (0);">个人中心</a>
-					<a href="javascript: void (0);">新闻中心</a>
-					<a href="javascript: void (0);">关于我们</a>
+					<a href="<?php echo U('Home/Index/index');?>">首页</a>
+					<a href="<?php echo U('Home/Order/order');?>">订单查询</a>
+					<a href="<?php echo U('Home/Person/person');?>">个人中心</a>
+					<a href="<?php echo U('Home/News/news');?>">新闻中心</a>
+					<a href="<?php echo U('Home/About/about');?>">关于我们</a>
 				</li>
 				<li class="nav-theme-search">
 					<div class="nav-theme-search-input">
@@ -64,7 +64,7 @@
 			</ul>
 		</div>
 		
-		<div class="page-news">
+		<div class="page_news">
 			<div class="Box_con clearfix">
                 <span class="btnl btn" id="btnl"></span>
                 <span class="btnr btn" id="btnr"></span>
@@ -93,11 +93,11 @@
 			<div class="footer-left">
 				<p class="feel">职工餐厅-公司给您家的感觉</p>
 				<ul>
-					<li><a href="#">网站首页</a></li>
-					<li><a href="#">订单查询</a></li>
-					<li><a href="#">个人中心</a></li>
-					<li><a href="#">管理中心</a></li>
-					<li><a href="#">关于我们</a></li>
+					<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
+					<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
+					<li><a href="<?php echo U('Home/Person/person');?>">个人中心</a></li>
+					<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
+					<li><a href="<?php echo U('Home/About/about');?>">关于我们</a></li>
 					<li class="clear"></li>
 				</ul>
 				<p>联系电话：0000-000000</p>
