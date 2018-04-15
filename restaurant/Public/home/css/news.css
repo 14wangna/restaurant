@@ -11,7 +11,112 @@
 .Box_con .btnr:hover {background: url(../images/jtr03.png) no-repeat center;}
 .Box_con .conbox {position: relative;overflow: hidden;}
 .Box_con .conbox ul {position: relative;list-style: none;}
-.Box_con .conbox ul li {float: left;width: 285px;height: 200px;margin-left: 20px;overflow: hidden;}
+.Box_con .conbox ul li {float: left;width: 200px;height: 160px;margin-left: 3px;overflow: hidden;}
 .Box_con .conbox ul li:first-child {margin-left: 0;}
-.Box_con .conbox ul li img {display: block;width: 285px;height: 200px;transition: all 0.5s;}
+.Box_con .conbox ul li img {display: block;width: 200px;height: 160px;transition: all 0.5s;}
 .Box_con .conbox ul li:hover img {transform: scale(1.1);}
+.news_type{
+	width:100%;
+	margin-top:30px;
+}
+.type_left{
+	width:60%;
+	float: left;
+	
+}
+.left_type{
+	border-bottom:1px solid #eee;
+}
+.type_left ul li{
+	width:20%;
+	float: left;
+
+}
+.type_left ul{
+	margin-bottom: 0;
+}
+.type_left ul li a{
+	color:#000;
+	font-size:20px;
+
+}
+.type_left ul li a:hover{
+	text-decoration: none;
+}
+
+.left_content{
+	margin-top:20px;
+	width:100%;
+
+}
+.left_content ul li{
+	width:100%;
+	margin:5px 0;
+}
+.content_img{
+	width:30%;
+	float: left;
+	height: 130px;
+}
+.content_text{
+	width:65%;
+	margin-left:5%;
+	float:left;
+	height: 130px;
+}
+.type_right{
+
+	width:30%;
+	float:right;
+}
+.type_right ul{
+	margin-top:20px;
+}
+.type_right ul li{
+	width:100%;
+
+}
+.right_img{
+	width:30%;
+	float: left;
+}
+.right_text{
+	width:65%;
+	margin-left:5%;
+	float:left;
+}
+.right_text a:hover{
+	color:#ff6767;
+}
+.type_hot{
+	font-size:20px;
+	border-bottom:3px solid #ff6767;
+	padding-bottom: 5px;
+	color:#ff6767;
+}
+.new_actived{
+	border-bottom:3px solid #ff6767;
+}
+.left_type ul li a:focus{
+	text-decoration: none;
+}
+.check_more{
+	font-size:16px;
+	color:#000;
+}
+.ne_content{
+	width:90%;
+	margin:20px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.ne_content p{
+	text-indent: 2em;
+}
+.ne_foot{
+	width:90%;
+	margin:20px auto;
+	font-size:18px;
+}
