@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>北京上华软件</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" href="/restaurant1/restaurant/Public/admin/css/style.css">
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/showdate.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/quanxuan.js"></script>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/showdate.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
             <!-- <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1> -->
-            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+            <img src="/restaurant/restaurant/Public/admin/images/logo.jpg" height="45px;" >
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
@@ -94,13 +94,13 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant1/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">管理员管理</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">管理员管理</span></div>
         </div>
         <div class="result-wrap">
-            <form name="myform" id="myform" action="/restaurant1/restaurant/index.php/Admin/Users/delete">
+            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/Users/delete">
                 <div class="result-title">
                     <div class="result-list">
-                        <a href="/restaurant1/restaurant/index.php/Admin/Users/add"><i class="icon-font">&#xe026;</i>添加用户</a>
+                        <a href="/restaurant/restaurant/index.php/Admin/Users/add"><i class="icon-font">&#xe026;</i>添加用户</a>
                     </div>
                 </div>
                 <div class="result-content">
@@ -129,14 +129,14 @@
                             <td><?php echo ($data["job"]); ?></td>
                             <td><?php echo ($data["time"]); ?></td>
                             <td>
-                                <a class="link-update" href="/restaurant1/restaurant/index.php/Admin/Users/edit/data/<?php echo ($data["id"]); ?>">修改</a>
-                                <a class="link-del" href="/restaurant1/restaurant/index.php/Admin/Users/delete/usersId/<?php echo ($data["id"]); ?>">删除</a>
+                                <a class="link-update" href="/restaurant/restaurant/index.php/Admin/Users/edit/data/<?php echo ($data["id"]); ?>">修改</a>
+                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Users/delete/usersId/<?php echo ($data["id"]); ?>">删除</a>
                             </td>
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     </table>
                     <div id="alldelete">
 
-                    <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant1/restaurant/index.php/Admin/Users/delete">批量删除</button> 
+                    <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/Users/delete">批量删除</button> 
                      </div>
                     <div class="list-page">  <?php echo ($page); ?></div>
                 </div>
@@ -145,7 +145,7 @@
     </div>
 
 
-<script src="/restaurant1/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
-<script src="/restaurant1/restaurant/Public/admin/js/index.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>

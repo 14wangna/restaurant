@@ -2,30 +2,30 @@
 <html>
 <head>
 	<title>首页</title>
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/index.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/about.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu-content.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/news.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/order.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/person.css">
-	<link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
-	<script src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-	<script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
-	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
-	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/about.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/manage.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu-content.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/news.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/order.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/person.css">
+	<link rel="stylesheet" href="/restaurant/restaurant/Public/home/css/bootstrap.css">
+	<script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
+	<script src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/news.js"></script>
 </head>
 <body>
 	<div class="head">
 		<div class="head-left">
 			<ul class="xm-nav">
-				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
+				<li><img src="/restaurant/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
+				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
 				<li><a href="<?php echo U('Home/Person/person');?>">个人中心</a></li>
-				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/About/about');?>">关于我们</a></li>
 				<div class="clear"></div>
 			</ul>
@@ -44,14 +44,14 @@
 			<ul class="nav-theme">
 				<li class="nav-theme-logo">
 					<a href="javascript: void (0);">
-						<img src="/restaurant1/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
+						<img src="/restaurant/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
 					</a>
 				</li>
 				<li class="nav-theme-nav">
 					<a href="<?php echo U('Home/Index/index');?>">首页</a>
+					<a href="<?php echo U('Home/News/news');?>">新闻中心</a>
 					<a href="<?php echo U('Home/Order/order');?>">订单查询</a>
 					<a href="<?php echo U('Home/Person/person');?>">个人中心</a>
-					<a href="<?php echo U('Home/News/news');?>">新闻中心</a>
 					<a href="<?php echo U('Home/About/about');?>">关于我们</a>
 				</li>
 				<li class="nav-theme-search">
@@ -79,7 +79,7 @@
 							<li><a href="javascript:void(0)">豆浆</a></li>
 
 							<li><a href="javascript:void(0)">
-								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
+								<img src="/restaurant/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
 												
 							<div class="clear"></div>
@@ -91,7 +91,7 @@
 							<li><a href="javascript:void(0)">宫保鸡丁</a></li>
 							<li><a href="javascript:void(0)">水煮肉片</a></li>
 							<li><a href="javascript:void(0)">
-								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
+								<img src="/restaurant/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
 							<div class="clear"></div>
 						</ul>
@@ -113,7 +113,7 @@
 							<li><a href="javascript:void(0)">宫保鸡丁</a></li>
 							<li><a href="javascript:void(0)">水煮肉片</a></li>
 							<li><a href="javascript:void(0)">
-								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
+								<img src="/restaurant/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
 							<div class="clear"></div>
 						</ul>
@@ -134,7 +134,7 @@
 							<li><a href="javascript:void(0)">鱼香肉丝</a></li>
 							<li><a href="javascript:void(0)">宫保鸡丁</a></li>
 							<li><a href="javascript:void(0)">水煮肉片<li><a href="javascript:void(0)">
-								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
+								<img src="/restaurant/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
 							<div class="clear"></div>
 						</ul>
@@ -156,19 +156,19 @@
 								</ol>
 								<div class="carousel-inner">
 									<div class="item active">
-										<img alt="" src="/restaurant1/restaurant/Public/home/images/banner1.jpg" />
+										<img alt="" src="/restaurant/restaurant/Public/home/images/banner1.jpg" />
 										<div class="carousel-caption">
 											
 										</div>
 									</div>
 									<div class="item">
-										<img alt="" src="/restaurant1/restaurant/Public/home/images/banner2.jpg" />
+										<img alt="" src="/restaurant/restaurant/Public/home/images/banner2.jpg" />
 										<div class="carousel-caption">
 											
 										</div>
 									</div>
 									<div class="item">
-										<img alt="" src="/restaurant1/restaurant/Public/home/images/banner3.jpg" />
+										<img alt="" src="/restaurant/restaurant/Public/home/images/banner3.jpg" />
 										<div class="carousel-caption">
 											
 										</div>
@@ -189,7 +189,7 @@
 					<div class="line"></div>
 				</div>
 				<div class="w-2">
-					<img src="/restaurant1/restaurant/Public/home/images/w-1.jpg" width="100%" height="124px">
+					<img src="/restaurant/restaurant/Public/home/images/w-1.jpg" width="100%" height="124px">
 				</div>
 				<div class="w-3">
 					<ul>
@@ -208,7 +208,7 @@
 					<div class="line"></div>
 				</div>
 				<div class="w-2">
-					<img src="/restaurant1/restaurant/Public/home/images/w-1.jpg" width="100%" height="124px">
+					<img src="/restaurant/restaurant/Public/home/images/w-1.jpg" width="100%" height="124px">
 				</div>
 				<div class="w-3">
 					<ul>
@@ -227,7 +227,7 @@
 					<div class="line"></div>
 				</div>
 				<div class="w-2">
-					<img src="/restaurant1/restaurant/Public/home/images/w-1.jpg" width="100%" height="124px">
+					<img src="/restaurant/restaurant/Public/home/images/w-1.jpg" width="100%" height="124px">
 				</div>
 				<div class="w-3">
 					<ul>
@@ -256,35 +256,35 @@
 				<ul>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 						</a>
 						<p>麻蓉包</p>
 						<!-- <p class="bmbox">fsdasffffffff</p> -->
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>麻蓉包</p>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>麻蓉包</p>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>麻蓉包</p>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>麻蓉包</p>
@@ -296,35 +296,35 @@
 				<ul>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 						</a>
 						<p>蛋糕</p>
 						<!-- <p class="bmbox">fsdasffffffff</p> -->
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>蛋糕</p>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>蛋糕</p>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>蛋糕</p>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>蛋糕</p>
@@ -339,7 +339,7 @@
 	<!--主体部分 结束-->
 	<!-- 返回顶部 -->
 	<div class="back-top" onclick="back()">
-		<a><img src="/restaurant1/restaurant/Public/home/images/back.png"></a>
+		<a><img src="/restaurant/restaurant/Public/home/images/back.png"></a>
 	</div>
 	<!-- 页脚 -->
 	
@@ -349,9 +349,9 @@
 				<p class="feel">职工餐厅-公司给您家的感觉</p>
 				<ul>
 					<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
+					<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 					<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
 					<li><a href="<?php echo U('Home/Person/person');?>">个人中心</a></li>
-					<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 					<li><a href="<?php echo U('Home/About/about');?>">关于我们</a></li>
 					<li class="clear"></li>
 				</ul>
@@ -360,10 +360,10 @@
 			<div class="footer-right">
 				<p class="feel">餐厅展景</p>
 				<ul>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
 					<div class="clear"></div>
 				</ul>
 			</div>

@@ -31,11 +31,16 @@
 
 
     <aside class="accordion" style="float:left">
-        <h1><i class="icon-font">&#xe051;</i>账户管理</h1>
+        <h1><i class="icon-font">&#xe001;</i>管理员管理</h1>
         <div class="opened-for-codepen">
-            <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户管理</a></h2>
+            <h2><a href="<?php echo U('Admin/lists?p=1');?>"><i class="icon-font">&#xe050;</i>管理员列表</a></h2>
+            <h2><a href="<?php echo U('Admin/add');?>"><i class="icon-font">&#xe026;</i>添加管理员</a></h2>
+            <h2><a href="<?php echo U('Admin/pass');?>"><i class="icon-font">&#xe051;</i>修改个人密码</a></h2>
+        </div>
+        <h1><i class="icon-font">&#xe051;</i>用户管理</h1>
+        <div >
+            <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户列表</a></h2>
             <h2><a href="<?php echo U('Users/add');?>"><i class="icon-font">&#xe026;</i>添加用户</a></h2>
-            <h2><a href="<?php echo U('Users/pass');?>"><i class="icon-font">&#xe051;</i>修改个人密码</a></h2>
         </div>
 
         <h1><i class="icon-font">&#xe001;</i>新闻管理</h1>
@@ -52,13 +57,13 @@
 
         <h1><i class="icon-font">&#xe018;</i>评价管理</h1>
         <div>
-            <h2><a href="<?php echo U('Product/lists?p=1');?>"><i class="icon-font">&#xe050;</i>评价列表</a></h2>
+            <h2><a href="<?php echo U('Evaluate/lists?p=1');?>"><i class="icon-font">&#xe050;</i>评价列表</a></h2>
             <!-- <h2><a href="<?php echo U('Product/add');?>"><i class="icon-font">&#xe026;</i>添加产品</a></h2> -->
         </div>
 
         <h1><i class="icon-font">&#xe060;</i>留言簿</h1>
         <div>
-            <h2><a href="<?php echo U('Case/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
+            <h2><a href="<?php echo U('Advice/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
             <!-- <h2><a href="<?php echo U('Case/add');?>"><i class="icon-font">&#xe026;</i>新增案列</a></h2> -->
         </div>
 
