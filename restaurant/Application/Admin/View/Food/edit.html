@@ -2,7 +2,7 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Food/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>修改新闻</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Food/lists">菜品管理</a><span class="crumb-step">&gt;</span><span>修改菜品</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
@@ -25,7 +25,23 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>新闻配图：</th>
+                                <th><i class="require-red">*</i>配料</th>
+                                <td>
+                                    <input class="common-text required" id="price" name="batch" size="50" value="{$food.batch}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>类型：</th>
+                                <td>
+                                    <select  class="common-text required" id="type" name="type" value="" style="width:200px">
+                                        <volist name="foodtypes" id="data">
+                                            <option value="{$data.name}">{$data.name}</option>
+                                        </volist>
+                                    </select>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <th>菜品配图：</th>
                                 <td>
                                 <img src="__PUBLIC__/{$food.thumb}" width="60px" height="60px">
                                 <input name="thumb" id="" type="file"></td>
@@ -42,7 +58,7 @@
                                     <select  class="common-text required" id="type" name="type" value="" style="width:200px">
                                         <volist name="foodtypes" id="data">
                                             <if condition="$food[type] eq $data[name]">
-                                                <option value="" selected="selected">{$data.name}</option>
+                                                <option value="{$data.name}" selected="selected">{$data.name}</option>
                                             <else/>
                                                <option value="{$data.name}">{$data.name}</option> 
                                             </if>

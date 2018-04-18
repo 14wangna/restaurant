@@ -22,7 +22,6 @@
             <ul class="top-info-list clearfix">
                 <li><a href="<?php echo U('Index/index');?>" class="top-a">后台首页</a></li>
                 <li><a href="<?php echo U('Home/Index/index');?>" class="top-a">前台首页</a></li>
-                <li><a href="<?php echo U('Admin/Indexen/index');?>" class="top-a">英文版</a></li>
                 <li><a href="<?php echo U('Index/loginout');?>" class="top-a">退出</a></li>
             </ul>
         </div>
@@ -139,7 +138,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>功能：</th>
+                                <th>菜品功能：</th>
                                 <td><textarea name="function" class="common-textarea" id="function" cols="30" style="width: 98%;" rows="10"></textarea></td>
                             </tr>
                             <tr>

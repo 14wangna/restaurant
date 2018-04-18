@@ -82,10 +82,54 @@
                 </div>               
             </div>
 		</div>
+        <div class="news_type">
+            <div class="type_left">
+                <div class="left_type">
+                    <ul>
+                        <li><a href="#" class="new_actived">健康饮食</a></li>
+                        <li><a href="#">饮食咨询</a></li>
+                        <li><a href="#">为您推荐</a></li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <div class="left_content">
+                    <ul>
+                    <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+                            <div class="content_img">
+                                <img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
+                            </div>
+                            <div class="content_text">
+                                <h4><?php echo ($data["title"]); ?></h4>
+                                <span><?php echo ($data["time"]); ?></span>
+                                <p><?php echo (msubstr($data["content"],0,80,'utf-8',ture)); ?></p>
+                                <div style="text-align: right"><a href="<?php echo U('Home/News/content');?>" style="color:#ff6767;text-align: right;font-size:16px">查看更多>></a></div>
+                            </div>
+                        </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                    </ul>
+                </div>
+            </div>
+            <span class="type_hot">一周热门</span>
+            <?php if(is_array($news1)): $i = 0; $__LIST__ = $news1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="type_right">
+                <!-- <span class="type_hot">一周热门</span> -->
+                <ul>
+                    <li>
+                        <div class="right_img">
+                            <img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
+                        </div>
+                        <div class="right_text">
+                            <a href="#"><?php echo ($data["title"]); ?></a>
+                            <span><?php echo ($data["time"]); ?></span>
+                        </div>
+                    </li>
+                </ul>
+            </div><?php endforeach; endif; else: echo "" ;endif; ?>
+            <div class="clear"></div>
+        </div>
 	</div>
+
 	<script type="text/javascript">
         //滚动元素id，左切换按钮，右切换按钮，切换元素个数id,滚动方式，切换方向，是否自动滚动，滚动距离，滚动时间，滚动间隔，显示个数
-        LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',true,305,1000,5000,4);
+        LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',true,203,1000,2000,4);
     </script>
 
 		<div class="footers">

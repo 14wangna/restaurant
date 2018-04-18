@@ -22,7 +22,6 @@
             <ul class="top-info-list clearfix">
                 <li><a href="<?php echo U('Index/index');?>" class="top-a">后台首页</a></li>
                 <li><a href="<?php echo U('Home/Index/index');?>" class="top-a">前台首页</a></li>
-                <li><a href="<?php echo U('Admin/Indexen/index');?>" class="top-a">英文版</a></li>
                 <li><a href="<?php echo U('Index/loginout');?>" class="top-a">退出</a></li>
             </ul>
         </div>
@@ -94,7 +93,7 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Food/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>修改新闻</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Food/lists">菜品管理</a><span class="crumb-step">&gt;</span><span>修改菜品</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
@@ -117,7 +116,21 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>新闻配图：</th>
+                                <th><i class="require-red">*</i>配料</th>
+                                <td>
+                                    <input class="common-text required" id="price" name="batch" size="50" value="<?php echo ($food["batch"]); ?>" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>类型：</th>
+                                <td>
+                                    <select  class="common-text required" id="type" name="type" value="" style="width:200px">
+                                        <?php if(is_array($foodtypes)): $i = 0; $__LIST__ = $foodtypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><option value="<?php echo ($data["name"]); ?>"><?php echo ($data["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    </select>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <th>菜品配图：</th>
                                 <td>
                                 <img src="/restaurant/restaurant/Public/<?php echo ($food["thumb"]); ?>" width="60px" height="60px">
                                 <input name="thumb" id="" type="file"></td>
@@ -132,7 +145,7 @@
                                 <th><i class="require-red">*</i>类型：</th>
                                 <td>
                                     <select  class="common-text required" id="type" name="type" value="" style="width:200px">
-                                        <?php if(is_array($foodtypes)): $i = 0; $__LIST__ = $foodtypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i; if($food[type] == $data[name]): ?><option value="" selected="selected"><?php echo ($data["name"]); ?></option>
+                                        <?php if(is_array($foodtypes)): $i = 0; $__LIST__ = $foodtypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i; if($food[type] == $data[name]): ?><option value="<?php echo ($data["name"]); ?>" selected="selected"><?php echo ($data["name"]); ?></option>
                                             <?php else: ?>
                                                <option value="<?php echo ($data["name"]); ?>"><?php echo ($data["name"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
                                     </select>

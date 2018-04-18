@@ -193,12 +193,7 @@
 				</div>
 				<div class="w-3">
 					<ul>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">牙齿不好就别吃这5种食物</a></li>
-						<li><a href="javascript:void(0)">清理血管，让血管年轻起来！</a></li>
-						<li><a href="javascript:void(0)">自制美味的花生牛轧糖</a></li>
-						<li><a href="javascript:void(0)">消耗蛋挞皮－简单版红薯酥</a></li>
-						<li><a href="javascript:void(0)">粗粮细作：健康能量燕麦甜品</a></li>
+						<?php if(is_array($newsa)): $i = 0; $__LIST__ = $newsa;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="javascript:void(0)"><?php echo ($data["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
 				</div>
 			</div>
@@ -212,12 +207,7 @@
 				</div>
 				<div class="w-3">
 					<ul>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+					<?php if(is_array($newsb)): $i = 0; $__LIST__ = $newsb;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="javascript:void(0)"><?php echo ($data["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
 				</div>
 			</div>
@@ -231,12 +221,7 @@
 				</div>
 				<div class="w-3">
 					<ul>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<?php if(is_array($newsc)): $i = 0; $__LIST__ = $newsc;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="javascript:void(0)"><?php echo ($data["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
 				</div>
 			</div>
@@ -254,81 +239,25 @@
 			</div>
 			<div class="page-menu-food">
 				<ul>
-					<li>
+				<?php if(is_array($todayfood)): $i = 0; $__LIST__ = $todayfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
-						<p>麻蓉包</p>
-						<!-- <p class="bmbox">fsdasffffffff</p> -->
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>麻蓉包</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>麻蓉包</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>麻蓉包</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>麻蓉包</p>
-					</li>
+						<p><?php echo ($data["name"]); ?></p>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					<div class="clear"></div>
 				</ul>
 			</div>
 			<div class="page-menu-food2" style="display: none;">
 				<ul>
-					<li>
+				<?php if(is_array($food)): $i = 0; $__LIST__ = $food;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
-						<p>蛋糕</p>
+						<p><?php echo ($data["name"]); ?></p>
 						<!-- <p class="bmbox">fsdasffffffff</p> -->
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>蛋糕</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>蛋糕</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>蛋糕</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>蛋糕</p>
-					</li>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>
+					
 					<div class="clear"></div>
 				</ul>
 			</div>

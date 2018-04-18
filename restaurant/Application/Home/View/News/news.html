@@ -29,64 +29,39 @@
                 </div>
                 <div class="left_content">
                     <ul>
+                    <volist name="news" id="data">
                         <li>
                             <div class="content_img">
-                                <img src="__PUBLIC__/home/images/drink/柠檬水.jpg" width="100%" height="100%">
+                                <img src="__PUBLIC__/{$data.thumb}" width="100%" height="100%">
                             </div>
                             <div class="content_text">
-                                <h4>血液不流畅，8种食物活血化瘀</h4>
-                                <span>2018-04-15</span>
-                                <p>人的血液畅通，身体才能健康，如果血液处于高凝状态或是血流迟缓，血管壁不光滑，就会导致瘀血阻滞，血液流通不畅</p>
+                                <h4>{$data.title}</h4>
+                                <span>{$data.time}</span>
+                                <p>{$data.content|msubstr=0,80,'utf-8',ture}</p>
                                 <div style="text-align: right"><a href="{:U('Home/News/content')}" style="color:#ff6767;text-align: right;font-size:16px">查看更多>></a></div>
                             </div>
                         </li>
-                        <li>
-                            <div class="content_img">
-                                <img src="__PUBLIC__/home/images/drink/柠檬水.jpg" width="100%" height="100%">
-                            </div>
-                            <div class="content_text">
-                                <h4>血液不流畅，8种食物活血化瘀</h4>
-                                <span>2018-04-15</span>
-                                <p>人的血液畅通，身体才能健康，如果血液处于高凝状态或是血流迟缓，血管壁不光滑，就会导致瘀血阻滞，血液流通不畅</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="content_img">
-                                <img src="__PUBLIC__/home/images/drink/柠檬水.jpg" width="100%" height="100%">
-                            </div>
-                            <div class="content_text">
-                                <h4>血液不流畅，8种食物活血化瘀</h4>
-                                <span>2018-04-15</span>
-                                <p>人的血液畅通，身体才能健康，如果血液处于高凝状态或是血流迟缓，血管壁不光滑，就会导致瘀血阻滞，血液流通不畅</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="content_img">
-                                <img src="__PUBLIC__/home/images/drink/柠檬水.jpg" width="100%" height="100%">
-                            </div>
-                            <div class="content_text">
-                                <h4>血液不流畅，8种食物活血化瘀</h4>
-                                <span>2018-04-15</span>
-                                <p>人的血液畅通，身体才能健康，如果血液处于高凝状态或是血流迟缓，血管壁不光滑，就会导致瘀血阻滞，血液流通不畅</p>
-                            </div>
-                        </li>
+                    </volist>
                     </ul>
                 </div>
             </div>
+            <span class="type_hot">一周热门</span>
+            <volist name="news1" id="data">
             <div class="type_right">
-                <span class="type_hot">一周热门</span>
+                <!-- <span class="type_hot">一周热门</span> -->
                 <ul>
                     <li>
                         <div class="right_img">
-                            <img src="__PUBLIC__/home/images/drink/柠檬水.jpg" width="100%" height="100%">
+                            <img src="__PUBLIC__/{$data.thumb}" width="100%" height="100%">
                         </div>
                         <div class="right_text">
-                            <a href="#">血液不流畅，8种食物活血化瘀</a>
-                            <span>2018-04-15</span>
+                            <a href="#">{$data.title}</a>
+                            <span>{$data.time}</span>
                         </div>
                     </li>
                 </ul>
             </div>
+            </volist>
             <div class="clear"></div>
         </div>
 	</div>
