@@ -70,20 +70,27 @@
 	float:right;
 }
 .type_right ul{
+	width:100%;
 	margin-top:20px;
 }
 .type_right ul li{
 	width:100%;
-
+	margin-top:20px;
 }
 .right_img{
 	width:30%;
+	height: 70px;
 	float: left;
 }
 .right_text{
 	width:65%;
 	margin-left:5%;
+	height: 70px;
 	float:left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
 }
 .right_text a:hover{
 	color:#ff6767;
@@ -93,7 +100,6 @@
 	border-bottom:3px solid #ff6767;
 	padding-bottom: 5px;
 	color:#ff6767;
-	background-color: red;
 
 }
 .new_actived{

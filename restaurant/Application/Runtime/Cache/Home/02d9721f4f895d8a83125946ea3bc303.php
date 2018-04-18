@@ -23,9 +23,9 @@
 			<ul class="xm-nav">
 				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
+				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
 				<li><a href="<?php echo U('Home/Person/person');?>">个人中心</a></li>
-				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/About/about');?>">关于我们</a></li>
 				<div class="clear"></div>
 			</ul>
@@ -49,9 +49,9 @@
 				</li>
 				<li class="nav-theme-nav">
 					<a href="<?php echo U('Home/Index/index');?>">首页</a>
+					<a href="<?php echo U('Home/News/news');?>">新闻中心</a>
 					<a href="<?php echo U('Home/Order/order');?>">订单查询</a>
 					<a href="<?php echo U('Home/Person/person');?>">个人中心</a>
-					<a href="<?php echo U('Home/News/news');?>">新闻中心</a>
 					<a href="<?php echo U('Home/About/about');?>">关于我们</a>
 				</li>
 				<li class="nav-theme-search">
@@ -81,9 +81,9 @@
 				<p class="feel">职工餐厅-公司给您家的感觉</p>
 				<ul>
 					<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
+					<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 					<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
 					<li><a href="<?php echo U('Home/Person/person');?>">个人中心</a></li>
-					<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 					<li><a href="<?php echo U('Home/About/about');?>">关于我们</a></li>
 					<li class="clear"></li>
 				</ul>

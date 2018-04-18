@@ -21,14 +21,16 @@
             <div class="type_left">
                 <div class="left_type">
                     <ul>
-                        <li><a href="#" class="new_actived">健康饮食</a></li>
-                        <li><a href="#">饮食咨询</a></li>
-                        <li><a href="#">为您推荐</a></li>
+                        <volist name="newstype" id="data">
+                            <li onclick="news(this)" id="{$data.type}"><a href="#">{$data.type}</a></li>
+                        <!-- <li><a href="#">饮食咨询</a></li>
+                        <li><a href="#">为您推荐</a></li> -->
+                        </volist>
                         <div class="clear"></div>
                     </ul>
                 </div>
                 <div class="left_content">
-                    <ul>
+                    <ul id="news_1">
                     <volist name="news" id="data">
                         <li>
                             <div class="content_img">
@@ -36,32 +38,78 @@
                             </div>
                             <div class="content_text">
                                 <h4>{$data.title}</h4>
-                                <span>{$data.time}</span>
+                                
                                 <p>{$data.content|msubstr=0,80,'utf-8',ture}</p>
-                                <div style="text-align: right"><a href="{:U('Home/News/content')}" style="color:#ff6767;text-align: right;font-size:16px">查看更多>></a></div>
+                                <div >
+                                    <span style="float:left">{$data.time}</span>
+                                    <a href="{:U('Home/News/content')}" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </volist>
+                    </ul>
+                    <ul id="news_2">
+                        <volist name="news2" id="data">
+                        <li>
+                            <div class="content_img">
+                                <img src="__PUBLIC__/{$data.thumb}" width="100%" height="100%">
+                            </div>
+                            <div class="content_text">
+                                <h4>{$data.title}</h4>
+                                
+                                <p>{$data.content|msubstr=0,80,'utf-8',ture}</p>
+                                <div >
+                                    <span style="float:left">{$data.time}</span>
+                                    <a href="{:U('Home/News/content')}" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </volist>
+                    </ul>
+                    <ul id="news_3">
+                        <volist name="news3" id="data">
+                        <li>
+                            <div class="content_img">
+                                <img src="__PUBLIC__/{$data.thumb}" width="100%" height="100%">
+                            </div>
+                            <div class="content_text">
+                                <h4>{$data.title}</h4>
+                                
+                                <p>{$data.content|msubstr=0,80,'utf-8',ture}</p>
+                                <div >
+                                    <span style="float:left">{$data.time}</span>
+                                    <a href="{:U('Home/News/content')}" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
+                                    <div class="clear"></div>
+                                </div>
                             </div>
                         </li>
                     </volist>
                     </ul>
                 </div>
             </div>
-            <span class="type_hot">一周热门</span>
-            <volist name="news1" id="data">
+            <!-- <span class="type_hot">一周热门</span> -->
+            
             <div class="type_right">
-                <!-- <span class="type_hot">一周热门</span> -->
+                <span class="type_hot">一周热门</span>
                 <ul>
+                    <volist name="news1" id="data">
                     <li>
                         <div class="right_img">
                             <img src="__PUBLIC__/{$data.thumb}" width="100%" height="100%">
                         </div>
                         <div class="right_text">
                             <a href="#">{$data.title}</a>
-                            <span>{$data.time}</span>
+                            <span style="text-align: right">{$data.time}</span>
                         </div>
+                             <div class="clear"></div>
                     </li>
+                     </volist>
+
                 </ul>
             </div>
-            </volist>
+           
             <div class="clear"></div>
         </div>
 	</div>
@@ -69,4 +117,8 @@
 	<script type="text/javascript">
         //滚动元素id，左切换按钮，右切换按钮，切换元素个数id,滚动方式，切换方向，是否自动滚动，滚动距离，滚动时间，滚动间隔，显示个数
         LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',true,203,1000,2000,4);
+        function news(res){
+            console.log(res.id)
+            
+        }
     </script>

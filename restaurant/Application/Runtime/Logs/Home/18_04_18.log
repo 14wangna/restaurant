@@ -3074,3 +3074,1389 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003318s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003777s ]
 
+[ 2018-04-18T21:41:36+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012747s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0352s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0008s ]
+ERR: 1146:Table 'restaurant.todayfood' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `todayfood`
+ERR: 1146:Table 'restaurant.todayfood' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `todayfood`
+
+[ 2018-04-18T21:44:32+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0344s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011636s ]
+
+[ 2018-04-18T21:46:16+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: offset D:\soft\PHP1\restaurant1\restaurant\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 84 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-04-18T21:49:06+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0336s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002656s ]
+
+[ 2018-04-18T21:49:29+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0191s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2018-04-18T21:52:49+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003817s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0315s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2018-04-18T21:54:47+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0324s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2018-04-18T21:56:10+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001807s ]
+
+[ 2018-04-18T21:56:44+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0267s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2018-04-18T21:56:57+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0162s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002127s ]
+
+[ 2018-04-18T21:57:37+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0152s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2018-04-18T21:59:40+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002066s ]
+
+[ 2018-04-18T22:01:12+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0349s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002055s ]
+
+[ 2018-04-18T22:01:13+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+
+[ 2018-04-18T22:01:13+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+
+[ 2018-04-18T22:02:04+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Menu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002011s ]
+
+[ 2018-04-18T22:02:19+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0163s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2018-04-18T22:02:19+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+
+[ 2018-04-18T22:02:19+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+
+[ 2018-04-18T22:05:07+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0316s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2018-04-18T22:05:07+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+
+[ 2018-04-18T22:06:12+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0236s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000497s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002319s ]
+
+[ 2018-04-18T22:06:12+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+
+[ 2018-04-18T22:06:12+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002329s ]
+
+[ 2018-04-18T22:07:46+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined variable: condition D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2018-04-18T22:07:46+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+
+[ 2018-04-18T22:07:47+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/Index/images/mamapai.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+
+[ 2018-04-18T22:08:23+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2018-04-18T22:11:15+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006680s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001932s ]
+
+[ 2018-04-18T22:12:07+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003482s ]
+
+[ 2018-04-18T22:12:21+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003166s ]
+
+[ 2018-04-18T22:12:59+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003356s ]
+
+[ 2018-04-18T22:13:13+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002984s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002453s ]
+
+[ 2018-04-18T22:13:28+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2018-04-18T22:14:04+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002624s ]
+
+[ 2018-04-18T22:23:21+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003983s ]
+
+[ 2018-04-18T22:24:09+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003127s ]
+
+[ 2018-04-18T22:24:29+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003023s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2018-04-18T22:26:35+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2018-04-18T22:27:16+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004570s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002531s ]
+
+[ 2018-04-18T22:28:08+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003150s ]
+
+[ 2018-04-18T22:29:07+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001987s ]
+
+[ 2018-04-18T22:29:33+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2018-04-18T22:29:57+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2018-04-18T22:31:44+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004563s ]
+
+[ 2018-04-18T22:32:55+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003620s ]
+
+[ 2018-04-18T22:32:59+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001941s ]
+
+[ 2018-04-18T22:33:33+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003068s ]
+
+[ 2018-04-18T22:36:03+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005021s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003407s ]
+
+[ 2018-04-18T22:42:24+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000267s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0155s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002044s ]
+
+[ 2018-04-18T22:46:04+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003024s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0169s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2018-04-18T22:48:56+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006592s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0162s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\NewsController.class.php 第 17 行.
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2018-04-18T22:52:10+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\NewsController.class.php 第 27 行.
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2018-04-18T22:53:00+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003697s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\NewsController.class.php 第 27 行.
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2018-04-18T22:55:41+08:00 ] 127.0.0.1 /restaurant1/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0336s ]
+NOTIC: [8] Undefined variable: id D:\soft\PHP1\restaurant1\restaurant\Application\Home\Controller\NewsController.class.php 第 27 行.
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000482s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002407s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 104 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 121 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\soft\PHP1\restaurant1\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011046s ]
+

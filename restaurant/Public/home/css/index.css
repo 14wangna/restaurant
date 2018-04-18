@@ -204,6 +204,8 @@
 	cursor:pointer;
 } 
 .page-menu-food ul li a{
+	width:100%;
+	height:207px;
 	overflow: hidden;
 }
 .page-menu-food ul li p{
@@ -273,6 +275,8 @@
 	cursor:pointer;
 } 
 .page-menu-food2 ul li a{
+	width:100%;
+	height:207px;
 	overflow: hidden;
 }
 .page-menu-food2 ul li p{
