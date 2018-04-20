@@ -20,17 +20,15 @@
         <div class="news_type">
             <div class="type_left">
                 <div class="left_type">
-                    <ul>
-                        <volist name="newstype" id="data">
-                            <li onclick="news(this)" id="{$data.type}"><a href="#">{$data.type}</a></li>
-                        <!-- <li><a href="#">饮食咨询</a></li>
-                        <li><a href="#">为您推荐</a></li> -->
-                        </volist>
+                    <ul id="tabs">
+                        <li><a href="#" title="tab1" class="actived">健康饮食</a></li>
+                        <li><a href="#" title="tab2">饮食咨询</a></li>
+                        <li><a href="#" title="tab3">为您推荐</a></li>
                         <div class="clear"></div>
                     </ul>
                 </div>
-                <div class="left_content">
-                    <ul id="news_1">
+                <div class="left_content" id="content">
+                    <ul id="tab1">
                     <volist name="news" id="data">
                         <li>
                             <div class="content_img">
@@ -49,7 +47,7 @@
                         </li>
                     </volist>
                     </ul>
-                    <ul id="news_2">
+                    <ul id="tab2">
                         <volist name="news2" id="data">
                         <li>
                             <div class="content_img">
@@ -68,7 +66,7 @@
                         </li>
                     </volist>
                     </ul>
-                    <ul id="news_3">
+                    <ul id="tab3">
                         <volist name="news3" id="data">
                         <li>
                             <div class="content_img">
@@ -113,12 +111,24 @@
             <div class="clear"></div>
         </div>
 	</div>
-
-	<script type="text/javascript">
+</div>
+<script type="text/javascript">
         //滚动元素id，左切换按钮，右切换按钮，切换元素个数id,滚动方式，切换方向，是否自动滚动，滚动距离，滚动时间，滚动间隔，显示个数
-        LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',true,203,1000,2000,4);
-        function news(res){
-            console.log(res.id)
+        LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',false,203,1000,2000,4);
+        $(document).ready(function() {
+            $("#content ul").hide(); // Initially hide all content
+            $("#tabs li:first").attr("id","current"); // Activate first tab
+            $("#tabs li a:first").attr("class","actived"); //Reset id's
+            $("#content ul:first").fadeIn(); // Show first tab content
             
-        }
+            $('#tabs a').click(function(e) {
+                e.preventDefault();        
+                $("#content ul").hide(); //Hide all content
+                $("#tabs li").attr("id",""); //Reset id's
+                $(this).parent().attr("id","current"); // Activate this
+                $("#tabs li a").attr("class",""); //Reset id's
+                $(this).attr("class","actived"); // Activate this
+                $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
+            });
+        });
     </script>

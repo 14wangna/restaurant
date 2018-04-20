@@ -1,6 +1,9 @@
+/*.page-theme{
+	width:1000px;
+}*/
 .page_news{
-      width:100%;
-      margin:20px 0;
+      width:90%;
+      margin:20px auto;
 }
 .Box_con {position: relative;}
 .Box_con .btnl {position: absolute;}
@@ -16,8 +19,8 @@
 .Box_con .conbox ul li img {display: block;width: 200px;height: 160px;transition: all 0.5s;}
 .Box_con .conbox ul li:hover img {transform: scale(1.1);}
 .news_type{
-	width:100%;
-	margin-top:30px;
+	width:90%;
+	margin:20px auto;
 }
 .type_left{
 	width:60%;
@@ -127,4 +130,11 @@
 	width:90%;
 	margin:20px auto;
 	font-size:18px;
+}
+.tab-con-item {
+	display: none;
+}
+ #tabs #current a, #tabs #current a::after {
+ background: #fff;
+ z-index: 3;
 }

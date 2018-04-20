@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/index.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/about.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css"> -->
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu-content.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/news.css">
@@ -16,6 +16,7 @@
 	<script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
 	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
+		
 </head>
 <body>
 	<div class="head">
@@ -85,15 +86,15 @@
         <div class="news_type">
             <div class="type_left">
                 <div class="left_type">
-                    <ul>
-                        <?php if(is_array($newstype)): $i = 0; $__LIST__ = $newstype;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li onclick="news(this)" id="<?php echo ($data["type"]); ?>"><a href="#"><?php echo ($data["type"]); ?></a></li>
-                        <!-- <li><a href="#">饮食咨询</a></li>
-                        <li><a href="#">为您推荐</a></li> --><?php endforeach; endif; else: echo "" ;endif; ?>
+                    <ul id="tabs">
+                        <li><a href="#" title="tab1" class="actived">健康饮食</a></li>
+                        <li><a href="#" title="tab2">饮食咨询</a></li>
+                        <li><a href="#" title="tab3">为您推荐</a></li>
                         <div class="clear"></div>
                     </ul>
                 </div>
-                <div class="left_content">
-                    <ul id="news_1">
+                <div class="left_content" id="content">
+                    <ul id="tab1">
                     <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
                             <div class="content_img">
                                 <img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
@@ -110,7 +111,7 @@
                             </div>
                         </li><?php endforeach; endif; else: echo "" ;endif; ?>
                     </ul>
-                    <ul id="news_2">
+                    <ul id="tab2">
                         <?php if(is_array($news2)): $i = 0; $__LIST__ = $news2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
                             <div class="content_img">
                                 <img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
@@ -127,7 +128,7 @@
                             </div>
                         </li><?php endforeach; endif; else: echo "" ;endif; ?>
                     </ul>
-                    <ul id="news_3">
+                    <ul id="tab3">
                         <?php if(is_array($news3)): $i = 0; $__LIST__ = $news3;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
                             <div class="content_img">
                                 <img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
@@ -168,14 +169,26 @@
             <div class="clear"></div>
         </div>
 	</div>
-
-	<script type="text/javascript">
+</div>
+<script type="text/javascript">
         //滚动元素id，左切换按钮，右切换按钮，切换元素个数id,滚动方式，切换方向，是否自动滚动，滚动距离，滚动时间，滚动间隔，显示个数
-        LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',true,203,1000,2000,4);
-        function news(res){
-            console.log(res.id)
-
-        }
+        LbMove('BoxUl','btnl','btnr','BoxSwitch',true,'left',false,203,1000,2000,4);
+        $(document).ready(function() {
+            $("#content ul").hide(); // Initially hide all content
+            $("#tabs li:first").attr("id","current"); // Activate first tab
+            $("#tabs li a:first").attr("class","actived"); //Reset id's
+            $("#content ul:first").fadeIn(); // Show first tab content
+            
+            $('#tabs a').click(function(e) {
+                e.preventDefault();        
+                $("#content ul").hide(); //Hide all content
+                $("#tabs li").attr("id",""); //Reset id's
+                $(this).parent().attr("id","current"); // Activate this
+                $("#tabs li a").attr("class",""); //Reset id's
+                $(this).attr("class","actived"); // Activate this
+                $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
+            });
+        });
     </script>
 
 		<div class="footers">

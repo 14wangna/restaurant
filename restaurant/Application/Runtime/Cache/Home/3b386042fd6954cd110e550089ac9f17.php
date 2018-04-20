@@ -2,26 +2,27 @@
 <html>
 <head>
 	<title>首页</title>
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/nav.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/index.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/about.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/manage.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu-content.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/news.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/order.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/person.css">
-	<link rel="stylesheet" href="/restaurant/restaurant/Public/home/css/bootstrap.css">
-	<script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-	<script src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
-	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
-	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/news.js"></script>
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/about.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css"> -->
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu-content.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/news.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/order.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/person.css">
+	<link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
+	<script src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
+	<script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
+	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
+		
 </head>
 <body>
 	<div class="head">
 		<div class="head-left">
 			<ul class="xm-nav">
-				<li><img src="/restaurant/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
+				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
 				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
@@ -44,7 +45,7 @@
 			<ul class="nav-theme">
 				<li class="nav-theme-logo">
 					<a href="javascript: void (0);">
-						<img src="/restaurant/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
+						<img src="/restaurant1/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
 					</a>
 				</li>
 				<li class="nav-theme-nav">
@@ -72,7 +73,7 @@
 				</div>
 				<div class="left-mes">
 					<div class="mes-img">
-						<img src="/restaurant/restaurant/Public/home/images/timg.png" width="100%" height="100%">
+						<img src="/restaurant1/restaurant/Public/home/images/timg.png" width="100%" height="100%">
 					</div>
 					<div class="mes-name">张三</div>
 				</div>
@@ -88,7 +89,7 @@
 						<p>头像</p>
 					</div>
 					<div class="item-img">
-						<img src="/restaurant/restaurant/Public/home/images/timg.png" id="imghead" width="48px" height="48px">
+						<img src="/restaurant1/restaurant/Public/home/images/timg.png" id="imghead" width="48px" height="48px">
 					</div>
 					<div class="btn-upload">
 						<input id="previewImg" type="file" onchange="previewImage(this)" style="display: none">
@@ -251,10 +252,10 @@
 			<div class="footer-right">
 				<p class="feel">餐厅展景</p>
 				<ul>
-					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
 					<div class="clear"></div>
 				</ul>
 			</div>

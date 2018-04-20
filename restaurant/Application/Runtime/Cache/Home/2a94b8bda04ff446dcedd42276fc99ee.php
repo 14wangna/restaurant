@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/index.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/about.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css"> -->
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu-content.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/news.css">
@@ -16,6 +16,7 @@
 	<script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
 	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
+		
 </head>
 <body>
 	<div class="head">
@@ -102,7 +103,7 @@
 							<li><a href="javascript:void(0)">柳橙汁</a></li>
 							<li><a href="javascript:void(0)">冰激凌</a></li>
 							<li><a href="javascript:void(0)">
-								<img src="images/mamapai.jpg">
+								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
 							<div class="clear"></div>
 						</ul>
@@ -124,7 +125,7 @@
 							<li><a href="javascript:void(0)">芒果慕斯</a></li>
 							<li><a href="javascript:void(0)">卡布奇诺</a></li>
 							<li><a href="javascript:void(0)">
-								<img src="images/mamapai.jpg">
+								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
 							<div class="clear"></div>
 						</ul>
@@ -173,10 +174,10 @@
 											
 										</div>
 									</div>
-								</div> <a class="left carousel-control" href="#carousel-912679" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-912679" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-							</div>
-					<!-- 	</div>
-					</div> -->
+								<!-- </div> <a class="left carousel-control" href="#carousel-912679" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-912679" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+							</div> -->
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -203,7 +204,7 @@
 					<div class="line"></div>
 				</div>
 				<div class="w-2">
-					<img src="/restaurant1/restaurant/Public/home/images/w-1.jpg" width="100%" height="124px">
+					<img src="/restaurant1/restaurant/Public/home/images/w-2.jpg" width="100%" height="124px">
 				</div>
 				<div class="w-3">
 					<ul>
@@ -217,7 +218,7 @@
 					<div class="line"></div>
 				</div>
 				<div class="w-2">
-					<img src="/restaurant1/restaurant/Public/home/images/w-1.jpg" width="100%" height="124px">
+					<img src="/restaurant1/restaurant/Public/home/images/w-3.jpg" width="100%" height="124px">
 				</div>
 				<div class="w-3">
 					<ul>
@@ -240,7 +241,7 @@
 			<div class="page-menu-food">
 				<ul>
 				<?php if(is_array($todayfood)): $i = 0; $__LIST__ = $todayfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="javascript:void(0)">
+						<a href="/restaurant1/restaurant/index.php/Home/Menu/content/id/<?php echo ($data["id"]); ?>">
 							<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
@@ -251,7 +252,7 @@
 			<div class="page-menu-food2" style="display: none;">
 				<ul>
 				<?php if(is_array($food)): $i = 0; $__LIST__ = $food;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="javascript:void(0)">
+						<a href="/restaurant1/restaurant/index.php/Home/Menu/content/id/<?php echo ($data["id"]); ?>">
 							<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
