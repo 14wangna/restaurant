@@ -93,8 +93,12 @@
 	justify-content: space-between;
 
 }
+.right_text a{
+	color: #4f4f4f;
+}
 .right_text a:hover{
 	color:#ff6767;
+	text-decoration: none;
 }
 .type_hot{
 	font-size:20px;
@@ -128,6 +132,10 @@
 	width:90%;
 	margin:20px auto;
 	font-size:18px;
+}
+.ne_foot a:hover{
+	text-decoration: none;
+	color: #FF5151;
 }
 .tab-con-item {
 	display: none;

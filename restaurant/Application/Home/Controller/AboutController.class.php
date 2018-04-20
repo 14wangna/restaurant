@@ -6,4 +6,13 @@ class AboutController extends Controller {
      
     	$this->display();
     }
+    public function doAdd(){
+
+		$advice = M('advice');
+		if($advice->create()){
+			$data=$advice->add();
+		    redirect('About/about');
+		}
+	}
+
 }

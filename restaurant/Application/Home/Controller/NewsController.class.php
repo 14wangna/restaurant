@@ -24,11 +24,31 @@ class NewsController extends Controller {
     	$this->assign('news1',$data1);
 
         $newstypeModel = M('newstype');
-            $data2 =$newstypeModel ->select($id);
+        $data2 =$newstypeModel ->select($id);
             
-            //分配数据
-            $this->assign('newstype',$data2);
+        //分配数据
+        $this->assign('newstype',$data2);
     	$this->display();
+    }
+    public function content(){
+        $id = $_GET['id'];
+        $newsModel = M("news");
+        $news=$newsModel->find($id);
+        // var_dump($news);exit;
+        $this->assign("news",$news);
+
+        $article = M('news');
+        // 上一篇
+        $prevRecord = $article->where('id<'.I('get.id'))->order('id desc')->limit('1')->find();
+        $prev = !$prevRecord ? '没有了' : $prevRecord;
+        $this->assign('prev', $prev);
+
+        // 下一篇
+        $nextRecord = $article->where('id>'.I('get.id'))->order('id asc')->limit('1')->find();
+        $next = !$nextRecord ? '没有了' : $nextRecord;
+        $this->assign('next', $next);
+
+        $this->display();
     }
     
 }

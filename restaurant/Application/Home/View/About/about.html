@@ -8,13 +8,18 @@
 			<div class="about_item">
 				<div class="about_left">
 					<h3>联系方式</h3>
-					<div class=""></div>
+					<div class="">
+						<p>餐饮部联系电话：010-12345678</p>
+						<p>餐饮部联系邮箱：123456789@qq.com</p>
+					</div>
 				</div>
-				<div class="about_right">
-					<h3>意见建议</h3>
-					<textarea class="about_advice" ></textarea> 
-					<input type="submit">
-				</div>
+				<form action="__MODULE__/About/doAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
+					<div class="about_right">
+						<h3>意见建议</h3>
+						<textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"></textarea> 
+						<input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+					</div>
+				</form>
 				<div class="clear"></div>
 			</div>
 		</div>

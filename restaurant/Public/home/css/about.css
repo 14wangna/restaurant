@@ -5,25 +5,26 @@
 .about_item{
 	width:90%;
     margin:0 auto;
-    font-size: 20px;
+    font-size: 15px;
     
 }
-.about_item>h3{
+.about_item h3{
 	margin-top:12px;
     color: #ff6767;
     padding: 20px 0 20px 25px;
     background: rgba(0,0,0,0) url(../images/mo.png) no-repeat scroll left center;
 }
-.about_item>p{
+.about_item p{
     text-indent: 2em;
+    line-height: 27px;
 }
-.about_left>h3{
+.about_left h3{
     margin-top:12px;
     color: #ff6767;
     padding: 20px 0 20px 25px;
     background: rgba(0,0,0,0) url(../images/mo.png) no-repeat scroll left center;
 }
-.about_right>h3{
+.about_right h3{
     margin-top:12px;
     color: #ff6767;
     padding: 20px 0 20px 25px;

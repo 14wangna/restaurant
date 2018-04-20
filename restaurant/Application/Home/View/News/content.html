@@ -1,12 +1,24 @@
 <layout name="layout_home" />
 <div class="ne_content">
-	<h1>血液不流畅，8种食物活血化瘀</h1>
-	<p>人的血液畅通，身体才能健康，如果血液处于高凝状态或是血流迟缓，血管壁不光滑，就会导致瘀血阻滞，血液流通不畅、阻滞就会成为健康的隐形杀手，从而产生很多的疾病，所以及时活血化瘀十分的重要。日常生活中有很多食物活血化瘀的效果都很好，可以有效通畅体内血脉、去除淤血，瘀血体质的人群，可以常食。</p>
+	<h1>{$news.title}</h1>
+	<p>{$news.content}</p>
 </div>
 <div class="ne_foot">
 	<ul>
-		<li><a href="#">上一篇:</a></li>
-		<li><a href="#">下一篇:</a></li>
-	</ul>
+        <li>上一篇：
+            <if condition="$prev eq '没有了'">
+                没有了
+                <else />
+                <a href="__MODULE__/News/content/id/{$prev.id}">{$prev.title}</a>
+            </if>
+        </li>
+        <li>下一篇：
+            <if condition="$next eq '没有了'">
+                没有了
+                <else />
+                <a href="__MODULE__/News/content/id/{$next.id}">{$next.title}</a>
+            </if>
+        </li>
+      </ul>
 </div>
 </div>

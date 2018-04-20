@@ -40,7 +40,7 @@
                                 <p>{$data.content|msubstr=0,80,'utf-8',ture}</p>
                                 <div >
                                     <span style="float:left">{$data.time}</span>
-                                    <a href="{:U('Home/News/content')}" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
+                                    <a href="__MODULE__/News/content/id/{$data.id}" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
                                     <div class="clear"></div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@
                                 <p>{$data.content|msubstr=0,80,'utf-8',ture}</p>
                                 <div >
                                     <span style="float:left">{$data.time}</span>
-                                    <a href="{:U('Home/News/content')}" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
+                                    <a href="__MODULE__/News/content/id/{$data.id}" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
                                     <div class="clear"></div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@
                                 <p>{$data.content|msubstr=0,80,'utf-8',ture}</p>
                                 <div >
                                     <span style="float:left">{$data.time}</span>
-                                    <a href="{:U('Home/News/content')}" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
+                                    <a href="__MODULE__/News/content/id/{$data.id}" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
                                     <div class="clear"></div>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@
                             <img src="__PUBLIC__/{$data.thumb}" width="100%" height="100%">
                         </div>
                         <div class="right_text">
-                            <a href="#">{$data.title}</a>
+                            <a href="__MODULE__/News/content/id/{$data.id}">{$data.title}</a>
                             <span style="text-align: right">{$data.time}</span>
                         </div>
                              <div class="clear"></div>

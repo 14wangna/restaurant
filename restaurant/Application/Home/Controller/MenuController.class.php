@@ -13,7 +13,7 @@ class MenuController extends Controller {
 		$data =$foodsModel ->find($id);
 		//分配数据
 		$this->assign('food',$data);
-		    	// 新闻部分
+		  // 新闻部分
      	$newsModel=M('news');
      	$conditiona['type']='健康饮食';
      	$data=$newsModel->where($condition)->select();

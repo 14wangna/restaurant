@@ -2,26 +2,27 @@
 <html>
 <head>
 	<title>首页</title>
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/index.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/about.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu-content.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/news.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/order.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/person.css">
-	<link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
-	<script src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-	<script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
-	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
-	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/about.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/manage.css"> -->
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu-content.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/news.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/order.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/person.css">
+	<link rel="stylesheet" href="/restaurant/restaurant/Public/home/css/bootstrap.css">
+	<script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
+	<script src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/news.js"></script>
+		
 </head>
 <body>
 	<div class="head">
 		<div class="head-left">
 			<ul class="xm-nav">
-				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
+				<li><img src="/restaurant/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
 				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
@@ -44,7 +45,7 @@
 			<ul class="nav-theme">
 				<li class="nav-theme-logo">
 					<a href="javascript: void (0);">
-						<img src="/restaurant1/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
+						<img src="/restaurant/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
 					</a>
 				</li>
 				<li class="nav-theme-nav">
@@ -65,14 +66,22 @@
 		</div>
 		
 <div class="ne_content">
-	<h1>血液不流畅，8种食物活血化瘀</h1>
-	<p>人的血液畅通，身体才能健康，如果血液处于高凝状态或是血流迟缓，血管壁不光滑，就会导致瘀血阻滞，血液流通不畅、阻滞就会成为健康的隐形杀手，从而产生很多的疾病，所以及时活血化瘀十分的重要。日常生活中有很多食物活血化瘀的效果都很好，可以有效通畅体内血脉、去除淤血，瘀血体质的人群，可以常食。</p>
+	<h1><?php echo ($news["title"]); ?></h1>
+	<p><?php echo ($news["content"]); ?></p>
 </div>
 <div class="ne_foot">
 	<ul>
-		<li><a href="#">上一篇:</a></li>
-		<li><a href="#">下一篇:</a></li>
-	</ul>
+        <li>上一篇：
+            <?php if($prev == '没有了'): ?>没有了
+                <?php else: ?>
+                <a href="/restaurant/restaurant/index.php/Home/News/content/id/<?php echo ($prev["id"]); ?>"><?php echo ($prev["title"]); ?></a><?php endif; ?>
+        </li>
+        <li>下一篇：
+            <?php if($next == '没有了'): ?>没有了
+                <?php else: ?>
+                <a href="/restaurant/restaurant/index.php/Home/News/content/id/<?php echo ($next["id"]); ?>"><?php echo ($next["title"]); ?></a><?php endif; ?>
+        </li>
+      </ul>
 </div>
 </div>
 		<div class="footers">
@@ -92,10 +101,10 @@
 			<div class="footer-right">
 				<p class="feel">餐厅展景</p>
 				<ul>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
 					<div class="clear"></div>
 				</ul>
 			</div>
