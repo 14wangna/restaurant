@@ -16,6 +16,7 @@
 	<script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
 	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
+		
 </head>
 <body>
 	<div class="head">
