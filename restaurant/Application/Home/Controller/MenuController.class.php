@@ -16,7 +16,7 @@ class MenuController extends Controller {
 		  // 新闻部分
      	$newsModel=M('news');
      	$conditiona['type']='健康饮食';
-     	$data=$newsModel->where($condition)->select();
+     	$data=$newsModel->where($conditiona)->select();
      	$this->assign('newsa',$data);
 
      	$conditionb['type']='饮食咨询';
@@ -26,6 +26,13 @@ class MenuController extends Controller {
      	$conditionc['type']='为您推荐';
      	$data=$newsModel->where($conditionc)->select();
      	$this->assign('newsc',$data);
+
+        $drinkModel=M('food');
+        $conditiond['type']='甜品饮品';
+        $data=$drinkModel->where($conditiond)->limit(0,4)->select();
+        $this->assign('drink',$data);
+
+
     	$this->display();
     }
     public function contents(){

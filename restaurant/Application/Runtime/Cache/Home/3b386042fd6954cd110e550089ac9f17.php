@@ -33,8 +33,12 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-				<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a>
+			<?php if(isLogin()): ?><p style="color:#fff"><?php echo (session('number')); ?></p>
+				
+			<?php else: ?>
+			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
 			</div>
+		
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -73,9 +77,9 @@
 				</div>
 				<div class="left-mes">
 					<div class="mes-img">
-						<img src="/restaurant/restaurant/Public/home/images/timg.png" width="100%" height="100%">
+						<img src="/restaurant/restaurant/Public/<?php echo ($user["thumb"]); ?>" width="100%" height="100%">
 					</div>
-					<div class="mes-name">张三</div>
+					<div class="mes-name"><?php echo ($user["username"]); ?></div>
 				</div>
 				<div class="left-content"></div>	
 			</div>
@@ -89,7 +93,7 @@
 						<p>头像</p>
 					</div>
 					<div class="item-img">
-						<img src="/restaurant/restaurant/Public/home/images/timg.png" id="imghead" width="48px" height="48px">
+						<img src="/restaurant/restaurant/Public/<?php echo ($user["thumb"]); ?>" id="imghead" width="48px" height="48px">
 					</div>
 					<div class="btn-upload">
 						<input id="previewImg" type="file" onchange="previewImage(this)" style="display: none">
@@ -102,7 +106,7 @@
 						<p>姓名</p>
 					</div>
 					<div class="item-img">
-						<p class="value">张三</p>
+						<p class="value"><?php echo ($user["username"]); ?></p>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -111,7 +115,7 @@
 						<p>工号</p>
 					</div>
 					<div class="item-img">
-						<p class="value">2014011722</p>
+						<p class="value"><?php echo ($user["number"]); ?></p>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -120,7 +124,7 @@
 						<p>所属部门</p>
 					</div>
 					<div class="item-img">
-						<p class="value">技术部</p>
+						<p class="value"><?php echo ($user["branch"]); ?></p>
 					</div>
 					<div class="btn-upload">
 						<button class="btn-change" onclick="branch()">修改</button>
@@ -132,7 +136,7 @@
 						<p>职位</p>
 					</div>
 					<div class="item-img">
-						<p class="value">技术员</p>
+						<p class="value"><?php echo ($user["job"]); ?></p>
 					</div>
 					<div class="btn-upload">
 						<button class="btn-change" onclick="job()">修改</button>
@@ -144,7 +148,7 @@
 						<p>登录密码</p>
 					</div>
 					<div class="item-img">
-						<p>******</p>
+						<p><?php echo ($user["password"]); ?></p>
 					</div>
 					<div class="btn-upload">
 						<button class="btn-change" onclick="password()">修改</button>

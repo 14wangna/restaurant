@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>北京上华软件</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" href="/restaurant1/restaurant/Public/admin/css/style.css">
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/showdate.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/quanxuan.js"></script>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/showdate.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
             <!-- <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1> -->
-            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+            <img src="/restaurant/restaurant/Public/admin/images/logo.jpg" height="45px;" >
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
                 <li><a href="<?php echo U('Index/index');?>" class="top-a">后台首页</a></li>
                 <li><a href="<?php echo U('Home/Index/index');?>" class="top-a">前台首页</a></li>
-                <li><a href="<?php echo U('Admin/Indexen/index');?>" class="top-a">英文版</a></li>
                 <li><a href="<?php echo U('Index/loginout');?>" class="top-a">退出</a></li>
             </ul>
         </div>
@@ -94,11 +93,11 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant1/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant1/restaurant/index.php/Admin/Users/lists">用户管理</a><span class="crumb-step">&gt;</span><span>添加用户</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Users/lists">用户管理</a><span class="crumb-step">&gt;</span><span>添加用户</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
-                <form action="/restaurant1/restaurant/index.php/Admin/Users/doAdd" method="post" role="form">
+                <form action="/restaurant/restaurant/index.php/Admin/Users/doAdd" method="post" role="form">
                     <table class="insert-tab" width="100%">
                         <tbody>
                             <tr>
@@ -164,7 +163,7 @@
     </div>
 
 
-<script src="/restaurant1/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
-<script src="/restaurant1/restaurant/Public/admin/js/index.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
+<script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>

@@ -24,6 +24,20 @@
     justify-content: center;
     align-items: center;
 }
+.xm-input-box1{
+    width:70%;
+    border:1px solid #999;
+    padding:5px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#input1{
+    width:145px;
+    border: 0;
+}
 .xm-icon-size{
     width: 20px;
     height: 15px;
@@ -104,7 +118,7 @@
     padding-bottom:20px;
 }
 .code{   
-    background:url(images/code.png) no-repeat 5px 5px;  
+    /*background:url(images/code.png) no-repeat 5px 5px;  */
     font-family:Arial;   
     font-style:italic;   
     color:red;   

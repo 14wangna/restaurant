@@ -2,27 +2,27 @@
 <html>
 <head>
 	<title>首页</title>
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/index.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/about.css">
-	<!-- <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css"> -->
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu-content.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/news.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/order.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/person.css">
-	<link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
-	<script src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-	<script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
-	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
-	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/about.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/manage.css"> -->
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu-content.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/news.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/order.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/person.css">
+	<link rel="stylesheet" href="/restaurant/restaurant/Public/home/css/bootstrap.css">
+	<script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
+	<script src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/news.js"></script>
 		
 </head>
 <body>
 	<div class="head">
 		<div class="head-left">
 			<ul class="xm-nav">
-				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
+				<li><img src="/restaurant/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
 				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
@@ -33,8 +33,12 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-				<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a>
+			<?php if(isLogin()): ?><p style="color:#fff"><?php echo (session('number')); ?></p>
+				
+			<?php else: ?>
+			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
 			</div>
+		
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -45,7 +49,7 @@
 			<ul class="nav-theme">
 				<li class="nav-theme-logo">
 					<a href="javascript: void (0);">
-						<img src="/restaurant1/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
+						<img src="/restaurant/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
 					</a>
 				</li>
 				<li class="nav-theme-nav">
@@ -71,30 +75,19 @@
 		</div>
 		<div class="menu-list">
 			<ul>
-				<li>
-					<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
+				<?php if(is_array($order)): $i = 0; $__LIST__ = $order;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+					<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
+					<p><?php echo ($data["name"]); ?></p>
+					<p class="color">￥<?php echo ($data["price"]); ?></p>
 					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input  type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
+						<button type="button" value="＋" id="<?php echo ($data["id"]); ?>" onclick="add(this)">＋</button>
+						<input id="order<?php echo ($data["id"]); ?>" type="text" name="" value="<?php echo ($data["sum"]); ?>">
+						<button type="button" value="＋" id="<?php echo ($data["id"]); ?>" onclick="reduce(this)">－</button>
 					</div>
 					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li>
-				<li>
-					<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
-					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
-					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li>
-				<li>
-					<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
+				</li><?php endforeach; endif; else: echo "" ;endif; ?>
+				<!-- <li>
+					<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
 					<p>鱼香肉丝</p>
 					<p class="color">￥25</p>
 					<div class="menu-number">
@@ -105,7 +98,7 @@
 					<a href="javascript: void (0);" class="color">取消订单</a>
 				</li>
 				<li>
-					<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
+					<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
 					<p>鱼香肉丝</p>
 					<p class="color">￥25</p>
 					<div class="menu-number">
@@ -115,6 +108,17 @@
 					</div>
 					<a href="javascript: void (0);" class="color">取消订单</a>
 				</li>
+				<li>
+					<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
+					<p>鱼香肉丝</p>
+					<p class="color">￥25</p>
+					<div class="menu-number">
+						<button type="button" value="＋">＋</button>
+						<input type="text" name="" value="3">
+						<button type="button" value="＋">－</button>
+					</div>
+					<a href="javascript: void (0);" class="color">取消订单</a>
+				</li> -->
 			</ul>
 		</div>
 	</div>
@@ -136,10 +140,10 @@
 			<div class="footer-right">
 				<p class="feel">餐厅展景</p>
 				<ul>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
 					<div class="clear"></div>
 				</ul>
 			</div>

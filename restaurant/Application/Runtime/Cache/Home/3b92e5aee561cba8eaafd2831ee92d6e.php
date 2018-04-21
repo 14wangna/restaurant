@@ -33,8 +33,12 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-				<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a>
+			<?php if(isLogin()): ?><p style="color:#fff"><?php echo (session('number')); ?></p>
+				
+			<?php else: ?>
+			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
 			</div>
+		
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -73,7 +77,7 @@
  					</div>
  					<div class="top-intr">
  						<h3><?php echo ($food["name"]); ?></h3>
- 						<h4>￥<?php echo ($food["price"]); ?></h4>
+ 						<h4 style="color:red;">￥<?php echo ($food["price"]); ?></h4>
  						<p>“<?php echo ($food["function"]); ?>”</p>
  						<p>主要食材：<?php echo ($food["batch"]); ?></p>
  						<button>订购</button>
@@ -119,32 +123,16 @@
 				<div class="content-rec">
 					<h3>热门饮品推荐</h3>
 					<ul class="drink">
-						<li>
-							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
+						<?php if(is_array($drink)): $i = 0; $__LIST__ = $drink;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+							<div class="img"><img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" style="width:83.48px;height:83.48px;display: flex;
+							flex-direction: row;justify-content: center;
+							align-items: center;"></div>
+							<p><?php echo ($data["name"]); ?></p>
+							<p>￥<?php echo ($data["price"]); ?></p>
 							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
+						</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
-					<ul class="drink">
+					<!-- <ul class="drink">
 						<li>
 							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
 							<p>柠檬水</p>
@@ -169,7 +157,7 @@
 							<p>￥10</p>
 							<button>订购</button>
 						</li>
-					</ul>
+					</ul> -->
 				</div>
 			</div>
 			<div class="menu-right">

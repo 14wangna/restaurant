@@ -3,6 +3,8 @@ namespace Admin\Controller;
 use Think\Controller;
 
 class AdminController extends Controller {
+
+
     public function login(){
         if(IS_POST){
             $adminUsersModel = M('adminUser'); //admin_user表

@@ -7,7 +7,7 @@
  					</div>
  					<div class="top-intr">
  						<h3>{$food.name}</h3>
- 						<h4>￥{$food.price}</h4>
+ 						<h4 style="color:red;">￥{$food.price}</h4>
  						<p>“{$food.function}”</p>
  						<p>主要食材：{$food.batch}</p>
  						<button>订购</button>
@@ -53,32 +53,18 @@
 				<div class="content-rec">
 					<h3>热门饮品推荐</h3>
 					<ul class="drink">
+						<volist name="drink" id="data">
 						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
+							<div class="img"><img src="__PUBLIC__/{$data.thumb}" style="width:83.48px;height:83.48px;display: flex;
+							flex-direction: row;justify-content: center;
+							align-items: center;"></div>
+							<p>{$data.name}</p>
+							<p>￥{$data.price}</p>
 							<button>订购</button>
 						</li>
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
+						</volist>
 					</ul>
-					<ul class="drink">
+					<!-- <ul class="drink">
 						<li>
 							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
 							<p>柠檬水</p>
@@ -103,7 +89,7 @@
 							<p>￥10</p>
 							<button>订购</button>
 						</li>
-					</ul>
+					</ul> -->
 				</div>
 			</div>
 			<div class="menu-right">
