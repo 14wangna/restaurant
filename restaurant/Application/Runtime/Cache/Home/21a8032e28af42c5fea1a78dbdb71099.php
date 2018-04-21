@@ -76,7 +76,7 @@
 		<div class="menu-list">
 			<ul>
 				<?php if(is_array($order)): $i = 0; $__LIST__ = $order;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-					<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
+					<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="150px" height="150px">
 					<p><?php echo ($data["name"]); ?></p>
 					<p class="color">￥<?php echo ($data["price"]); ?></p>
 					<div class="menu-number">

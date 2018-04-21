@@ -128,17 +128,19 @@
 	</div>
 	<!-- 页脚 -->
 	<script type="text/javascript">
-		function order(res){
+		 order = function(res){
 			var id = res.id;
-			console.log(id)
 			$.ajax({
                 type:"POST",
                 url:"__MODULE__/Menu/add",
                 data:{id:id},
                 dataType: "json",
                 success:function(res){
-                    console.log(res)
+                	if(res == 1){
+                		window.location.href="{:U('Home/Order/order')}";
+                	}
                 }
             });
-		}
+   		
+	}
 	</script>

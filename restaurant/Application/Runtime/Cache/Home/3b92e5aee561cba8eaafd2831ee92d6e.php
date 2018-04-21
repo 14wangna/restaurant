@@ -196,19 +196,21 @@
 	</div>
 	<!-- 页脚 -->
 	<script type="text/javascript">
-		function order(res){
+		 order = function(res){
 			var id = res.id;
-			console.log(id)
 			$.ajax({
                 type:"POST",
                 url:"/restaurant1/restaurant/index.php/Home/Menu/add",
                 data:{id:id},
                 dataType: "json",
                 success:function(res){
-                    console.log(res)
+                	if(res == 1){
+                		window.location.href="<?php echo U('Home/Order/order');?>";
+                	}
                 }
             });
-		}
+   		
+	}
 	</script>
 		<div class="footers">
 		<div class="footer">

@@ -40,8 +40,26 @@ class MenuController extends Controller {
     	$this->display();
     }
     public function add(){
-        $id = $_GET['id'];  
+        $id=I("post.id");
         $foodsModel = M('food');
-        $data =$foodsModel ->find($id);
-    }
+        $datas =$foodsModel ->find($id);
+
+        $User = M('order');
+        $data['number'] = $_SESSION['number'];
+        $data['thumb'] = $datas['thumb'];
+        $data['price'] = $datas['price'];
+        $data['sum'] = '1';
+        $data['name'] = $datas['name'];
+
+        $result = $User->create();
+        if(!$result){
+            $this->ajaxReturn("0",'JSON');
+        }
+        else{
+            $User->data($data)->add();
+            $this->ajaxReturn("1",'JSON');
+        }
+        
+      
+}
 }
