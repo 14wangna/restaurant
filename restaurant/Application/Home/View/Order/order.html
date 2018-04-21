@@ -8,12 +8,12 @@
 				<volist name="order" id="data">
 				<li>
 					<img src="__PUBLIC__/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
+					<p>{$data.name}</p>
+					<p class="color">￥{$data.price}</p>
 					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input  type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
+						<button type="button" value="＋" id="{$data.id}" onclick="add(this)">＋</button>
+						<input id="order{$data.id}" type="text" name="" value="{$data.sum}">
+						<button type="button" value="＋" id="{$data.id}" onclick="reduce(this)">－</button>
 					</div>
 					<a href="javascript: void (0);" class="color">取消订单</a>
 				</li>

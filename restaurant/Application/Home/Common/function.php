@@ -1,4 +1,10 @@
 <?php
+function isLogin() {
+    if(!isset($_SESSION['number']) || $_SESSION['number']==""){
+        return false;
+    }
+    return true;
+}
 function msubstr($str, $start=0, $length, $charset="utf-8", $suffix=true)  
     {  
   if(function_exists("mb_substr")){  

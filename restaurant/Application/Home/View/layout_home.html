@@ -33,8 +33,14 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-				<a href="{:U('Home/Login/login')}">登录</a>/<a href="{:U('Home/Login/login')}">注册</a>
+			<if condition="isLogin()">
+				<p style="color:#fff">22222</p>
+				
+			<else/>
+			<a href="{:U('Home/Login/login')}">登录</a>/<a href="{:U('Home/Login/login')}">注册</a>
+		</if>
 			</div>
+		
 		</div>
 		<div class="clear"></div>
 	</div>

@@ -33,8 +33,12 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-				<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a>
+			<?php if(isLogin()): ?><p style="color:#fff">22222</p>
+				
+			<?php else: ?>
+			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
 			</div>
+		
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -71,29 +75,18 @@
 		</div>
 		<div class="menu-list">
 			<ul>
-				<li>
+				<?php if(is_array($order)): $i = 0; $__LIST__ = $order;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
 					<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
+					<p><?php echo ($data["name"]); ?></p>
+					<p class="color">￥<?php echo ($data["price"]); ?></p>
 					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input  type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
+						<button type="button" value="＋" id="<?php echo ($data["id"]); ?>" onclick="add(this)">＋</button>
+						<input id="order<?php echo ($data["id"]); ?>" type="text" name="" value="<?php echo ($data["sum"]); ?>">
+						<button type="button" value="＋" id="<?php echo ($data["id"]); ?>" onclick="reduce(this)">－</button>
 					</div>
 					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li>
-				<li>
-					<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
-					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
-					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li>
-				<li>
+				</li><?php endforeach; endif; else: echo "" ;endif; ?>
+				<!-- <li>
 					<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
 					<p>鱼香肉丝</p>
 					<p class="color">￥25</p>
@@ -115,6 +108,17 @@
 					</div>
 					<a href="javascript: void (0);" class="color">取消订单</a>
 				</li>
+				<li>
+					<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
+					<p>鱼香肉丝</p>
+					<p class="color">￥25</p>
+					<div class="menu-number">
+						<button type="button" value="＋">＋</button>
+						<input type="text" name="" value="3">
+						<button type="button" value="＋">－</button>
+					</div>
+					<a href="javascript: void (0);" class="color">取消订单</a>
+				</li> -->
 			</ul>
 		</div>
 	</div>

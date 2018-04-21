@@ -77,24 +77,30 @@ function doreduce(res){
 	return res;
 }
 
-function add(){
-	var i = $("#text").val();
-	i = parseInt(i);
+function add(res){
+	var a = res.id;
+	a = "order" + a;
+	var i = document.getElementById(a).value;
 	var j = doadd(i)
-	console.log(j);
-	$("#text").val(j)
-}
-
-function reduce(){
-	var i = $("#text").val();
-	i = parseInt(i);
-	var j = doreduce(i)
-	console.log(j);
-	if(j <= 0){
-		$("#text").val("0")
+	if(j >=2 ){
+		document.getElementById(a).value  = 2
 	}
 	else{
-		$("#text").val(j) 
+		document.getElementById(a).value  = j
+	}
+	
+}
+
+function reduce(res){
+	var a = res.id;
+	a = "order" + a;
+	var i = document.getElementById(a).value;
+	var j = doreduce(i)
+	if(j <= 1){
+		document.getElementById(a).value = "1"
+	}
+	else{
+		document.getElementById(a).value = j 
 	}
 	
 }

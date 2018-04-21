@@ -33,8 +33,12 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-				<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a>
+			<?php if(isLogin()): ?><p style="color:#fff">22222</p>
+				
+			<?php else: ?>
+			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
 			</div>
+		
 		</div>
 		<div class="clear"></div>
 	</div>
