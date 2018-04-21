@@ -33,8 +33,8 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-			<?php if(isLogin()): ?><p style="color:#fff"><?php echo (session('number')); ?></p>
-				
+			<?php if(isLogin()): ?><a style="color:#fff"><?php echo (session('number')); ?></a>
+				<a href="<?php echo U('Index/loginout');?>">退出</a>
 			<?php else: ?>
 			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
 			</div>

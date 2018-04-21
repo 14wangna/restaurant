@@ -8,51 +8,13 @@
     <script src="__PUBLIC__/home/js/jquery-1.11.3.js"></script>
     <script src="__PUBLIC__/home/js/bootstrap.js"></script>
     <script type="text/javascript" src="__PUBLIC__/home/js/index.js"></script>
-    <script type="text/javascript">  
+    <script type="text/javascript">
+        function validate(){
 
-     var code ; //在全局 定义验证码   
-     function createCode()   
-     {    
-       code = "";   
-       var codeLength = 4;//验证码的长度   
-       var checkCode = document.getElementById("checkCode");   
-       var selectChar = new Array(0,1,2,3,4,5,6,7,8,9);//所有候选组成验证码的字符，当然也可以用中文的   
-
-       for(var i=0;i<codeLength;i++)   
-       {   
-
-           
-       var charIndex = Math.floor(Math.random()*10);   
-       code +=selectChar[charIndex];   
-
-          
-       }   
-//       alert(code);   
-       if(checkCode)   
-       {   
-         checkCode.className="code";   
-         checkCode.value = code;   
-       }   
-
-     }   
-
-      function validate ()   
-     {   
-       var inputCode = document.getElementById("input1").value;   
-       if(inputCode.length <=0)   
-       {   
-           alert("请输入验证码！");   
-       }   
-       else if(inputCode != code )   
-       {   
-          alert("验证码输入错误！");   
-          createCode();//刷新验证码   
-       }    
-
-       }   
+        }
     </script>
 </head>
-<body onload="createCode()">
+<body>
 	<div class="head">
         <div class="head-left">
             <ul class="xm-nav">
@@ -96,39 +58,33 @@
                     </span>
                     <input type="password"  placeholder="密码" id="password" name="password">
                 </div>
-                <div class="xm-input-box1">
-                    <input  type="text"   id="input1" />  
-                    <input type="text" onclick="createCode()" readonly="readonly" id="checkCode" class="unchanged" style="width: 70px"  />  
-                </div>
-                <div class="xm-dlu"><input type="submit" id="Button1"  onclick="validate();" value="登录" ></div>
+                <div class="xm-dlu"><input type="submit" id="Button1" value="登录" ></div>
                 <!-- <div class="signup-guide"><p>还没有账号？<a href="#">免费注册</a></p></div> -->
             </div>
             </form>
+            <form action="__MODULE__/Login/register" name="myform" method="post">
             <div class="content-register" >
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
                         <img src="__PUBLIC__/home/images/name_icon.png" alt="">
                     </span>
-                    <input type="text" placeholder="工号">
+                    <input type="text" placeholder="工号" name="number">
                 </div>
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
                         <img src="__PUBLIC__/home/images/name_icon.png" alt="">
                     </span>
-                    <input type="text" placeholder="密码">
+                    <input type="text" placeholder="密码" name="password">
                 </div>
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
                         <img src="__PUBLIC__/home/images/name_icon.png" alt="">
                     </span>
-                    <input type="text" placeholder="确认密码">
+                    <input type="text" placeholder="确认密码" name="repassword">
                 </div>
-                <!-- <div class="xm-input-box">
-                    <input  type="text"   id="input1" />  
-                    <input type="text" onclick="createCode()" readonly="readonly" id="checkCode" class="unchanged" style="width: 80px"  /><br />  
-                </div> -->
-                <div class="xm-dlu"><input type="button" id="Button1"  onclick="validate();" value="注册"></div>
+                <div class="xm-dlu"><input type="submit" id="Button1" value="注册"></div>
             </div>
+          </form>
         </div>
     </div>
 </body>

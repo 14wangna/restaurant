@@ -58,7 +58,7 @@
 							<div class="img"><img src="__PUBLIC__/{$data.thumb}" style="width:83.48px;height:83.48px;"></div>
 							<p>{$data.name}</p>
 							<p>￥{$data.price}</p>
-							<button>订购</button>
+							<button id="{$data.id}" onclick="order(this)">订购</button>
 						</li>
 						</volist>
 					</ul>
@@ -127,4 +127,17 @@
 		<!--导航 结束-->
 	</div>
 	<!-- 页脚 -->
-	
+	<script type="text/javascript">
+		function order(res){
+			var id = res.id
+			$.ajax({
+                        type:"POST",
+                        url:"__MODULE__/Menu/add",
+                        data:{id:id},
+                        dataType: "json",
+                        success:function(res){
+                            console.log(res)
+                        }
+                    });
+		}
+	</script>
