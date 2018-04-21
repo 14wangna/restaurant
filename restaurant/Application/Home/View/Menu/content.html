@@ -129,15 +129,16 @@
 	<!-- 页脚 -->
 	<script type="text/javascript">
 		function order(res){
-			var id = res.id
+			var id = res.id;
+			console.log(id)
 			$.ajax({
-                        type:"POST",
-                        url:"__MODULE__/Menu/add",
-                        data:{id:id},
-                        dataType: "json",
-                        success:function(res){
-                            console.log(res)
-                        }
-                    });
+                type:"POST",
+                url:"__MODULE__/Menu/add",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                    console.log(res)
+                }
+            });
 		}
 	</script>

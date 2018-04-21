@@ -3,7 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class MenuController extends Controller {
     public function menu(){
-     
+
     	$this->display();
     }
     public function content(){
@@ -40,30 +40,8 @@ class MenuController extends Controller {
     	$this->display();
     }
     public function add(){
-        print_r("111111111");
-        if(IS_POST){
-        //若是，执行响应操作
-            $id=I('id');
-            //获取数据
-            $newModel = M('news');
-            $data =$newModel ->find($id);
-
-            $orderModel = D('order');
-            $data = $orderModel->create();
-            print_r($data);
-            if (!$data){
-            // 如果创建失败 表示验证没有通过 输出错误提示信息
-            $this->error($orderModel->getError(),U("content"));
-            }
-            else{
-                $orderModel->add();
-                // 验证通过 可以进行其他数据操作
-            // $this->success("新用户添加成功",U("lists?p=1"));
-                $this->redirect('content',0);
-            }
-        }
-        else{
-        $this->error("非法请求！");
-        }
+        $id = $_GET['id'];  
+        $foodsModel = M('food');
+        $data =$foodsModel ->find($id);
     }
 }

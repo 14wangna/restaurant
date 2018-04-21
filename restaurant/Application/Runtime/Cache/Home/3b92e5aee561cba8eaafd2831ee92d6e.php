@@ -197,16 +197,17 @@
 	<!-- 页脚 -->
 	<script type="text/javascript">
 		function order(res){
-			var id = res.id
+			var id = res.id;
+			console.log(id)
 			$.ajax({
-                        type:"POST",
-                        url:"/restaurant1/restaurant/index.php/Home/Menu/add",
-                        data:{id:id},
-                        dataType: "json",
-                        success:function(res){
-                            console.log(res)
-                        }
-                    });
+                type:"POST",
+                url:"/restaurant1/restaurant/index.php/Home/Menu/add",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                    console.log(res)
+                }
+            });
 		}
 	</script>
 		<div class="footers">

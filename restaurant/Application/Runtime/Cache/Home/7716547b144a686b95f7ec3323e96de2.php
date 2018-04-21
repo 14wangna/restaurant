@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/index.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/about.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css"> -->
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu-content.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/news.css">
@@ -16,6 +16,7 @@
 	<script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
 	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
+		
 </head>
 <body>
 	<div class="head">
@@ -32,8 +33,12 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-				<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a>
+			<?php if(isLogin()): ?><a style="color:#fff"><?php echo (session('number')); ?></a>
+				<a href="<?php echo U('Index/loginout');?>">退出</a>
+			<?php else: ?>
+			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
 			</div>
+		
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -66,7 +71,7 @@
 		
 
 		<!-- 导航结束 -->
-		<div class="menu-list">
+		<div class="menu_list">
 			<div class="menu-item">
 				<ul>
 					<li class="item-actived"><a href="#">早餐</a></li>
@@ -82,27 +87,27 @@
 				<ul>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/01.jpg" width="100%" height="100%">
+							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 						</a>
 						<p>馅饼</p>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/2.jpg" width="100%" height="100%">
+							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>豆浆</p>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/05.jpg" width="100%" height="100%">
+							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>咸菜</p>
 					</li>
 					<li>
 						<a href="javascript:void(0)">
-							<img src="/restaurant1/restaurant/Public/home/images/4.jpg" width="100%" height="100%">
+							<img src="/restaurant1/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
 							
 						</a>
 						<p>小米粥</p>

@@ -10,7 +10,7 @@
     <script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
     <script type="text/javascript">
         function validate(){
-            
+
         }
     </script>
 </head>
@@ -44,7 +44,7 @@
                 <a href="#" id="register" onclick="register()">注册</a>
                 <div class="clear"></div>
             </div>
-            <form action="" name="myform" method="post">
+            <form action="/restaurant1/restaurant/index.php/Home/Login/login" name="myform" method="post">
             <div class="content-login" >
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
@@ -82,7 +82,7 @@
                     </span>
                     <input type="text" placeholder="确认密码" name="repassword">
                 </div>
-                <div class="xm-dlu"><input type="submit" id="Button1"  onclick="validate();" value="注册"></div>
+                <div class="xm-dlu"><input type="submit" id="Button1" value="注册"></div>
             </div>
           </form>
         </div>

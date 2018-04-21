@@ -1,20 +1,20 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-	<title>管理中心</title>
-	<link rel="stylesheet" type="text/css" href="/restaurant/Public/home/css/nav.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/Public/home/css/manage.css">
-	<link rel="stylesheet" href="/restaurant/Public/home/css/bootstrap.css">
+	<title>新闻中心</title>
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css">
+	<link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
 </head>
 <body>
 	<div class="head">
 		<div class="head-left">
 			<ul class="xm-nav">
-				<li><img src="/restaurant/Public/home/images/ms02.png" width="100%" height="100%"></li>
+				<li><img src="/restaurant1/restaurant/Public/home/images/ms02.png" width="100%" height="100%"></li>
 				<li><a href="#">首页</a></li>
 				<li><a href="#">订单查询</a></li>
 				<li><a href="#">个人中心</a></li>
-				<li><a href="#">管理中心</a></li>
+				<li><a href="#">新闻中心</a></li>
 				<li><a href="#">关于我们</a></li>
 				<div class="clear"></div>
 			</ul>
@@ -32,7 +32,7 @@
 			<ul class="nav-theme">
 				<li class="nav-theme-logo">
 					<a href="javascript: void (0);">
-						<img src="/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
+						<img src="/restaurant1/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
 					</a>
 				</li>
 				<li class="nav-theme-nav">
@@ -201,7 +201,7 @@
 					<li><a href="#">网站首页</a></li>
 					<li><a href="#">订单查询</a></li>
 					<li><a href="#">个人中心</a></li>
-					<li><a href="#">管理中心</a></li>
+					<li><a href="#">新闻中心</a></li>
 					<li><a href="#">关于我们</a></li>
 					<li class="clear"></li>
 				</ul>
@@ -210,10 +210,10 @@
 			<div class="footer-right">
 				<p class="feel">餐厅展景</p>
 				<ul>
-					<li><img src="/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
 					<div class="clear"></div>
 				</ul>
 			</div>
