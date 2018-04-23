@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class MenuController extends Controller {
+class TmenuController extends Controller {
     public function __construct(){
         parent::__construct();
         if(!isLogin()){
@@ -48,36 +48,7 @@ class MenuController extends Controller {
     	$this->display();
     }
     public function contents(){
-        
-        $id=I('id');
-        // print_r($id);
-            //获取数据
-        $foodsModel = M('food');
-        $data =$foodsModel ->find($id);
-        //分配数据
-        $this->assign('food',$data);
-
-
-        //菜品评价
-
-        $evaluateModel=M('evaluate');
-        $condition['foodname']=$data['name'];
-        $edata=$evaluateModel->where($condition)->select();
-        // print_r($edata);
-        $this->assign('evaluate',$edata);
-        //新闻部分
-        $newsModel=M('news');
-        $conditiona['type']='健康饮食';
-        $data=$newsModel->where($conditiona)->select();
-        $this->assign('newsa',$data);
-
-        $conditionb['type']='饮食咨询';
-        $data=$newsModel->where($conditionb)->select();
-        $this->assign('newsb',$data);
-        //饮品推荐
-        $conditiond['type']='甜品饮品';
-        $data=$foodsModel->where($conditiond)->limit(0,4)->select();
-        $this->assign('drink',$data);
+     
     	$this->display();
     }
     public function add(){
@@ -152,25 +123,4 @@ class MenuController extends Controller {
         }
 
     }
-    // public function evaluate(res){
-    //     $id=I("post.id");
-    //     $foodsModel = M('todayfood');
-    //     $datas =$foodsModel ->find($id);
-
-    //     $User = M('evaluate');
-    //     $data['number'] = $_SESSION['number'];
-    //     $data['thumb'] = $datas['thumb'];
-    //     $data['price'] = $datas['price'];
-    //     $data['sum'] = '1';
-    //     $data['name'] = $datas['name'];
-
-    //     $result = $User->create();
-    //     if(!$result){
-    //         $this->ajaxReturn("0",'JSON');
-    //     }
-    //     else{
-    //         $User->data($data)->add();
-    //         $this->ajaxReturn("1",'JSON');
-    //     }
-    // }
 }

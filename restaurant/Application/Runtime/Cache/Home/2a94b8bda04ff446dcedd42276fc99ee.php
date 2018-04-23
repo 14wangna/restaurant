@@ -24,6 +24,7 @@
 			<ul class="xm-nav">
 				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
+				<li><a href="<?php echo U('Home/Tmenu/menu');?>">每日菜单</a></li>
 				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
 				<li><a href="<?php echo U('Home/Person/person');?>">个人中心</a></li>
@@ -54,17 +55,18 @@
 				</li>
 				<li class="nav-theme-nav">
 					<a href="<?php echo U('Home/Index/index');?>">首页</a>
+					<a href="<?php echo U('Home/Tmenu/menu');?>">每日菜单</a>
 					<a href="<?php echo U('Home/News/news');?>">新闻中心</a>
 					<a href="<?php echo U('Home/Order/order');?>">订单查询</a>
 					<a href="<?php echo U('Home/Person/person');?>">个人中心</a>
 					<a href="<?php echo U('Home/About/about');?>">关于我们</a>
 				</li>
-				<li class="nav-theme-search">
+				<!-- <li class="nav-theme-search">
 					<div class="nav-theme-search-input">
 						<input type="text">
 						<a href="javascript: void (0);">搜索</a>
 					</div>
-				</li>
+				</li> -->
 				<div class="clear"></div>
 			</ul>
 		</div>
@@ -79,22 +81,16 @@
 				<ul>
 					<li><a href="javascript: void (0);" class="la">早餐</a>
 						<ul>
-							<li><a href="javascript:void(0)">八宝粥</a></li>
-							<li><a href="javascript:void(0)">油条</a></li>
-							<li><a href="javascript:void(0)">豆浆</a></li>
-
+						<?php if(is_array($fooda)): $i = 0; $__LIST__ = array_slice($fooda,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant1/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>	
 							<li><a href="javascript:void(0)">
 								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
-							</a></li>
-												
+							</a></li>			
 							<div class="clear"></div>
 						</ul>
 					</li>
 					<li><a href="javascript: void (0);" class="la">午餐</a>
 						<ul>
-							<li><a href="javascript:void(0)">鱼香肉丝</a></li>
-							<li><a href="javascript:void(0)">宫保鸡丁</a></li>
-							<li><a href="javascript:void(0)">水煮肉片</a></li>
+						<?php if(is_array($foodb)): $i = 0; $__LIST__ = array_slice($foodb,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant1/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							<li><a href="javascript:void(0)">
 								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
@@ -103,9 +99,7 @@
 					</li>
 					<li><a href="javascript: void (0);" class="la">下午茶</a>
 						<ul>
-							<li><a href="javascript:void(0)">冰红茶</a></li>
-							<li><a href="javascript:void(0)">柳橙汁</a></li>
-							<li><a href="javascript:void(0)">冰激凌</a></li>
+						<?php if(is_array($foodc)): $i = 0; $__LIST__ = array_slice($foodc,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant1/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							<li><a href="javascript:void(0)">
 								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
@@ -114,9 +108,7 @@
 					</li>
 					<li><a href="javascript: void (0);" class="la">晚餐</a>
 						<ul>
-							<li><a href="javascript:void(0)">鱼香肉丝</a></li>
-							<li><a href="javascript:void(0)">宫保鸡丁</a></li>
-							<li><a href="javascript:void(0)">水煮肉片</a></li>
+						<?php if(is_array($foodd)): $i = 0; $__LIST__ = array_slice($foodd,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant1/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							<li><a href="javascript:void(0)">
 								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
@@ -125,9 +117,7 @@
 					</li>
 					<li><a href="javascript: void (0);" class="la">甜品饮品</a>
 						<ul>
-							<li><a href="javascript:void(0)">酸奶慕斯</a></li>
-							<li><a href="javascript:void(0)">芒果慕斯</a></li>
-							<li><a href="javascript:void(0)">卡布奇诺</a></li>
+						<?php if(is_array($foode)): $i = 0; $__LIST__ = array_slice($foode,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant1/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							<li><a href="javascript:void(0)">
 								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
@@ -136,9 +126,8 @@
 					</li>
 					<li><a href="javascript: void (0);" class="la">小吃夜宵</a>
 						<ul>
-							<li><a href="javascript:void(0)">鱼香肉丝</a></li>
-							<li><a href="javascript:void(0)">宫保鸡丁</a></li>
-							<li><a href="javascript:void(0)">水煮肉片<li><a href="javascript:void(0)">
+						<?php if(is_array($foodf)): $i = 0; $__LIST__ = array_slice($foodf,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant1/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+							<li><a href="javascript:void(0)">
 								<img src="/restaurant1/restaurant/Public/home/images/mamapai.jpg">
 							</a></li>
 							<div class="clear"></div>

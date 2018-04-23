@@ -29,9 +29,29 @@ class IndexController extends Controller {
      	$data=$foodModel->order('num desc')->limit(0,16)->select();
      	$this->assign('food',$data);
 
+        $fooda['type']='早餐';
+        $data=$foodModel->where($fooda)->select();
+        $this->assign('fooda',$data);
 
+        $foodb['type']='午餐';
+        $data=$foodModel->where($foodb)->select();
+        $this->assign('foodb',$data);
 
+        $foodc['type']='下午茶';
+        $data=$foodModel->where($foodc)->select();
+        $this->assign('foodc',$data);
 
+        $foodd['type']='晚餐';
+        $data=$foodModel->where($foodd)->select();
+        $this->assign('foodd',$data);
+ 
+        $foode['type']='甜品饮品';
+        $data=$foodModel->where($foode)->select();
+        $this->assign('foode',$data);
+
+        $foodf['type']='小吃晚餐';
+        $data=$foodModel->where($foodf)->select();
+        $this->assign('foodf',$data);
 
     	$this->display();
     }

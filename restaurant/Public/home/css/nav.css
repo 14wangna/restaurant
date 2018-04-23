@@ -101,6 +101,11 @@ body{
     width:90%;
     margin:15px auto;
 }
+.nav-theme{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .nav-theme>li{
     float: left;
 }

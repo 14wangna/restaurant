@@ -3,105 +3,42 @@
  			<div class="menu-left">
  				<div class="content-top">
  					<div class="top-img">
- 						<img src="__PUBLIC__/home/images/lunch/1.jpg" width="100%" height="100%">
+ 						<img src="__PUBLIC__/{$food.thumb}" width="100%" height="100%">
  					</div>
  					<div class="top-intr">
- 						<h3>{$food.title}</h3>
- 						<h4>￥25</h4>
- 						<p>“过年不可少的菜哦哦”</p>
- 						<p>主要食材：可乐，鸡翅，姜，料酒</p>
+ 						<h3>{$food.name}</h3>
+ 						<h4 style="color:red;">￥{$food.price}</h4>
+ 						<p>“{$food.function}”</p>
+ 						<p>主要食材：{$food.batch}</p>
  					</div>
  					<div class="clear"></div>
  				</div>
  				<h3>菜品评价</h3>
  				<div class="content_evaluate">
+ 					<volist name="evaluate" id="data">
  					<div class="evaluate_whole">
 	 					<div class="evaluate_left">
-	 						<img src="__PUBLIC__/home/images/touxiang.png" width="" height="">
-	 						<p>王小二</p>
+	 						<img src="__PUBLIC__/{$data.thumb}" width="" height="">
+	 						<p>{$data.username}</p>
 	 					</div>
 	 					<div class="evaluate_right">
-	 						<p>菜很好吃，价格很便宜，很赞。</p>
-	 						<p>2018-04-12</p>
+	 						<p>{$data.content}</p>
+	 						<p>{$data.time}</p>
 	 					</div>
 	 					<div class="clear"></div>
  					</div>
- 					<div class="evaluate_whole">
-	 					<div class="evaluate_left">
-	 						<img src="__PUBLIC__/home/images/touxiang.png" width="" height="">
-	 						<p>王小二</p>
-	 					</div>
-	 					<div class="evaluate_right">
-	 						<p>菜很好吃，价格很便宜，很赞。</p>
-	 						<p>2018-04-12</p>
-	 					</div>
-	 					<div class="clear"></div>
- 					</div>
- 					<div class="evaluate_whole">
-	 					<div class="evaluate_left">
-	 						<img src="__PUBLIC__/home/images/touxiang.png" width="" height="">
-	 						<p>王小二</p>
-	 					</div>
-	 					<div class="evaluate_right">
-	 						<p>菜很好吃，价格很便宜，很赞。</p>
-	 						<p>2018-04-12</p>
-	 					</div>
-	 					<div class="clear"></div>
- 					</div>
+ 					</volist>
  				</div>
 				<div class="content-rec">
 					<h3>热门饮品推荐</h3>
 					<ul class="drink">
+						<volist name="drink" id="data">
 						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
+							<div class="img"><img src="__PUBLIC__/{$data.thumb}" style="width:83.48px;height:83.48px;"></div>
+							<p>{$data.title}</p>
+							<p style="color:red;">￥{$data.price}</p>
 						</li>
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-					</ul>
-					<ul class="drink">
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
-						<li>
-							<div class="img"><img src="__PUBLIC__/home/images/1.jpg" width="100%"></div>
-							<p>柠檬水</p>
-							<p>￥10</p>
-							<button>订购</button>
-						</li>
+						</volist>
 					</ul>
 				</div>
 			</div>
@@ -111,26 +48,20 @@
 						<p>健康饮食</p>
 					</div>
 					<ul class="news-list">
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<volist name="newsa" id="data">
+						<li><a href="__MODULE__/News/content/id/{$data.id}">{$data.title}</a></li>
+						</volist>
 						<div class="clear"></div>
 					</ul>
 				</div>
 				<div class="menu-news">
 					<div class="news-title">
-						<p>健康饮食</p>
+						<p>饮食咨询</p>
 					</div>
 					<ul class="news-list">
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
-						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<volist name="newsb" id="data">
+						<li><a href="__MODULE__/News/content/id/{$data.id}">{$data.title}</a></li>
+						</volist>
 						<div class="clear"></div>
 					</ul>
 				</div>

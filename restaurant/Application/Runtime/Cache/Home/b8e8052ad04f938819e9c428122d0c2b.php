@@ -24,6 +24,7 @@
 			<ul class="xm-nav">
 				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
+				<li><a href="<?php echo U('Home/Tmenu/menu');?>">每日菜单</a></li>
 				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
 				<li><a href="<?php echo U('Home/Person/person');?>">个人中心</a></li>
@@ -54,40 +55,87 @@
 				</li>
 				<li class="nav-theme-nav">
 					<a href="<?php echo U('Home/Index/index');?>">首页</a>
+					<a href="<?php echo U('Home/Tmenu/menu');?>">每日菜单</a>
 					<a href="<?php echo U('Home/News/news');?>">新闻中心</a>
 					<a href="<?php echo U('Home/Order/order');?>">订单查询</a>
 					<a href="<?php echo U('Home/Person/person');?>">个人中心</a>
 					<a href="<?php echo U('Home/About/about');?>">关于我们</a>
 				</li>
-				<li class="nav-theme-search">
+				<!-- <li class="nav-theme-search">
 					<div class="nav-theme-search-input">
 						<input type="text">
 						<a href="javascript: void (0);">搜索</a>
 					</div>
-				</li>
+				</li> -->
 				<div class="clear"></div>
 			</ul>
 		</div>
 		
-<div class="ne_content">
-	<h1><?php echo ($news["title"]); ?></h1>
-	<p><?php echo ($news["content"]); ?></p>
-</div>
-<div class="ne_foot">
-	<ul>
-        <li>上一篇：
-            <?php if($prev == '没有了'): ?>没有了
-                <?php else: ?>
-                <a href="/restaurant1/restaurant/index.php/Home/News/content/id/<?php echo ($prev["id"]); ?>"><?php echo ($prev["title"]); ?></a><?php endif; ?>
-        </li>
-        <li>下一篇：
-            <?php if($next == '没有了'): ?>没有了
-                <?php else: ?>
-                <a href="/restaurant1/restaurant/index.php/Home/News/content/id/<?php echo ($next["id"]); ?>"><?php echo ($next["title"]); ?></a><?php endif; ?>
-        </li>
-      </ul>
-</div>
-</div>
+		<div class="page-menu">
+ 			<div class="menu-left">
+ 				<div class="content-top">
+ 					<div class="top-img">
+ 						<img src="/restaurant1/restaurant/Public/<?php echo ($food["thumb"]); ?>" width="100%" height="100%">
+ 					</div>
+ 					<div class="top-intr">
+ 						<h3><?php echo ($food["name"]); ?></h3>
+ 						<h4 style="color:red;">￥<?php echo ($food["price"]); ?></h4>
+ 						<p>“<?php echo ($food["function"]); ?>”</p>
+ 						<p>主要食材：<?php echo ($food["batch"]); ?></p>
+ 					</div>
+ 					<div class="clear"></div>
+ 				</div>
+ 				<h3>菜品评价</h3>
+ 				<div class="content_evaluate">
+ 					<?php if(is_array($evaluate)): $i = 0; $__LIST__ = $evaluate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="evaluate_whole">
+	 					<div class="evaluate_left">
+	 						<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="" height="">
+	 						<p><?php echo ($data["username"]); ?></p>
+	 					</div>
+	 					<div class="evaluate_right">
+	 						<p><?php echo ($data["content"]); ?></p>
+	 						<p><?php echo ($data["time"]); ?></p>
+	 					</div>
+	 					<div class="clear"></div>
+ 					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+ 				</div>
+				<div class="content-rec">
+					<h3>热门饮品推荐</h3>
+					<ul class="drink">
+						<?php if(is_array($drink)): $i = 0; $__LIST__ = $drink;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+							<div class="img"><img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" style="width:83.48px;height:83.48px;"></div>
+							<p><?php echo ($data["title"]); ?></p>
+							<p style="color:red;">￥<?php echo ($data["price"]); ?></p>
+						</li><?php endforeach; endif; else: echo "" ;endif; ?>
+					</ul>
+				</div>
+			</div>
+			<div class="menu-right">
+				<div class="menu-news">
+					<div class="news-title">
+						<p>健康饮食</p>
+					</div>
+					<ul class="news-list">
+						<?php if(is_array($newsa)): $i = 0; $__LIST__ = $newsa;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant1/restaurant/index.php/Home/News/content/id/<?php echo ($data["id"]); ?>"><?php echo ($data["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<div class="menu-news">
+					<div class="news-title">
+						<p>饮食咨询</p>
+					</div>
+					<ul class="news-list">
+						<?php if(is_array($newsb)): $i = 0; $__LIST__ = $newsb;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant1/restaurant/index.php/Home/News/content/id/<?php echo ($data["id"]); ?>"><?php echo ($data["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<div class="clear"></div>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!--导航 结束-->
+	</div>
+	<!-- 页脚 -->
+	
 		<div class="footers">
 		<div class="footer">
 			<div class="footer-left">

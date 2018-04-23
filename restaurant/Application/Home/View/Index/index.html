@@ -9,22 +9,20 @@
 				<ul>
 					<li><a href="javascript: void (0);" class="la">早餐</a>
 						<ul>
-							<li><a href="javascript:void(0)">八宝粥</a></li>
-							<li><a href="javascript:void(0)">油条</a></li>
-							<li><a href="javascript:void(0)">豆浆</a></li>
-
+						<volist name="fooda" id="data" offset="0" length="3">
+							<li><a href="__MODULE__/Menu/contents/id/{$data.id}">{$data.name}</a></li>
+						</volist>	
 							<li><a href="javascript:void(0)">
 								<img src="__PUBLIC__/home/images/mamapai.jpg">
-							</a></li>
-												
+							</a></li>			
 							<div class="clear"></div>
 						</ul>
 					</li>
 					<li><a href="javascript: void (0);" class="la">午餐</a>
 						<ul>
-							<li><a href="javascript:void(0)">鱼香肉丝</a></li>
-							<li><a href="javascript:void(0)">宫保鸡丁</a></li>
-							<li><a href="javascript:void(0)">水煮肉片</a></li>
+						<volist name="foodb" id="data" offset="0" length="3">
+							<li><a href="__MODULE__/Menu/contents/id/{$data.id}">{$data.name}</a></li>
+						</volist>
 							<li><a href="javascript:void(0)">
 								<img src="__PUBLIC__/home/images/mamapai.jpg">
 							</a></li>
@@ -33,9 +31,9 @@
 					</li>
 					<li><a href="javascript: void (0);" class="la">下午茶</a>
 						<ul>
-							<li><a href="javascript:void(0)">冰红茶</a></li>
-							<li><a href="javascript:void(0)">柳橙汁</a></li>
-							<li><a href="javascript:void(0)">冰激凌</a></li>
+						<volist name="foodc" id="data" offset="0" length="3">
+							<li><a href="__MODULE__/Menu/contents/id/{$data.id}">{$data.name}</a></li>
+						</volist>
 							<li><a href="javascript:void(0)">
 								<img src="__PUBLIC__/home/images/mamapai.jpg">
 							</a></li>
@@ -44,9 +42,9 @@
 					</li>
 					<li><a href="javascript: void (0);" class="la">晚餐</a>
 						<ul>
-							<li><a href="javascript:void(0)">鱼香肉丝</a></li>
-							<li><a href="javascript:void(0)">宫保鸡丁</a></li>
-							<li><a href="javascript:void(0)">水煮肉片</a></li>
+						<volist name="foodd" id="data" offset="0" length="3">
+							<li><a href="__MODULE__/Menu/contents/id/{$data.id}">{$data.name}</a></li>
+						</volist>
 							<li><a href="javascript:void(0)">
 								<img src="__PUBLIC__/home/images/mamapai.jpg">
 							</a></li>
@@ -55,9 +53,9 @@
 					</li>
 					<li><a href="javascript: void (0);" class="la">甜品饮品</a>
 						<ul>
-							<li><a href="javascript:void(0)">酸奶慕斯</a></li>
-							<li><a href="javascript:void(0)">芒果慕斯</a></li>
-							<li><a href="javascript:void(0)">卡布奇诺</a></li>
+						<volist name="foode" id="data" offset="0" length="3">
+							<li><a href="__MODULE__/Menu/contents/id/{$data.id}">{$data.name}</a></li>
+						</volist>
 							<li><a href="javascript:void(0)">
 								<img src="__PUBLIC__/home/images/mamapai.jpg">
 							</a></li>
@@ -66,9 +64,10 @@
 					</li>
 					<li><a href="javascript: void (0);" class="la">小吃夜宵</a>
 						<ul>
-							<li><a href="javascript:void(0)">鱼香肉丝</a></li>
-							<li><a href="javascript:void(0)">宫保鸡丁</a></li>
-							<li><a href="javascript:void(0)">水煮肉片<li><a href="javascript:void(0)">
+						<volist name="foodf" id="data" offset="0" length="3">
+							<li><a href="__MODULE__/Menu/contents/id/{$data.id}">{$data.name}</a></li>
+						</volist>
+							<li><a href="javascript:void(0)">
 								<img src="__PUBLIC__/home/images/mamapai.jpg">
 							</a></li>
 							<div class="clear"></div>
