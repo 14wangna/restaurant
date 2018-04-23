@@ -1,0 +1,67 @@
+<layout name="layout_admin"/>
+<div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Food/lists">每日菜品管理</a><span class="crumb-step">&gt;</span><span>新增菜品</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__MODULE__/Food/doAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>名称：</th>
+                                <td>
+                                    <input class="common-text required" id="name" name="name" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>价格：</th>
+                                <td>
+                                    <input class="common-text required" id="price" name="price" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>配料：</th>
+                                <td>
+                                    <input class="common-text required" id="batch" name="batch" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>类型：</th>
+                                <td>
+                                    <select  class="common-text required" id="type" name="type" value="" style="width:200px">
+                                        <volist name="foodtypes" id="data">
+                                            <option value="{$data.name}">{$data.name}</option>
+                                        </volist>
+                                    </select>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <th>菜品配图：</th>
+                                <td>
+                                <input name="thumb" id="thumb" type="file"></td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>发布时间：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style" size="50" name="time" type="text" value="{$time}" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>菜品功能：</th>
+                                <td><textarea name="function" class="common-textarea" id="function" cols="30" style="width: 98%;" rows="10"></textarea></td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>

@@ -76,53 +76,66 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">菜品列表</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Food/lists">每日菜品管理</a><span class="crumb-step">&gt;</span><span>新增菜品</span></div>
         </div>
         <div class="result-wrap">
-            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/Food/delete">
-                <div class="result-title">
-                    <div class="result-list">
-                        <a href="/restaurant/restaurant/index.php/Admin/Food/add"><i class="icon-font"></i>新增菜品</a>
-                        <!-- <input type="text" placeholder="请输入关键字..."/>
-                        <a href="/restaurant/restaurant/index.php/Admin/Food/search"><input type="button" value="搜索" /></a> -->
-                        
-                    </div>
-                </div>
-                <div class="result-content">
-                    <table class="result-tab" width="100%">
-                        <tr>
-                            <th class="tc" width="6%"><input class="allChoose" name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'></th>
-                            <th width="12%">菜品配图</th>
-                            <th width="12%">菜品类型</th>
-                            <th width="12%">菜品名称</th>
-                            <th width="12%">菜品价格</th>
-                            <th width="12%">菜品配料</th>
-                            <th width="12%">菜品功能</th>
-                            <th width="12%">添加时间</th>
-                            <th width="12%">操作</th>
-                        </tr>
-                        <?php if(is_array($food)): $i = 0; $__LIST__ = $food;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
-                            <td><input type="checkbox" name="foodId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
-                            <td><img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="60px" height="60px"></td>
-                            <td><?php echo ($data["type"]); ?></td>
-                            <td><?php echo (msubstr($data["name"],0,8,'utf-8',ture)); ?></td>
-                            <td><?php echo ($data["price"]); ?></td>
-                            <td><?php echo (msubstr($data["batch"],0,8,'utf-8',ture)); ?></td>
-                            <td><?php echo (msubstr($data["function"],0,8,'utf-8',ture)); ?></td>
-                            <td><?php echo ($data["time"]); ?></td>
-                            <td>
-                                <a class="link-update" href="/restaurant/restaurant/index.php/Admin/Food/edit/id/<?php echo ($data["id"]); ?>">修改</a>
-                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Food/delete/foodId/<?php echo ($data["id"]); ?>">删除</a>
-                            </td>
-                        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                    </table>
-                    <div id="alldelete">
-                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/Food/delete">批量删除</button> 
-                    </div>
-                    <div class="list-page"><?php echo ($page); ?></div>
-                </div>
-            </form>
+            <div class="result-content">
+                <form action="/restaurant/restaurant/index.php/Admin/Food/doAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>名称：</th>
+                                <td>
+                                    <input class="common-text required" id="name" name="name" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>价格：</th>
+                                <td>
+                                    <input class="common-text required" id="price" name="price" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>配料：</th>
+                                <td>
+                                    <input class="common-text required" id="batch" name="batch" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>类型：</th>
+                                <td>
+                                    <select  class="common-text required" id="type" name="type" value="" style="width:200px">
+                                        <?php if(is_array($foodtypes)): $i = 0; $__LIST__ = $foodtypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><option value="<?php echo ($data["name"]); ?>"><?php echo ($data["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    </select>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <th>菜品配图：</th>
+                                <td>
+                                <input name="thumb" id="thumb" type="file"></td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red"></i>发布时间：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style" size="50" name="time" type="text" value="<?php echo ($time); ?>" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>菜品功能：</th>
+                                <td><textarea name="function" class="common-textarea" id="function" cols="30" style="width: 98%;" rows="10"></textarea></td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
         </div>
+
     </div>
 
 

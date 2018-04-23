@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class FoodController extends Controller {
+class TodayfoodController extends Controller {
 	public function __construct(){
         parent::__construct();
         if(!isLogin()){
@@ -9,7 +9,7 @@ class FoodController extends Controller {
         }
     }
 	    public function lists(){
-	    	$foodModel = D("food");
+	    	$foodModel = D("Todayfood");
 	        $cut=8;
 	        $currentPage = I("get.p");
 	        $offset = ($currentPage-1) * $cut;
@@ -49,7 +49,7 @@ class FoodController extends Controller {
 		        $this->error($upload->getError());
 		    }else{// 上传成功
 		        //$this->success('上传成功！');
-		       $foodModel = M('food');
+		       $foodModel = M('Todayfood');
 		    	$data =$foodModel ->create();
 		    	//$foodModel->add($data);
 		    	
@@ -75,7 +75,7 @@ class FoodController extends Controller {
             } 
              //单个删除
             else{
-                $foodModel = D("food");
+                $foodModel = D("Todayfood");
                 if($foodModel->where("id=$id")->delete()){
                     //$this->success("删除成功",U("New/lists?p=1"));
                     $this->redirect('lists?p=1',0);
@@ -89,7 +89,7 @@ class FoodController extends Controller {
 	        
 			$id=I('id');
 			//获取数据
-			$foodsModel = M('food');
+			$foodsModel = M('Todayfood');
 			$data =$foodsModel ->find($id);
 			//分配数据
 			$this->assign('food',$data);
@@ -115,7 +115,7 @@ class FoodController extends Controller {
 		        $this->error($upload->getError());
 		    }else{// 上传成功
 		        //$this->success('上传成功！');
-		       $foodModel = M('food');
+		       $foodModel = M('Todayfood');
 		    	$data =$foodModel ->create();
 		    	//$foodModel->add($data);
 		    	
@@ -133,7 +133,7 @@ class FoodController extends Controller {
 		 }
 
 		  public function find(){
-	    	$foodModel = M("food");
+	    	$foodModel = M("Todayfood");
 	    	$date['title']='新闻'; 
 			$liset=$foodModel->where($date)->select();
 			echo $foodModel;

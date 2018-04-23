@@ -42,10 +42,10 @@
             <h2><a href="<?php echo U('Users/add');?>"><i class="icon-font">&#xe026;</i>添加用户</a></h2>
         </div>
 
-        <h1><i class="icon-font">&#xe001;</i>新闻管理</h1>
+        <h1><i class="icon-font">&#xe005;</i>每日菜单管理</h1>
         <div>
-            <h2><a href="<?php echo U('New/lists?p=1');?>"><i class="icon-font">&#xe050;</i>新闻列表</a></h2>
-            <h2><a href="<?php echo U('New/add');?>"><i class="icon-font">&#xe026;</i>添加新闻</a></h2>
+            <h2><a href="<?php echo U('Todayfood/lists?p=1');?>"><i class="icon-font">&#xe050;</i>菜品列表</a></h2>
+            <h2><a href="<?php echo U('Todayfood/add');?>"><i class="icon-font">&#xe026;</i>新增菜品</a></h2>
         </div>
 
         <h1><i class="icon-font">&#xe005;</i>菜品管理</h1>
@@ -53,40 +53,23 @@
             <h2><a href="<?php echo U('Food/lists?p=1');?>"><i class="icon-font">&#xe050;</i>菜品列表</a></h2>
             <h2><a href="<?php echo U('Food/add');?>"><i class="icon-font">&#xe026;</i>新增菜品</a></h2>
         </div>
+        
+        <h1><i class="icon-font">&#xe001;</i>新闻管理</h1>
+        <div>
+            <h2><a href="<?php echo U('New/lists?p=1');?>"><i class="icon-font">&#xe050;</i>新闻列表</a></h2>
+            <h2><a href="<?php echo U('New/add');?>"><i class="icon-font">&#xe026;</i>添加新闻</a></h2>
+        </div>
 
         <h1><i class="icon-font">&#xe018;</i>评价管理</h1>
         <div>
             <h2><a href="<?php echo U('Evaluate/lists?p=1');?>"><i class="icon-font">&#xe050;</i>评价列表</a></h2>
-            <!-- <h2><a href="<?php echo U('Product/add');?>"><i class="icon-font">&#xe026;</i>添加产品</a></h2> -->
         </div>
 
         <h1><i class="icon-font">&#xe060;</i>留言簿</h1>
         <div>
             <h2><a href="<?php echo U('Advice/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
-            <!-- <h2><a href="<?php echo U('Case/add');?>"><i class="icon-font">&#xe026;</i>新增案列</a></h2> -->
         </div>
-
-        <!-- <h1><i class="icon-font">&#xe002;</i>申请试用</h1>
-        <div>
-            <h2><a href="<?php echo U('Apply/lists?p=1');?>"><i class="icon-font">&#xe050;</i>申请列表</a></h2>
         </div>
-
-        <h1><i class="icon-font">&#xe051;</i>荣誉管理</h1>
-        <div>
-            <h2><a href="<?php echo U('Honor/lists?p=1');?>"><i class="icon-font">&#xe050;</i>荣誉列表</a></h2>
-            <h2><a href="<?php echo U('Honor/add');?>"><i class="icon-font">&#xe026;</i>新增荣誉</a></h2>
-        </div>
-
-        <h1><i class="icon-font">&#xe003;</i>职位管理</h1>
-        <div>
-            <h2><a href="<?php echo U('Job/lists?p=1');?>"><i class="icon-font">&#xe050;</i>职位列表</a></h2>
-            <h2><a href="<?php echo U('Job/add');?>"><i class="icon-font">&#xe026;</i>新增职位</a></h2>
-        </div>
-
-        <h1><i class="icon-font">&#xe014;</i>咨询管理</h1>
-        <div>
-            <h2><a href="<?php echo U('Advice/lists?p=1');?>"><i class="icon-font">&#xe050;</i>咨询列表</a></h2>
-        </div> -->
     </aside>
 
     
@@ -125,7 +108,9 @@
                                 <th><i class="require-red">*</i>类型：</th>
                                 <td>
                                     <select  class="common-text required" id="type" name="type" value="" style="width:200px">
-                                        <?php if(is_array($foodtypes)): $i = 0; $__LIST__ = $foodtypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><option value="<?php echo ($data["name"]); ?>"><?php echo ($data["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                        <?php if(is_array($foodtypes)): $i = 0; $__LIST__ = $foodtypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i; if($food[type] == $data[name]): ?><option value="<?php echo ($data["name"]); ?>" selected="selected"><?php echo ($data["name"]); ?></option>
+                                            <?php else: ?>
+                                               <option value="<?php echo ($data["name"]); ?>"><?php echo ($data["name"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
                                     </select>
                                 </td>
                             </tr> 
@@ -141,7 +126,7 @@
                                     <input class="common-text required" id="read-style" size="50" name="time" value="<?php echo ($time); ?>" type="text" readonly>
                                 </td>
                             </tr>
-                            <tr>
+                            <!-- <tr>
                                 <th><i class="require-red">*</i>类型：</th>
                                 <td>
                                     <select  class="common-text required" id="type" name="type" value="" style="width:200px">
@@ -150,7 +135,7 @@
                                                <option value="<?php echo ($data["name"]); ?>"><?php echo ($data["name"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
                                     </select>
                                 </td>
-                            </tr> 
+                            </tr>  -->
                             <tr>
                                 <th>菜品功能：</th>
                                 <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"><?php echo ($food["content"]); ?></textarea></td>

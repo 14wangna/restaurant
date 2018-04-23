@@ -48,6 +48,12 @@
             <h2><a href="<?php echo U('New/add');?>"><i class="icon-font">&#xe026;</i>添加新闻</a></h2>
         </div>
 
+        <h1><i class="icon-font">&#xe005;</i>每日菜单管理</h1>
+        <div>
+            <h2><a href="<?php echo U('Todayfood/lists?p=1');?>"><i class="icon-font">&#xe050;</i>菜品列表</a></h2>
+            <h2><a href="<?php echo U('Todayfood/add');?>"><i class="icon-font">&#xe026;</i>新增菜品</a></h2>
+        </div>
+
         <h1><i class="icon-font">&#xe005;</i>菜品管理</h1>
         <div>
             <h2><a href="<?php echo U('Food/lists?p=1');?>"><i class="icon-font">&#xe050;</i>菜品列表</a></h2>
@@ -57,51 +63,26 @@
         <h1><i class="icon-font">&#xe018;</i>评价管理</h1>
         <div>
             <h2><a href="<?php echo U('Evaluate/lists?p=1');?>"><i class="icon-font">&#xe050;</i>评价列表</a></h2>
-            <!-- <h2><a href="<?php echo U('Product/add');?>"><i class="icon-font">&#xe026;</i>添加产品</a></h2> -->
         </div>
 
         <h1><i class="icon-font">&#xe060;</i>留言簿</h1>
         <div>
             <h2><a href="<?php echo U('Advice/lists?p=1');?>"><i class="icon-font">&#xe050;</i>留言列表</a></h2>
-            <!-- <h2><a href="<?php echo U('Case/add');?>"><i class="icon-font">&#xe026;</i>新增案列</a></h2> -->
         </div>
-
-        <!-- <h1><i class="icon-font">&#xe002;</i>申请试用</h1>
-        <div>
-            <h2><a href="<?php echo U('Apply/lists?p=1');?>"><i class="icon-font">&#xe050;</i>申请列表</a></h2>
         </div>
-
-        <h1><i class="icon-font">&#xe051;</i>荣誉管理</h1>
-        <div>
-            <h2><a href="<?php echo U('Honor/lists?p=1');?>"><i class="icon-font">&#xe050;</i>荣誉列表</a></h2>
-            <h2><a href="<?php echo U('Honor/add');?>"><i class="icon-font">&#xe026;</i>新增荣誉</a></h2>
-        </div>
-
-        <h1><i class="icon-font">&#xe003;</i>职位管理</h1>
-        <div>
-            <h2><a href="<?php echo U('Job/lists?p=1');?>"><i class="icon-font">&#xe050;</i>职位列表</a></h2>
-            <h2><a href="<?php echo U('Job/add');?>"><i class="icon-font">&#xe026;</i>新增职位</a></h2>
-        </div>
-
-        <h1><i class="icon-font">&#xe014;</i>咨询管理</h1>
-        <div>
-            <h2><a href="<?php echo U('Advice/lists?p=1');?>"><i class="icon-font">&#xe050;</i>咨询列表</a></h2>
-        </div> -->
     </aside>
 
     
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">新闻列表</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">今日菜品列表</span></div>
         </div>
         <div class="result-wrap">
-            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/New/delete">
+            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/Food/delete">
                 <div class="result-title">
                     <div class="result-list">
-                        <a href="/restaurant/restaurant/index.php/Admin/New/add"><i class="icon-font"></i>新增新闻</a>
-                        <!-- <input type="text" placeholder="请输入关键字..."/>
-                        <a href="/restaurant/restaurant/index.php/Admin/New/search"><input type="button" value="搜索" /></a> -->
+                        <a href="/restaurant/restaurant/index.php/Admin/Food/add"><i class="icon-font"></i>新增菜品</a>
                         
                     </div>
                 </div>
@@ -109,28 +90,32 @@
                     <table class="result-tab" width="100%">
                         <tr>
                             <th class="tc" width="6%"><input class="allChoose" name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'></th>
-                            <th width="15%">新闻配图</th>
-                            <th width="15%">新闻类型</th>
-                            <th width="20%">新闻标题</th>
-                            <th width="20%">新闻内容</th>
-                            <th width="15%">添加时间</th>
+                            <th width="12%">菜品配图</th>
+                            <th width="12%">菜品类型</th>
+                            <th width="12%">菜品名称</th>
+                            <th width="12%">菜品价格</th>
+                            <th width="12%">菜品配料</th>
+                            <th width="12%">菜品功能</th>
+                            <th width="12%">添加时间</th>
                             <th width="12%">操作</th>
                         </tr>
-                        <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
-                            <td><input type="checkbox" name="newsId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
+                        <?php if(is_array($food)): $i = 0; $__LIST__ = $food;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
+                            <td><input type="checkbox" name="foodId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
                             <td><img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="60px" height="60px"></td>
                             <td><?php echo ($data["type"]); ?></td>
-                            <td><?php echo (msubstr($data["title"],0,8,'utf-8',ture)); ?></td>
-                            <td><?php echo (msubstr($data["content"],0,8,'utf-8',ture)); ?></td>
+                            <td><?php echo (msubstr($data["name"],0,8,'utf-8',ture)); ?></td>
+                            <td><?php echo ($data["price"]); ?></td>
+                            <td><?php echo (msubstr($data["batch"],0,8,'utf-8',ture)); ?></td>
+                            <td><?php echo (msubstr($data["function"],0,8,'utf-8',ture)); ?></td>
                             <td><?php echo ($data["time"]); ?></td>
                             <td>
-                                <a class="link-update" href="/restaurant/restaurant/index.php/Admin/New/edit/id/<?php echo ($data["id"]); ?>">修改</a>
-                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/New/delete/newsId/<?php echo ($data["id"]); ?>">删除</a>
+                                <a class="link-update" href="/restaurant/restaurant/index.php/Admin/Food/edit/id/<?php echo ($data["id"]); ?>">修改</a>
+                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Food/delete/foodId/<?php echo ($data["id"]); ?>">删除</a>
                             </td>
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     </table>
                     <div id="alldelete">
-                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/New/delete">批量删除</button> 
+                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/Food/delete">批量删除</button> 
                     </div>
                     <div class="list-page"><?php echo ($page); ?></div>
                 </div>

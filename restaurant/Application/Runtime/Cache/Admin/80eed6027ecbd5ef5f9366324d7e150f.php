@@ -124,7 +124,7 @@
                             <tr>
                                 <th><i class="require-red">*</i>类型：</th>
                                 <td>
-                                    <select  class="common-text required" value="" style="width:200px">
+                                    <select  class="common-text required" value="" style="width:200px" name="type">
                                         <?php if(is_array($newstypes)): $i = 0; $__LIST__ = $newstypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i; if($news[type] == $data[type]): ?><option value="" selected="selected"><?php echo ($data["type"]); ?></option>
                                             <?php else: ?>
                                                <option value="<?php echo ($data["type"]); ?>"><?php echo ($data["type"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>

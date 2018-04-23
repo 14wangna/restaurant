@@ -33,7 +33,7 @@
                             <tr>
                                 <th><i class="require-red">*</i>类型：</th>
                                 <td>
-                                    <select  class="common-text required" value="" style="width:200px">
+                                    <select  class="common-text required" value="" style="width:200px" name="type">
                                         <volist name="newstypes" id="data">
                                             <if condition="$news[type] eq $data[type]">
                                                 <option value="" selected="selected">{$data.type}</option>
