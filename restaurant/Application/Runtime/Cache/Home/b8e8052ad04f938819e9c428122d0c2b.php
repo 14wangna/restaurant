@@ -34,7 +34,7 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-			<?php if(isLogin()): ?><a style="color:#fff"><?php echo (session('number')); ?></a>
+			<?php if(isLogin()): ?><a style="color:#fff">欢迎：<?php echo (session('number')); ?></a>
 				<a href="<?php echo U('Index/loginout');?>">退出</a>
 			<?php else: ?>
 			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
@@ -82,30 +82,33 @@
  						<h4 style="color:red;">￥<?php echo ($food["price"]); ?></h4>
  						<p>“<?php echo ($food["function"]); ?>”</p>
  						<p>主要食材：<?php echo ($food["batch"]); ?></p>
+ 						
  					</div>
  					<div class="clear"></div>
  				</div>
+ 				
  				<h3>菜品评价</h3>
  				<div class="content_evaluate">
- 					<?php if(is_array($evaluate)): $i = 0; $__LIST__ = $evaluate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="evaluate_whole">
-	 					<div class="evaluate_left">
-	 						<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="" height="">
-	 						<p><?php echo ($data["username"]); ?></p>
-	 					</div>
-	 					<div class="evaluate_right">
-	 						<p><?php echo ($data["content"]); ?></p>
-	 						<p><?php echo ($data["time"]); ?></p>
-	 					</div>
-	 					<div class="clear"></div>
- 					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+ 					<?php if(is_array($ass)): $i = 0; $__LIST__ = $ass;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="evaluate_whole">
+		 					<div class="evaluate_left">
+		 						<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="" height="">
+		 						<p><?php echo ($data["username"]); ?></p>
+		 					</div>
+		 					<div class="evaluate_right">
+		 						<p><?php echo ($data["content"]); ?></p>
+		 						<p><?php echo ($data["time"]); ?></p>
+		 					</div>
+		 					<div class="clear"></div>
+	 					</div><?php endforeach; endif; else: echo "" ;endif; ?>
  				</div>
 				<div class="content-rec">
 					<h3>热门饮品推荐</h3>
 					<ul class="drink">
 						<?php if(is_array($drink)): $i = 0; $__LIST__ = $drink;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
 							<div class="img"><img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" style="width:83.48px;height:83.48px;"></div>
-							<p><?php echo ($data["title"]); ?></p>
-							<p style="color:red;">￥<?php echo ($data["price"]); ?></p>
+							<p><?php echo ($data["name"]); ?></p>
+							<p>￥<?php echo ($data["price"]); ?></p>
+							
 						</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
 				</div>
@@ -134,8 +137,80 @@
 		</div>
 		<!--导航 结束-->
 	</div>
+	<div class="change-branch" id="branch">
+			<div class="branch-content" >
+				<div class="branch-header">
+					<div class="header-left">
+						<p>菜品评价</p>
+					</div>
+					<div class="header-right"><a href="javascript: void (0);" onclick="closeBranch()">×</a></div>
+					<div class="clear"></div>
+				</div>
+				<div class="branch-center">
+					<div class="row">
+						
+					</div>
+					<div class="row">
+						<label class="field-name">评价：</label>
+						<textarea type="textarea" id="content" style="height:150px;width:220px"></textarea>
+					</div>
+				</div>
+				<div class="branch-bottom">
+					<button class="button button-ok button-disabled" id="<?php echo ($food["id"]); ?>" onclick="esti(this)">确认</button>
+				</div>
+			</div>
+		</div>
 	<!-- 页脚 -->
-	
+	<script type="text/javascript">
+		order = function(res){
+			var id = res.id;
+			$.ajax({
+                type:"POST",
+                url:"/restaurant/restaurant/index.php/Home/Menu/add",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                	if(res == 1){
+                		window.location.href="<?php echo U('Home/Order/order');?>";
+                	}
+                }
+            });
+   		}
+   		food = function(res){
+   			var id = res.id;
+   			$.ajax({
+                type:"POST",
+                url:"/restaurant/restaurant/index.php/Home/Menu/doAdd",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                	if(res == 1){
+                		window.location.href="<?php echo U('Home/Order/order');?>";
+                	}
+                }
+            });
+   		}
+   		assess = function(res){
+   			var id = res.id;
+   			$(".change-branch").css("display","block")
+
+   			
+   		}
+   		esti = function(res){
+   			var id = res.id;
+   			var content = $("#content").val();	
+   			$.ajax({
+                type:"POST",
+                url:"/restaurant/restaurant/index.php/Home/Menu/assAdd",
+                data:{id:id,content:content},
+                dataType: "json",
+                success:function(res){
+                	console.log(res)
+                	  location.reload() 
+                }
+            });
+   		}
+	</script>
 		<div class="footers">
 		<div class="footer">
 			<div class="footer-left">

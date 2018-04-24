@@ -15,42 +15,9 @@
 						<input id="order{$data.id}" type="text" name="" value="{$data.sum}">
 						<button type="button" value="＋" id="{$data.id}" onclick="reduce(this)">－</button>
 					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
+					<a href="__MODULE__/Order/delete/orderId/{$data.id}" class="color">取消订单</a>
 				</li>
 			</volist>
-				<!-- <li>
-					<img src="__PUBLIC__/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
-					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
-					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li>
-				<li>
-					<img src="__PUBLIC__/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
-					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
-					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li>
-				<li>
-					<img src="__PUBLIC__/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
-					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
-					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li> -->
 			</ul>
 		</div>
 	</div>

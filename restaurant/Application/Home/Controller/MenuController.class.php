@@ -10,6 +10,30 @@ class MenuController extends Controller {
         }
     }
     public function menu(){
+        $TodayfoodModel=M('food');
+        $conditiona['type']='早餐';
+        $data=$TodayfoodModel->where($conditiona)->select();
+        $this->assign('breakfastfood',$data);
+
+        $conditionb['type']='午餐';
+        $data=$TodayfoodModel->where($conditionb)->select();
+        $this->assign('lunchfood',$data);
+
+        $conditionc['type']='晚餐';
+        $data=$TodayfoodModel->where($conditionc)->select();
+        $this->assign('dinnerfood',$data);
+
+        $conditiond['type']='下午茶';
+        $data=$TodayfoodModel->where($conditiond)->select();
+        $this->assign('tea',$data);
+
+        $conditione['type']='甜品饮品';
+        $data=$TodayfoodModel->where($conditione)->select();
+        $this->assign('drink',$data);
+
+         $conditionf['type']='小吃夜宵';
+        $data=$TodayfoodModel->where($conditionf)->select();
+        $this->assign('snack',$data);
 
     	$this->display();
     }

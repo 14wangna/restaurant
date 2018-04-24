@@ -11,10 +11,26 @@ class OrderController extends Controller {
     }
     public function order(){
     	
-     	$orderModel=M('order');
-     	$data=$orderModel->select();
-     	$this->assign('order',$data);
+        $number=$_SESSION['number'];
+        $userModel=M('order');
+        $condition['number']=$number;
+        $data=$userModel->where($condition)->select();
+        // print_r($data);
+         $this->assign('order',$data);
+
      	
     	$this->display();
     }
+
+    public function delete() {
+            //全部删除
+            $id = $_GET['orderId'];
+            $newsModel = D("order");
+            if($newsModel->where("id=$id")->delete()){
+                $this->redirect('Order/order',0);
+            }
+            else{
+                 $this->error($newsModel->geterror());
+            }     
+        }
 }

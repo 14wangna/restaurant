@@ -34,7 +34,7 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-			<?php if(isLogin()): ?><a style="color:#fff"><?php echo (session('number')); ?></a>
+			<?php if(isLogin()): ?><a style="color:#fff">欢迎：<?php echo (session('number')); ?></a>
 				<a href="<?php echo U('Index/loginout');?>">退出</a>
 			<?php else: ?>
 			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
@@ -79,7 +79,7 @@
 		<div class="page-theme-banner">
 			<div class="page-theme-banner-left">
 				<ul>
-					<li><a href="javascript: void (0);" class="la">早餐</a>
+					<li><a href="/restaurant/restaurant/index.php/Home/menu/menu" class="la">早餐</a>
 						<ul>
 						<?php if(is_array($fooda)): $i = 0; $__LIST__ = array_slice($fooda,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>	
 							<li><a href="javascript:void(0)">
@@ -88,7 +88,7 @@
 							<div class="clear"></div>
 						</ul>
 					</li>
-					<li><a href="javascript: void (0);" class="la">午餐</a>
+					<li><a href="/restaurant/restaurant/index.php/Home/menu/menu" class="la">午餐</a>
 						<ul>
 						<?php if(is_array($foodb)): $i = 0; $__LIST__ = array_slice($foodb,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							<li><a href="javascript:void(0)">
@@ -97,7 +97,7 @@
 							<div class="clear"></div>
 						</ul>
 					</li>
-					<li><a href="javascript: void (0);" class="la">下午茶</a>
+					<li><a href="/restaurant/restaurant/index.php/Home/menu/menu" class="la">下午茶</a>
 						<ul>
 						<?php if(is_array($foodc)): $i = 0; $__LIST__ = array_slice($foodc,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							<li><a href="javascript:void(0)">
@@ -106,7 +106,7 @@
 							<div class="clear"></div>
 						</ul>
 					</li>
-					<li><a href="javascript: void (0);" class="la">晚餐</a>
+					<li><a href="/restaurant/restaurant/index.php/Home/menu/menu" class="la">晚餐</a>
 						<ul>
 						<?php if(is_array($foodd)): $i = 0; $__LIST__ = array_slice($foodd,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							<li><a href="javascript:void(0)">
@@ -115,7 +115,7 @@
 							<div class="clear"></div>
 						</ul>
 					</li>
-					<li><a href="javascript: void (0);" class="la">甜品饮品</a>
+					<li><a href="/restaurant/restaurant/index.php/Home/menu/menu" class="la">甜品饮品</a>
 						<ul>
 						<?php if(is_array($foode)): $i = 0; $__LIST__ = array_slice($foode,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							<li><a href="javascript:void(0)">
@@ -124,7 +124,7 @@
 							<div class="clear"></div>
 						</ul>
 					</li>
-					<li><a href="javascript: void (0);" class="la">小吃夜宵</a>
+					<li><a href="/restaurant/restaurant/index.php/Home/menu/menu" class="la">小吃夜宵</a>
 						<ul>
 						<?php if(is_array($foodf)): $i = 0; $__LIST__ = array_slice($foodf,0,3,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>"><?php echo ($data["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 							<li><a href="javascript:void(0)">

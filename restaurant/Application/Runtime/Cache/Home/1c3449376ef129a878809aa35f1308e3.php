@@ -75,44 +75,105 @@
  			<div class="menu-left">
  				<div class="content-top">
  					<div class="top-img">
- 						<img src="/restaurant/restaurant/Public/<?php echo ($food["thumb"]); ?>" width="100%" height="100%">
+ 						<img src="/restaurant/restaurant/Public/home/images/lunch/1.jpg" width="100%" height="100%">
  					</div>
  					<div class="top-intr">
- 						<h3><?php echo ($food["name"]); ?></h3>
- 						<h4 style="color:red;">￥<?php echo ($food["price"]); ?></h4>
- 						<p>“<?php echo ($food["function"]); ?>”</p>
- 						<p>主要食材：<?php echo ($food["batch"]); ?></p>
- 						<div class="assess">
- 							<button id="<?php echo ($food["id"]); ?>" onclick="food(this)">订购</button>
- 							<button id="<?php echo ($food["id"]); ?>" onclick="assess(this)" style="margin-left:15px;">评价</button>
- 						</div>
+ 						<h3><?php echo ($food["title"]); ?></h3>
+ 						<h4>￥25</h4>
+ 						<p>“过年不可少的菜哦哦”</p>
+ 						<p>主要食材：可乐，鸡翅，姜，料酒</p>
  					</div>
  					<div class="clear"></div>
  				</div>
- 				
  				<h3>菜品评价</h3>
  				<div class="content_evaluate">
- 					<?php if(is_array($ass)): $i = 0; $__LIST__ = $ass;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="evaluate_whole">
-		 					<div class="evaluate_left">
-		 						<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="" height="">
-		 						<p><?php echo ($data["username"]); ?></p>
-		 					</div>
-		 					<div class="evaluate_right">
-		 						<p><?php echo ($data["content"]); ?></p>
-		 						<p><?php echo ($data["time"]); ?></p>
-		 					</div>
-		 					<div class="clear"></div>
-	 					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+ 					<div class="evaluate_whole">
+	 					<div class="evaluate_left">
+	 						<img src="/restaurant/restaurant/Public/home/images/touxiang.png" width="" height="">
+	 						<p>王小二</p>
+	 					</div>
+	 					<div class="evaluate_right">
+	 						<p>菜很好吃，价格很便宜，很赞。</p>
+	 						<p>2018-04-12</p>
+	 					</div>
+	 					<div class="clear"></div>
+ 					</div>
+ 					<div class="evaluate_whole">
+	 					<div class="evaluate_left">
+	 						<img src="/restaurant/restaurant/Public/home/images/touxiang.png" width="" height="">
+	 						<p>王小二</p>
+	 					</div>
+	 					<div class="evaluate_right">
+	 						<p>菜很好吃，价格很便宜，很赞。</p>
+	 						<p>2018-04-12</p>
+	 					</div>
+	 					<div class="clear"></div>
+ 					</div>
+ 					<div class="evaluate_whole">
+	 					<div class="evaluate_left">
+	 						<img src="/restaurant/restaurant/Public/home/images/touxiang.png" width="" height="">
+	 						<p>王小二</p>
+	 					</div>
+	 					<div class="evaluate_right">
+	 						<p>菜很好吃，价格很便宜，很赞。</p>
+	 						<p>2018-04-12</p>
+	 					</div>
+	 					<div class="clear"></div>
+ 					</div>
  				</div>
 				<div class="content-rec">
 					<h3>热门饮品推荐</h3>
 					<ul class="drink">
-						<?php if(is_array($drink)): $i = 0; $__LIST__ = $drink;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-							<div class="img"><img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" style="width:83.48px;height:83.48px;"></div>
-							<p><?php echo ($data["name"]); ?></p>
-							<p>￥<?php echo ($data["price"]); ?></p>
-							<button id="<?php echo ($data["id"]); ?>" onclick="order(this)">订购</button>
-						</li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<li>
+							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
+							<p>柠檬水</p>
+							<p>￥10</p>
+							<button>订购</button>
+						</li>
+						<li>
+							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
+							<p>柠檬水</p>
+							<p>￥10</p>
+							<button>订购</button>
+						</li>
+						<li>
+							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
+							<p>柠檬水</p>
+							<p>￥10</p>
+							<button>订购</button>
+						</li>
+						<li>
+							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
+							<p>柠檬水</p>
+							<p>￥10</p>
+							<button>订购</button>
+						</li>
+					</ul>
+					<ul class="drink">
+						<li>
+							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
+							<p>柠檬水</p>
+							<p>￥10</p>
+							<button>订购</button>
+						</li>
+						<li>
+							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
+							<p>柠檬水</p>
+							<p>￥10</p>
+							<button>订购</button>
+						</li>
+						<li>
+							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
+							<p>柠檬水</p>
+							<p>￥10</p>
+							<button>订购</button>
+						</li>
+						<li>
+							<div class="img"><img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%"></div>
+							<p>柠檬水</p>
+							<p>￥10</p>
+							<button>订购</button>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -122,16 +183,26 @@
 						<p>健康饮食</p>
 					</div>
 					<ul class="news-list">
-						<?php if(is_array($newsa)): $i = 0; $__LIST__ = $newsa;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/News/content/id/<?php echo ($data["id"]); ?>"><?php echo ($data["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
 						<div class="clear"></div>
 					</ul>
 				</div>
 				<div class="menu-news">
 					<div class="news-title">
-						<p>饮食咨询</p>
+						<p>健康饮食</p>
 					</div>
 					<ul class="news-list">
-						<?php if(is_array($newsb)): $i = 0; $__LIST__ = $newsb;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/News/content/id/<?php echo ($data["id"]); ?>"><?php echo ($data["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
+						<li><a href="javascript:void(0)">日常健脑补脑的15种食物</a></li>
 						<div class="clear"></div>
 					</ul>
 				</div>
@@ -140,80 +211,8 @@
 		</div>
 		<!--导航 结束-->
 	</div>
-	<div class="change-branch" id="branch">
-			<div class="branch-content" >
-				<div class="branch-header">
-					<div class="header-left">
-						<p>菜品评价</p>
-					</div>
-					<div class="header-right"><a href="javascript: void (0);" onclick="closeBranch()">×</a></div>
-					<div class="clear"></div>
-				</div>
-				<div class="branch-center">
-					<div class="row">
-						
-					</div>
-					<div class="row">
-						<label class="field-name">评价：</label>
-						<textarea type="textarea" id="content" style="height:150px;width:220px"></textarea>
-					</div>
-				</div>
-				<div class="branch-bottom">
-					<button class="button button-ok button-disabled" id="<?php echo ($food["id"]); ?>" onclick="esti(this)">确认</button>
-				</div>
-			</div>
-		</div>
 	<!-- 页脚 -->
-	<script type="text/javascript">
-		order = function(res){
-			var id = res.id;
-			$.ajax({
-                type:"POST",
-                url:"/restaurant/restaurant/index.php/Home/Menu/add",
-                data:{id:id},
-                dataType: "json",
-                success:function(res){
-                	if(res == 1){
-                		window.location.href="<?php echo U('Home/Order/order');?>";
-                	}
-                }
-            });
-   		}
-   		food = function(res){
-   			var id = res.id;
-   			$.ajax({
-                type:"POST",
-                url:"/restaurant/restaurant/index.php/Home/Menu/doAdd",
-                data:{id:id},
-                dataType: "json",
-                success:function(res){
-                	if(res == 1){
-                		window.location.href="<?php echo U('Home/Order/order');?>";
-                	}
-                }
-            });
-   		}
-   		assess = function(res){
-   			var id = res.id;
-   			$(".change-branch").css("display","block")
-
-   			
-   		}
-   		esti = function(res){
-   			var id = res.id;
-   			var content = $("#content").val();	
-   			$.ajax({
-                type:"POST",
-                url:"/restaurant/restaurant/index.php/Home/Menu/assAdd",
-                data:{id:id,content:content},
-                dataType: "json",
-                success:function(res){
-                	console.log(res)
-                	  location.reload() 
-                }
-            });
-   		}
-	</script>
+	
 		<div class="footers">
 		<div class="footer">
 			<div class="footer-left">

@@ -34,7 +34,7 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-			<?php if(isLogin()): ?><a style="color:#fff"><?php echo (session('number')); ?></a>
+			<?php if(isLogin()): ?><a style="color:#fff">欢迎：<?php echo (session('number')); ?></a>
 				<a href="<?php echo U('Index/loginout');?>">退出</a>
 			<?php else: ?>
 			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
@@ -86,41 +86,8 @@
 						<input id="order<?php echo ($data["id"]); ?>" type="text" name="" value="<?php echo ($data["sum"]); ?>">
 						<button type="button" value="＋" id="<?php echo ($data["id"]); ?>" onclick="reduce(this)">－</button>
 					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
+					<a href="/restaurant/restaurant/index.php/Home/Order/delete/orderId/<?php echo ($data["id"]); ?>" class="color">取消订单</a>
 				</li><?php endforeach; endif; else: echo "" ;endif; ?>
-				<!-- <li>
-					<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
-					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
-					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li>
-				<li>
-					<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
-					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
-					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li>
-				<li>
-					<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="150px" height="150px">
-					<p>鱼香肉丝</p>
-					<p class="color">￥25</p>
-					<div class="menu-number">
-						<button type="button" value="＋">＋</button>
-						<input type="text" name="" value="3">
-						<button type="button" value="＋">－</button>
-					</div>
-					<a href="javascript: void (0);" class="color">取消订单</a>
-				</li> -->
 			</ul>
 		</div>
 	</div>

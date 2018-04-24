@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>北京上华软件</title>
+    <title>职工订餐系统</title>
     <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/main.css"/>
     <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
@@ -20,9 +20,10 @@
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
-                <li><a href="<?php echo U('Index/index');?>" class="top-a">后台首页</a></li>
-                <li><a href="<?php echo U('Home/Index/index');?>" class="top-a">前台首页</a></li>
-                <li><a href="<?php echo U('Index/loginout');?>" class="top-a">退出</a></li>
+                <?php if(isLogin()): ?><a style="color:#fff">欢迎：<?php echo (session('username')); ?></a>
+                <a href="<?php echo U('Index/loginout');?>">退出</a>
+                <?php else: ?>
+                <a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
             </ul>
         </div>
     </div>
@@ -103,9 +104,6 @@
             </div>
         </div>
         <div class="result-wrap">
-            <!-- <div class="result-title">
-                <h1>简介</h1>
-            </div> -->
             <div class="result-content1">
                 <h6>项目背景</h6>
                 <p>很多公司都有自己的职工餐厅，职工餐厅是员工的福利。但是职工餐厅不像外面的餐馆针对所有人开放，职工餐厅的服务群体是本公司的员工。面对特定的群体就有可以灵活把控的范围，譬如菜单的内容，餐量的多少。这些因素可以使员工餐做的更人性化，更便捷。也为团结公司力量做出一份贡献，使公司成为每个员工温暖的大家庭。其中的关键点就在于餐厅和员工有足够的交流和互动。</p>

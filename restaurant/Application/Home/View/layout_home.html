@@ -35,11 +35,11 @@
 		<div class="head-right">
 			<div class="xm-sign">
 			<if condition="isLogin()">
-				<a style="color:#fff">{$Think.session.number}</a>
+				<a style="color:#fff">欢迎：{$Think.session.number}</a>
 				<a href="{:U('Index/loginout')}">退出</a>
 			<else/>
 			<a href="{:U('Home/Login/login')}">登录</a>/<a href="{:U('Home/Login/login')}">注册</a>
-		</if>
+			</if>
 			</div>
 		
 		</div>

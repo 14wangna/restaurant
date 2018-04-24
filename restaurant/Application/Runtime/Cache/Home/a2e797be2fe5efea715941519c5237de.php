@@ -24,6 +24,7 @@
 			<ul class="xm-nav">
 				<li><img src="/restaurant/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
+				<li><a href="<?php echo U('Home/Tmenu/menu');?>">每日菜单</a></li>
 				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
 				<li><a href="<?php echo U('Home/Order/order');?>">订单查询</a></li>
 				<li><a href="<?php echo U('Home/Person/person');?>">个人中心</a></li>
@@ -33,8 +34,12 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-				<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a>
+			<?php if(isLogin()): ?><a style="color:#fff">欢迎：<?php echo (session('number')); ?></a>
+				<a href="<?php echo U('Index/loginout');?>">退出</a>
+			<?php else: ?>
+			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
 			</div>
+		
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -50,17 +55,18 @@
 				</li>
 				<li class="nav-theme-nav">
 					<a href="<?php echo U('Home/Index/index');?>">首页</a>
+					<a href="<?php echo U('Home/Tmenu/menu');?>">每日菜单</a>
 					<a href="<?php echo U('Home/News/news');?>">新闻中心</a>
 					<a href="<?php echo U('Home/Order/order');?>">订单查询</a>
 					<a href="<?php echo U('Home/Person/person');?>">个人中心</a>
 					<a href="<?php echo U('Home/About/about');?>">关于我们</a>
 				</li>
-				<li class="nav-theme-search">
+				<!-- <li class="nav-theme-search">
 					<div class="nav-theme-search-input">
 						<input type="text">
 						<a href="javascript: void (0);">搜索</a>
 					</div>
-				</li>
+				</li> -->
 				<div class="clear"></div>
 			</ul>
 		</div>

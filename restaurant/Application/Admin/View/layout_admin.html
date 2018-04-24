@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>北京上华软件</title>
+    <title>职工订餐系统</title>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/main.css"/>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/mycss.css"/>
@@ -20,9 +20,12 @@
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
-                <li><a href="{:U('Index/index')}" class="top-a">后台首页</a></li>
-                <li><a href="{:U('Home/Index/index')}" class="top-a">前台首页</a></li>
-                <li><a href="{:U('Index/loginout')}" class="top-a">退出</a></li>
+                <if condition="isLogin()">
+                <a style="color:#fff">欢迎：{$Think.session.username}</a>
+                <a href="{:U('Index/loginout')}">退出</a>
+                <else/>
+                <a href="{:U('Home/Login/login')}">登录</a>/<a href="{:U('Home/Login/login')}">注册</a>
+                </if>
             </ul>
         </div>
     </div>

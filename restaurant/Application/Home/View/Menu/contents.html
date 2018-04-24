@@ -10,23 +10,25 @@
  						<h4 style="color:red;">￥{$food.price}</h4>
  						<p>“{$food.function}”</p>
  						<p>主要食材：{$food.batch}</p>
+ 						
  					</div>
  					<div class="clear"></div>
  				</div>
+ 				
  				<h3>菜品评价</h3>
  				<div class="content_evaluate">
- 					<volist name="evaluate" id="data">
- 					<div class="evaluate_whole">
-	 					<div class="evaluate_left">
-	 						<img src="__PUBLIC__/{$data.thumb}" width="" height="">
-	 						<p>{$data.username}</p>
+ 					<volist name="ass" id="data">
+	 					<div class="evaluate_whole">
+		 					<div class="evaluate_left">
+		 						<img src="__PUBLIC__/{$data.thumb}" width="" height="">
+		 						<p>{$data.username}</p>
+		 					</div>
+		 					<div class="evaluate_right">
+		 						<p>{$data.content}</p>
+		 						<p>{$data.time}</p>
+		 					</div>
+		 					<div class="clear"></div>
 	 					</div>
-	 					<div class="evaluate_right">
-	 						<p>{$data.content}</p>
-	 						<p>{$data.time}</p>
-	 					</div>
-	 					<div class="clear"></div>
- 					</div>
  					</volist>
  				</div>
 				<div class="content-rec">
@@ -35,8 +37,9 @@
 						<volist name="drink" id="data">
 						<li>
 							<div class="img"><img src="__PUBLIC__/{$data.thumb}" style="width:83.48px;height:83.48px;"></div>
-							<p>{$data.title}</p>
-							<p style="color:red;">￥{$data.price}</p>
+							<p>{$data.name}</p>
+							<p>￥{$data.price}</p>
+							
 						</li>
 						</volist>
 					</ul>
@@ -49,7 +52,7 @@
 					</div>
 					<ul class="news-list">
 						<volist name="newsa" id="data">
-						<li><a href="__MODULE__/News/content/id/{$data.id}">{$data.title}</a></li>
+							<li><a href="__MODULE__/News/content/id/{$data.id}">{$data.title}</a></li>
 						</volist>
 						<div class="clear"></div>
 					</ul>
@@ -60,7 +63,7 @@
 					</div>
 					<ul class="news-list">
 						<volist name="newsb" id="data">
-						<li><a href="__MODULE__/News/content/id/{$data.id}">{$data.title}</a></li>
+							<li><a href="__MODULE__/News/content/id/{$data.id}">{$data.title}</a></li>
 						</volist>
 						<div class="clear"></div>
 					</ul>
@@ -70,5 +73,77 @@
 		</div>
 		<!--导航 结束-->
 	</div>
+	<div class="change-branch" id="branch">
+			<div class="branch-content" >
+				<div class="branch-header">
+					<div class="header-left">
+						<p>菜品评价</p>
+					</div>
+					<div class="header-right"><a href="javascript: void (0);" onclick="closeBranch()">×</a></div>
+					<div class="clear"></div>
+				</div>
+				<div class="branch-center">
+					<div class="row">
+						
+					</div>
+					<div class="row">
+						<label class="field-name">评价：</label>
+						<textarea type="textarea" id="content" style="height:150px;width:220px"></textarea>
+					</div>
+				</div>
+				<div class="branch-bottom">
+					<button class="button button-ok button-disabled" id="{$food.id}" onclick="esti(this)">确认</button>
+				</div>
+			</div>
+		</div>
 	<!-- 页脚 -->
-	
+	<script type="text/javascript">
+		order = function(res){
+			var id = res.id;
+			$.ajax({
+                type:"POST",
+                url:"__MODULE__/Menu/add",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                	if(res == 1){
+                		window.location.href="{:U('Home/Order/order')}";
+                	}
+                }
+            });
+   		}
+   		food = function(res){
+   			var id = res.id;
+   			$.ajax({
+                type:"POST",
+                url:"__MODULE__/Menu/doAdd",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                	if(res == 1){
+                		window.location.href="{:U('Home/Order/order')}";
+                	}
+                }
+            });
+   		}
+   		assess = function(res){
+   			var id = res.id;
+   			$(".change-branch").css("display","block")
+
+   			
+   		}
+   		esti = function(res){
+   			var id = res.id;
+   			var content = $("#content").val();	
+   			$.ajax({
+                type:"POST",
+                url:"__MODULE__/Menu/assAdd",
+                data:{id:id,content:content},
+                dataType: "json",
+                success:function(res){
+                	console.log(res)
+                	  location.reload() 
+                }
+            });
+   		}
+	</script>

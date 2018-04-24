@@ -34,7 +34,7 @@
 		</div>
 		<div class="head-right">
 			<div class="xm-sign">
-			<?php if(isLogin()): ?><a style="color:#fff"><?php echo (session('number')); ?></a>
+			<?php if(isLogin()): ?><a style="color:#fff">欢迎：<?php echo (session('number')); ?></a>
 				<a href="<?php echo U('Index/loginout');?>">退出</a>
 			<?php else: ?>
 			<a href="<?php echo U('Home/Login/login');?>">登录</a>/<a href="<?php echo U('Home/Login/login');?>">注册</a><?php endif; ?>
@@ -87,105 +87,60 @@
 			</div>
 			<div class="page-menu-food" id="content">
 				<ul id="tab1">
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+				<?php if(is_array($breakfastfood)): $i = 0; $__LIST__ = $breakfastfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
-						<p>馅饼</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>豆浆</p>
-					</li>
+						<p><?php echo ($data["name"]); ?></p>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab2">
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/2.jpg" width="100%" height="100%">
+				<?php if(is_array($lunchfood)): $i = 0; $__LIST__ = $lunchfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
-						<p>馅饼</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>豆浆</p>
-					</li>
+						<p><?php echo ($data["name"]); ?></p>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab3">
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+				<?php if(is_array($dinnerfood)): $i = 0; $__LIST__ = $dinnerfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
-						<p>馅饼</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>豆浆</p>
-					</li>
+						<p><?php echo ($data["name"]); ?></p>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab4">
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+				<?php if(is_array($tea)): $i = 0; $__LIST__ = $tea;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
-						<p>馅饼</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>豆浆</p>
-					</li>
-					
+						<p><?php echo ($data["name"]); ?></p>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab5">
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+				<?php if(is_array($drink)): $i = 0; $__LIST__ = $drink;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
-						<p>馅饼</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>豆浆</p>
-					</li>
-					
+						<p><?php echo ($data["name"]); ?></p>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab6">
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
+				<?php if(is_array($snack)): $i = 0; $__LIST__ = $snack;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
-						<p>馅饼</p>
-					</li>
-					<li>
-						<a href="javascript:void(0)">
-							<img src="/restaurant/restaurant/Public/home/images/1.jpg" width="100%" height="100%">
-							
-						</a>
-						<p>豆浆</p>
-					</li>
-					
+						<p><?php echo ($data["name"]); ?></p>
+					</li><?php endforeach; endif; else: echo "" ;endif; ?>	
 					<div class="clear"></div>
 				</ul>
 			</div>

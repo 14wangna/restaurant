@@ -163,6 +163,10 @@ class AdminController extends Controller {
             // $this->error($usersModel->getError());
         }
     }
-   
+   public function loginout(){
+        session('number',null);
+        //$this->success('退出成功',U("Admin/login"));
+        $this->redirect('Login/login',0);
+    }
     
 }
