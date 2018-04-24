@@ -74,6 +74,8 @@ button,select{
 	font-size: 18px;
     color: #666;
     line-height: 40px;
+    background-color: #FFFAF0;
+    border: 0;
 }
 .change-branch{
     position: fixed;

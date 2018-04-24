@@ -22,21 +22,23 @@
 					<div class="item-name">
 						<p>头像</p>
 					</div>
+					<form action="__MODULE__/Person/revise" method="POST" id="myform" name="myform" enctype="multipart/form-data">
 					<div class="item-img">
 						<img src="__PUBLIC__/{$user.thumb}" id="imghead" width="48px" height="48px">
 					</div>
 					<div class="btn-upload">
-						<input id="previewImg" type="file" onchange="previewImage(this)" style="display: none">
-						<button class="btn-change" id="change" onclick="$('#previewImg').click()">修改</button>
+						
+						<input type="file" onchange="previewImage(this)"  name="thumb" id="thumb" style="display: none">
+						<button type="button" class="btn-change" id="change" onclick="$('#thumb').click()">修改</button>
 					</div>
 					<div class="clear"></div>
 				</div>
 				<div class="person-item" style="background-color:#FFFAF0">
 					<div class="item-name">
-						<p>姓名</p>
+						<p>真实姓名</p>
 					</div>
 					<div class="item-img">
-						<p class="value">{$user.username}</p>
+						<input type="text" class="value" value="{$user.truename}" name="truename" readonly>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -45,8 +47,20 @@
 						<p>工号</p>
 					</div>
 					<div class="item-img">
-						<p class="value">{$user.number}</p>
+						<input type="text" class="value" value="{$user.number}" name="number" readonly>
 					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="person-item" style="background-color:#FFFAF0">
+					<div class="item-name">
+						<p>用户名</p>
+					</div>
+					<div class="item-img">
+						<input type="text" class="value" value="{$user.username}" name="username">
+					</div>
+					<!-- <div class="btn-upload">
+						<button class="btn-change" onclick="branch()">修改</button>
+					</div> -->
 					<div class="clear"></div>
 				</div>
 				<div class="person-item" style="background-color:#FFFAF0">
@@ -54,11 +68,11 @@
 						<p>所属部门</p>
 					</div>
 					<div class="item-img">
-						<p class="value">{$user.branch}</p>
+						<input type="text" class="value" value="{$user.branch}" name="branch">
 					</div>
-					<div class="btn-upload">
+					<!-- <div class="btn-upload">
 						<button class="btn-change" onclick="branch()">修改</button>
-					</div>
+					</div> -->
 					<div class="clear"></div>
 				</div>
 				<div class="person-item" >
@@ -66,29 +80,34 @@
 						<p>职位</p>
 					</div>
 					<div class="item-img">
-						<p class="value">{$user.job}</p>
+						<input type="text" class="value" value="{$user.job}" name="job">
 					</div>
-					<div class="btn-upload">
+					<!-- <div class="btn-upload">
 						<button class="btn-change" onclick="job()">修改</button>
-					</div>
+					</div> -->
 					<div class="clear"></div>
+
 				</div>
+
 				<div class="person-item" style="background-color:#FFFAF0">
 					<div class="item-name">
 						<p>登录密码</p>
 					</div>
 					<div class="item-img">
-						<p>{$user.password}</p>
+						<!-- <input type="password" class="value" value="{$user.password}"> -->
 					</div>
-					<div class="btn-upload">
+					<!-- <div class="btn-upload">
 						<button class="btn-change" onclick="password()">修改</button>
-					</div>
+					</div> -->
 					<div class="clear"></div>
 				</div>
+				<button class="btn-change" type="submit">确认修改</button>
+			</form>
 			</div>
 			<div class="clear"></div>
+
 		</div>
-		<div class="change-branch" id="branch">
+		<!-- <div class="change-branch" id="branch">
 			<div class="branch-content" >
 				<div class="branch-header">
 					<div class="header-left">
@@ -166,6 +185,6 @@
 					<button class="button button-cancel" onclick="closePassword()">取消</button>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 	

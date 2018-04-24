@@ -40,8 +40,23 @@ function previewImage(file)
       div.innerHTML ='<img id=imghead>';
       var img = document.getElementById('imghead');
       var reader = new FileReader();
-      reader.onload = function(evt){img.src = evt.target.result;}
+      reader.onload = function(evt){
+      	img.src = evt.target.result;
+      }
       reader.readAsDataURL(file.files[0]);
+      console.log(file.files[0].name)
+      // $.ajax({
+      //           type:"POST",
+      //           url:"revise",
+      //           data:{id:fisle.files[0].name},
+      //           dataType: "json",
+      //           success:function(res){
+      //           	// if(res == 1){
+      //           	// 	window.location.href="{:U('Home/Order/order')}";
+      //           	// }
+      //           	console.log(res)
+      //           }
+      //       });
   }
 }
 
