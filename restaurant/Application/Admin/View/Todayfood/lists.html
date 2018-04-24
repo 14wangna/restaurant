@@ -5,13 +5,21 @@
             <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">今日菜品列表</span></div>
         </div>
         <div class="result-wrap">
-            <form name="myform" id="myform" action="__MODULE__/Food/delete">
+            <form name="myform" id="myform" action="__MODULE__/Todayfood/delete">
                 <div class="result-title">
                     <div class="result-list">
-                        <a href="__MODULE__/Food/add"><i class="icon-font"></i>新增菜品</a>
+                        <a href="__MODULE__/Todayfood/add"><i class="icon-font"></i>新增菜品</a>
                         
                     </div>
                 </div>
+                <div>
+                    <volist name="todayfood" id="data">
+                    <button type="submit" id="{$data.id}" class="btn btn-primary" onclick="choice(this)">{$data.name}</button> 
+                    </volist>
+                </div>
+
+
+
                 <div class="result-content">
                     <table class="result-tab" width="100%">
                         <tr>
@@ -25,7 +33,7 @@
                             <th width="12%">添加时间</th>
                             <th width="12%">操作</th>
                         </tr>
-                        <volist name="food" id="data">
+                        <volist name="aaa" id="data">
                         <tr>
                             <td><input type="checkbox" name="foodId[]" id="checkbox" value="{$data.id}"><label for="checkbox"></label></td>
                             <td><img src="__PUBLIC__/{$data.thumb}" width="60px" height="60px"></td>
@@ -36,17 +44,33 @@
                             <td>{$data.function|msubstr=0,8,'utf-8',ture}</td>
                             <td>{$data.time}</td>
                             <td>
-                                <a class="link-update" href="__MODULE__/Food/edit/id/{$data.id}">修改</a>
-                                <a class="link-del" href="__MODULE__/Food/delete/foodId/{$data.id}">删除</a>
+                                <a class="link-update" href="__MODULE__/Todayfood/edit/id/{$data.id}">修改</a>
+                                <a class="link-del" href="__MODULE__/Todayfood/delete/foodId/{$data.id}">删除</a>
                             </td>
                         </tr>
                         </volist>
                     </table>
                     <div id="alldelete">
-                        <button type="submit" id="batchDel" class="btn btn-danger " href="__MODULE__/Food/delete">批量删除</button> 
+                        <button type="submit" id="batchDel" class="btn btn-danger " href="__MODULE__/Todayfood/delete">批量删除</button> 
                     </div>
                     <div class="list-page">{$page}</div>
                 </div>
             </form>
         </div>
     </div>
+<script type="text/javascript">
+    choice = function(res){
+            var id = res.id;
+            $.ajax({
+                type:"POST",
+                url:"__MODULE__/Todayfood/edits",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                    if(res == 1){
+                        window.location.href="{:U('admin/Todayfood/lists?p=1')}";
+                    }
+                }
+            });
+        }
+</script>

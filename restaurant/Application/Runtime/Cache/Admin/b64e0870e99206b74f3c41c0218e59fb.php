@@ -78,54 +78,57 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">管理员管理</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Admin/lists">管理员管理</a><span class="crumb-step">&gt;</span><span>修改信息</span></div>
         </div>
         <div class="result-wrap">
-            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/Users/delete">
-                <div class="result-title">
-                    <div class="result-list">
-                        <a href="/restaurant/restaurant/index.php/Admin/Users/add"><i class="icon-font">&#xe026;</i>添加用户</a>
-                    </div>
-                </div>
-                <div class="result-content">
-                    <table class="result-tab" width="100%">
-                        <tr>
-                            <th class="tc" width="5%" ><input name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'            
-                            ></th>
-                            <th width="10%" >工号</th>
-                            <th width="10%" >用户</th>
-                            <th width="10%">真实姓名</th>
-                            <th width="7%" >性别</th>
-                            <th width="12%">手机号</th>
-                            <th width="10%" >所属部门</th>
-                            <th width="10%" >职位</th>
-                            <th width="10%">注册时间</th>
-                            <th width="9%">操作</th>
-                        </tr>
-                        <?php if(is_array($users)): $i = 0; $__LIST__ = $users;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
-                            <td><input type="checkbox" name="usersId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
-                            <td><?php echo ($data["number"]); ?></td>
-                            <td><?php echo ($data["username"]); ?></td>
-                            <td><?php echo ($data["truename"]); ?></td>
-                            <td><?php echo ($data["sex"]); ?></td>
-                            <td><?php echo ($data["phone"]); ?></td>
-                            <td><?php echo ($data["branch"]); ?></td>
-                            <td><?php echo ($data["job"]); ?></td>
-                            <td><?php echo ($data["time"]); ?></td>
-                            <td>
-                                <a class="link-update" href="/restaurant/restaurant/index.php/Admin/Users/edit/data/<?php echo ($data["id"]); ?>">修改</a>
-                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Users/delete/usersId/<?php echo ($data["id"]); ?>">删除</a>
-                            </td>
-                        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                    </table>
-                    <div id="alldelete">
-
-                    <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/Users/delete">批量删除</button> 
-                     </div>
-                    <div class="list-page">  <?php echo ($page); ?></div>
-                </div>
-            </form>
+            <div class="result-content">
+                <form action="/restaurant/restaurant/index.php/Admin/Admin/doEdit" method="post" role="form">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr><td>
+                                <input type="hidden" name="id" value="<?php echo ($users["id"]); ?>">
+                            </td></tr>
+                            <tr>
+                                <th>用户名：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style" size="50" value="<?php echo ($users["username"]); ?>" type="text" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>真实姓名：</th>
+                                <td>
+                                    <input class="common-text required" name="truename" size="50" value="<?php echo ($users["truename"]); ?>" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>手机号码：</th>
+                                <td>
+                                    <input class="common-text required" name="phonenum" size="50" value="<?php echo ($users["phonenum"]); ?>" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>电子邮箱：</th>
+                                <td>
+                                    <input class="common-text required" name="email" size="50" value="<?php echo ($users["email"]); ?>" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>添加时间：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style"size="50" type="text" value="<?php echo ($time); ?>" readonly>
+                                </td>
+                            </tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="保存" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
         </div>
+
     </div>
 
 

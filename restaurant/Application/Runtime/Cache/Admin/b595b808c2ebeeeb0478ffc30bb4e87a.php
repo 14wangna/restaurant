@@ -8,8 +8,9 @@
     <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
     <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/showdate.js"></script>
+    
     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
+     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">

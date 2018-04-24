@@ -19,6 +19,11 @@ class TodayfoodController extends Controller {
 	        $Page = new \Think\Page($count, $cut);
 	        $show = $Page->show();
 	        $this->assign("page", $show);
+
+	        $todayfoodModel = M('foodtype');
+			$data =$todayfoodModel ->select();
+			$this->assign('todayfood',$data);
+
 	    	$this->display();  
 	    }
 	    public function get_time(){
@@ -140,4 +145,23 @@ class TodayfoodController extends Controller {
 			exit;
 			
 	    }
+
+	     public function edits(){
+	        $id=I("post.id");
+	        $foodtypeModel = M('foodtype');
+	        $data =$foodtypeModel ->find($id);
+
+	        $foodModel=M('todayfood');
+	        $condition['type']=$data['name'];
+	        $datas=$foodModel->where($condition)->select();
+	        if(!$datas){
+           		$this->ajaxReturn("0",'JSON');
+	        }
+	        else{
+	            $this->ajaxReturn("1",'JSON');
+	        }
+	        
+    }
+
+
 }

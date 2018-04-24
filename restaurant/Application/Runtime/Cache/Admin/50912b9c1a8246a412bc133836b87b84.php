@@ -77,11 +77,11 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Food/lists">菜品管理</a><span class="crumb-step">&gt;</span><span>修改菜品</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Todayfood/lists">每日菜品管理</a><span class="crumb-step">&gt;</span><span>修改菜品</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
-                <form action="/restaurant/restaurant/index.php/Admin/Food/doEdit" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                <form action="/restaurant/restaurant/index.php/Admin/Todayfood/doEdit" method="post" id="myform" name="myform" enctype="multipart/form-data">
                     <table class="insert-tab" width="100%">
                         <tbody>
                              <tr><td>
