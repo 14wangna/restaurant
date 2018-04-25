@@ -20,31 +20,55 @@ class PersonController extends Controller {
     	  $this->display();
     }
 
-    public function revise(){
-        $upload = new \Think\Upload();// 实例化上传类
-            $upload->maxSize   =     3145728 ;// 设置附件上传大小
-            $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-            $upload->rootPath  =     THINK_PATH; // 设置附件上传根目录
-            $upload->savePath  =     '../Public/uploads/'; // 设置附件上传（子）目录
-            // 上传文件 
+    public function edit() {
+
+            $id=I('id'); 
+            $newModel = M('user');
+            $data =$newModel ->find($id);
+            $this->assign('user',$data);
+
+            $this->display();
+        }
+
+
+    public function doEdit(){
+            $upload = new \Think\Upload();
+            $upload->maxSize   =     3145728 ;
+            $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');
+            $upload->rootPath  =     THINK_PATH; 
+            $upload->savePath  =     '../Public/uploads/'; 
+             
             $info   =   $upload->upload();
-            if(!$info) {// 上传错误提示错误信息
+            if(!$info) {
                 $this->error($upload->getError());
-            }else{// 上传成功
-                //$this->success('上传成功！');
-               $userModel = M('user');
-                $data =$userModel ->create();
-                //$newsModel->add($data);
-                
-            $data['thumb']=$info['thumb']['savepath'].$info['thumb']['savename'];
-                if($userModel->save() !== false){
-                    //$this->success('数据修改成功','lists?p=1');
-                    $this->redirect('person',0);
-
             }else{
-                $this->error('数据修改失败');
-
+               $usersModel = M('user');
+                $data =$usersModel ->create();
+                $data['thumb']=$info['thumb']['savepath'].$info['thumb']['savename'];
+                //修改密码
+                $condition['password'] = I("post.password");
+                $result = $usersModel->where($condition)->count();
+                if($result>0){ 
+                    $this->error("旧密码不正确",U("edit"));
                 }
-            }
-}
+                $usersModel = D("user");
+                 $validate = array(
+                    array('repassword','password','两次输入密码不一致',0,'confirm'), // 仅仅需要进行验证码的验证
+                );
+                $usersModel-> setProperty("_validate",$validate);
+                $result = $usersModel->create();
+                if (!$result){
+                    $this->error($usersModel->getError(),U("person"));
+                }
+                if($usersModel->create() && $usersModel->save()) {
+                    $this->redirect('Person/person');
+                }
+                if($newsModel->save($data)){
+                    $this->redirect('Person/person');
+                }else{
+                    $this->error();
+
+                    }
+                }
+    }
 }

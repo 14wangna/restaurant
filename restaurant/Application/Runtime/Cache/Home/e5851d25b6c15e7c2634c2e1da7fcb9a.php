@@ -72,108 +72,86 @@
 			</ul>
 		</div>
 		
-		<!-- 导航 结束 -->
-		<div class="page-content">
-			<div class="page-left">
-				<div class="left-header">
-					<h4>个人中心</h4>
-				</div>
-				<div class="left-mes">
-					<div class="mes-img">
-						<img src="/restaurant/restaurant/Public/<?php echo ($user["thumb"]); ?>" width="100%" height="100%">
-					</div>
-					<div class="mes-name"><?php echo ($user["username"]); ?></div>
-				</div>
-				<div class="left-content"></div>	
-			</div>
-			<div class="page-person">
-				<div class="person-setting">
-					<p class="title">个人信息</p>
-					<p class="des">账号设置</p>
-				</div>
-				<div class="person-item">
-					<div class="item-name">
-						<p>头像</p>
-					</div>
-					<form action="/restaurant/restaurant/index.php/Home/Person/doEdit" method="POST" id="myform" name="myform" enctype="multipart/form-data">
-					<div class="item-img">
-						<img src="/restaurant/restaurant/Public/<?php echo ($user["thumb"]); ?>" id="imghead" width="48px" height="48px">
-					</div><!-- 
-					<div class="btn-upload">
-						
-						<input type="file" onchange="previewImage(this)"  name="thumb" id="thumb" style="display: none">
-						<button type="button" class="btn-change" id="change" onclick="$('#thumb').click()">修改</button>
-					</div> -->
-					<div class="clear"></div>
-				</div>
-				<div class="person-item" style="background-color:#FFFAF0">
-					<div class="item-name">
-						<p>真实姓名</p>
-					</div>
-					<div class="item-img">
-						<input type="text" class="value" value="<?php echo ($user["truename"]); ?>" name="truename" readonly>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="person-item" >
-					<div class="item-name">
-						<p>工号</p>
-					</div>
-					<div class="item-img">
-						<input type="text" class="value" value="<?php echo ($user["number"]); ?>" name="number" readonly>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="person-item" style="background-color:#FFFAF0">
-					<div class="item-name">
-						<p>用户名</p>
-					</div>
-					<div class="item-img">
-						<input type="text" class="value" value="<?php echo ($user["username"]); ?>" name="username">
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="person-item" style="background-color:#FFFAF0">
-					<div class="item-name">
-						<p>所属部门</p>
-					</div>
-					<div class="item-img">
-						<input type="text" class="value" value="<?php echo ($user["branch"]); ?>" name="branch">
-					</div>
-				
-					<div class="clear"></div>
-				</div>
-				<div class="person-item" >
-					<div class="item-name">
-						<p>职位</p>
-					</div>
-					<div class="item-img">
-						<input type="text" class="value" value="<?php echo ($user["job"]); ?>" name="job">
-					</div>
-					
-					<div class="clear"></div>
+<div class="main-wrap">
 
-				</div>
+        <!-- <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Home/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Home/New/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>修改新闻</span></div>
+        </div> -->
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/restaurant/restaurant/index.php/Home/Person/doEdit" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                             <tr><td>
+                                <input type="hidden" name="id" value="<?php echo ($user["id"]); ?>">
+                            </td></tr>
+                            <tr>
+                                <th>头像：</th>
+                                <td>
+                                <img src="/restaurant/restaurant/Public/<?php echo ($user["thumb"]); ?>" width="60px" height="60px">
+                                <input name="thumb" id="thumb" type="file"></td>
+                            </tr>
+                             <tr>
+                                <th><!-- <i class="require-red">*</i> -->真实姓名：</th>
+                                <td>
+                                    <input class="common-text required" id="truename" name="truename" size="50" value="<?php echo ($user["truename"]); ?>" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>工号：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style" size="50" name="number" value="<?php echo ($user["number"]); ?>" type="text" readonly>
+                                </td>
+                            </tr>
+                           <tr>
+                                <th>用户名：</th>
+                                <td>
+                                    <input class="common-text required" id="username" size="50" name="username" value="<?php echo ($user["username"]); ?>" type="text" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>所述部门：</th>
+                                <td>
+                                    <input class="common-text required" id="branch" size="50" name="branch" value="<?php echo ($user["branch"]); ?>" type="text" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>职位：</th>
+                                <td>
+                                    <input class="common-text required" id="job" size="50" name="job" value="<?php echo ($user["job"]); ?>" type="text" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>旧密码：</th>
+                                <td>
+                                    <input class="common-text required"  size="50" type="password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>新密码：</th>
+                                <td>
+                                    <input class="common-text required" name="password" size="50" type="password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>确认密码：</th>
+                                <td>
+                                     <input class="common-text required" name="repassword" size="50" type="password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
 
-				<div class="person-item" style="background-color:#FFFAF0">
-					<div class="item-name">
-						<p>登录密码</p>
-					</div>
-					<div class="item-img">
-						<input type="password" class="value" value="<?php echo ($user["password"]); ?>" name="password">
-					</div>
-					
-					<div class="clear"></div>
-				</div>
-				<!-- <button class="btn-change" type="submit">修改</button> -->
-				 <a class="link-update" href="/restaurant/restaurant/index.php/Home/Person/edit/id/<?php echo ($user["id"]); ?>">修改</a>
-			</form>
-			</div>
-			<div class="clear"></div>
-
-		</div>
-	</div>
-
+    </div>
 		<div class="footers">
 		<div class="footer">
 			<div class="footer-left">

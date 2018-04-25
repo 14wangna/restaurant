@@ -22,15 +22,15 @@
 					<div class="item-name">
 						<p>头像</p>
 					</div>
-					<form action="__MODULE__/Person/revise" method="POST" id="myform" name="myform" enctype="multipart/form-data">
+					<form action="__MODULE__/Person/doEdit" method="POST" id="myform" name="myform" enctype="multipart/form-data">
 					<div class="item-img">
 						<img src="__PUBLIC__/{$user.thumb}" id="imghead" width="48px" height="48px">
-					</div>
+					</div><!-- 
 					<div class="btn-upload">
 						
 						<input type="file" onchange="previewImage(this)"  name="thumb" id="thumb" style="display: none">
 						<button type="button" class="btn-change" id="change" onclick="$('#thumb').click()">修改</button>
-					</div>
+					</div> -->
 					<div class="clear"></div>
 				</div>
 				<div class="person-item" style="background-color:#FFFAF0">
@@ -58,9 +58,6 @@
 					<div class="item-img">
 						<input type="text" class="value" value="{$user.username}" name="username">
 					</div>
-					<!-- <div class="btn-upload">
-						<button class="btn-change" onclick="branch()">修改</button>
-					</div> -->
 					<div class="clear"></div>
 				</div>
 				<div class="person-item" style="background-color:#FFFAF0">
@@ -70,9 +67,7 @@
 					<div class="item-img">
 						<input type="text" class="value" value="{$user.branch}" name="branch">
 					</div>
-					<!-- <div class="btn-upload">
-						<button class="btn-change" onclick="branch()">修改</button>
-					</div> -->
+				
 					<div class="clear"></div>
 				</div>
 				<div class="person-item" >
@@ -82,9 +77,7 @@
 					<div class="item-img">
 						<input type="text" class="value" value="{$user.job}" name="job">
 					</div>
-					<!-- <div class="btn-upload">
-						<button class="btn-change" onclick="job()">修改</button>
-					</div> -->
+					
 					<div class="clear"></div>
 
 				</div>
@@ -94,97 +87,16 @@
 						<p>登录密码</p>
 					</div>
 					<div class="item-img">
-						<!-- <input type="password" class="value" value="{$user.password}"> -->
+						<input type="password" class="value" value="{$user.password}" name="password">
 					</div>
-					<!-- <div class="btn-upload">
-						<button class="btn-change" onclick="password()">修改</button>
-					</div> -->
+					
 					<div class="clear"></div>
 				</div>
-				<button class="btn-change" type="submit">确认修改</button>
+				<!-- <button class="btn-change" type="submit">修改</button> -->
+				 <a class="link-update" href="__MODULE__/Person/edit/id/{$user.id}">修改</a>
 			</form>
 			</div>
 			<div class="clear"></div>
 
 		</div>
-		<!-- <div class="change-branch" id="branch">
-			<div class="branch-content" >
-				<div class="branch-header">
-					<div class="header-left">
-						<p>修改所属部门</p>
-					</div>
-					<div class="header-right"><a href="javascript: void (0);" onclick="closeBranch()">×</a></div>
-					<div class="clear"></div>
-				</div>
-				<div class="branch-center">
-					<div class="row">
-						<label class="field-name">当前所在部门</label>
-						<span class="field-value">技术部</span>
-					</div>
-					<div class="row">
-						<label class="field-name">新部门</label>
-						<input type="text">
-					</div>
-				</div>
-				<div class="branch-bottom">
-					<button class="button button-ok button-disabled">确认修改</button>
-					<button class="button button-cancel" onclick="closeBranch()">取消</button>
-				</div>
-			</div>
-		</div>
-		<div class="change-job" id="job">
-			<div class="branch-content">
-				<div class="branch-header">
-					<div class="header-left">
-						<p>修改职位</p>
-					</div>
-					<div class="header-right"><a href="javascript: void (0);" onclick="closeJob()">×</a></div>
-					<div class="clear"></div>
-				</div>
-				<div class="branch-center">
-					<div class="row">
-						<label class="field-name">当前职位</label>
-						<span class="field-value">程序员</span>
-					</div>
-					<div class="row">
-						<label class="field-name">新职位</label>
-						<input type="text">
-					</div>
-				</div>
-				<div class="branch-bottom">
-					<button class="button button-ok button-disabled">确认修改</button>
-					<button class="button button-cancel" onclick="closeJob()">取消</button>
-				</div>
-			</div>
-		</div>
-		<div class="change-password" id="password">
-			<div class="branch-content">
-				<div class="branch-header">
-					<div class="header-left">
-						<p>修改密码</p>
-					</div>
-					<div class="header-right"><a href="javascript: void (0);" onclick="closePassword()">×</a></div>
-					<div class="clear"></div>
-				</div>
-				<div class="branch-center">
-					<div class="row">
-						<label class="field-name">当前密码</label>
-						<input type="text">
-					</div>
-					<div class="row">
-						<label class="field-name">新密码</label>
-						<input type="text">
-					</div>
-					<div class="row">
-						<label class="field-name">确认密码</label>
-						<input type="text">
-					</div>
-				</div>
-				<div class="branch-bottom">
-					<button class="button button-ok button-disabled">确认修改</button>
-					<button class="button button-cancel" onclick="closePassword()">取消</button>
-				</div>
-			</div>
-		</div> -->
 	</div>
-	
