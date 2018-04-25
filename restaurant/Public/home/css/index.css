@@ -195,11 +195,12 @@
 	float: left;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 	align-items: center;
 }
 .page-menu-food ul li{
 	width:23%;
+	margin-right:2%;
 	float: left;
 	cursor:pointer;
 } 

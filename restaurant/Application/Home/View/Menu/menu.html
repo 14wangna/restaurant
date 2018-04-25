@@ -15,15 +15,14 @@
 			</div>
 			<div class="page-menu-food" id="content">
 				<ul id="tab1">
-				<volist name="breakfastfood" id="data">
-					<li>
-						<a href="__MODULE__/menu/contents/id/{$data.id}">
-							<img src="__PUBLIC__/{$data.thumb}" width="100%" height="100%">
-						</a>
-						<p>{$data.name}</p>
-					</li>
-				</volist>
-					
+					<volist name="breakfastfood" id="data">
+						<li>
+							<a href="__MODULE__/menu/contents/id/{$data.id}">
+								<img src="__PUBLIC__/{$data.thumb}" width="100%" height="100%">
+							</a>
+							<p>{$data.name}</p>
+						</li>
+					</volist>			
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab2">
@@ -35,7 +34,6 @@
 						<p>{$data.name}</p>
 					</li>
 				</volist>
-					
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab3">
@@ -47,7 +45,6 @@
 						<p>{$data.name}</p>
 					</li>
 				</volist>
-					
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab4">

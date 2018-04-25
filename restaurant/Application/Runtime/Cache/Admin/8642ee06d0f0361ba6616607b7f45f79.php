@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>职工订餐系统</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
-    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" href="/restaurant1/restaurant/Public/admin/css/style.css">
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
     
-    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
-     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/quanxuan.js"></script>
+     <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
             <!-- <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1> -->
-            <img src="/restaurant/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
@@ -78,19 +78,19 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">今日菜品列表</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant1/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">今日菜品列表</span></div>
         </div>
         <div class="result-wrap">
-            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/Todayfood/delete">
+            <form name="myform" id="myform" action="/restaurant1/restaurant/index.php/Admin/Todayfood/delete">
                 <div class="result-title">
                     <div class="result-list">
-                        <a href="/restaurant/restaurant/index.php/Admin/Todayfood/add"><i class="icon-font"></i>新增菜品</a>
+                        <a href="/restaurant1/restaurant/index.php/Admin/Todayfood/add"><i class="icon-font"></i>新增菜品</a>
                         
                     </div>
                 </div>
-                <div>
+                <!-- <div>
                     <?php if(is_array($todayfood)): $i = 0; $__LIST__ = $todayfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><button type="submit" id="<?php echo ($data["id"]); ?>" class="btn btn-primary" onclick="choice(this)"><?php echo ($data["name"]); ?></button><?php endforeach; endif; else: echo "" ;endif; ?>
-                </div>
+                </div> -->
 
 
 
@@ -107,9 +107,9 @@
                             <th width="12%">添加时间</th>
                             <th width="12%">操作</th>
                         </tr>
-                        <?php if(is_array($aaa)): $i = 0; $__LIST__ = $aaa;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
+                        <?php if(is_array($food)): $i = 0; $__LIST__ = $food;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
                             <td><input type="checkbox" name="foodId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
-                            <td><img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="60px" height="60px"></td>
+                            <td><img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="60px" height="60px"></td>
                             <td><?php echo ($data["type"]); ?></td>
                             <td><?php echo (msubstr($data["name"],0,8,'utf-8',ture)); ?></td>
                             <td><?php echo ($data["price"]); ?></td>
@@ -117,13 +117,13 @@
                             <td><?php echo (msubstr($data["function"],0,8,'utf-8',ture)); ?></td>
                             <td><?php echo ($data["time"]); ?></td>
                             <td>
-                                <a class="link-update" href="/restaurant/restaurant/index.php/Admin/Todayfood/edit/id/<?php echo ($data["id"]); ?>">修改</a>
-                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Todayfood/delete/foodId/<?php echo ($data["id"]); ?>">删除</a>
+                                <a class="link-update" href="/restaurant1/restaurant/index.php/Admin/Todayfood/edit/id/<?php echo ($data["id"]); ?>">修改</a>
+                                <a class="link-del" href="/restaurant1/restaurant/index.php/Admin/Todayfood/delete/foodId/<?php echo ($data["id"]); ?>">删除</a>
                             </td>
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     </table>
                     <div id="alldelete">
-                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/Todayfood/delete">批量删除</button> 
+                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant1/restaurant/index.php/Admin/Todayfood/delete">批量删除</button> 
                     </div>
                     <div class="list-page"><?php echo ($page); ?></div>
                 </div>
@@ -133,22 +133,24 @@
 <script type="text/javascript">
     choice = function(res){
             var id = res.id;
+            console.log(id)
             $.ajax({
                 type:"POST",
-                url:"/restaurant/restaurant/index.php/Admin/Todayfood/edits",
+                url:"/restaurant1/restaurant/index.php/Admin/Todayfood/lists",
                 data:{id:id},
                 dataType: "json",
                 success:function(res){
-                    if(res == 1){
-                        window.location.href="<?php echo U('admin/Todayfood/lists?p=1');?>";
-                    }
+                    console.log(res)
+                    // if(res){
+                    //     window.location.href="<?php echo U('admin/Todayfood/lists?p=1');?>";
+                    // }
                 }
             });
         }
 </script>
 
 
-<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
-<script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
+<!-- <script src="/restaurant1/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script> -->
+<script src="/restaurant1/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>

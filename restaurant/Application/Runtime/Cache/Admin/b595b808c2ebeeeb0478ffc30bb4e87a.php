@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>职工订餐系统</title>
-    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
-    <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
-    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/admin/css/mycss.css"/>
+    <link rel="stylesheet" href="/restaurant1/restaurant/Public/admin/css/style.css">
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/modernizr.min.js"></script>
     
-    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
-     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/quanxuan.js"></script>
+     <script type="text/javascript" src="/restaurant1/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
 </head>
 <body>
 <div class="topbar-wrap white">
     <div class="topbar-inner clearfix">
         <div class="topbar-logo-wrap clearfix">
             <!-- <h1 class="topbar-logo none"><a href="#" class="navbar-brand">后台管理</a></h1> -->
-            <img src="/restaurant/restaurant/Public/admin/images/logo.jpg" height="45px;" >
+            <img src="/restaurant1/restaurant/Public/admin/images/logo.jpg" height="45px;" >
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
@@ -89,17 +89,17 @@
             <div class="result-content">
                 <div class="short-wrap">
                     <ul class="short-list">
-                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/010.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Users/lists?p=1');?>">管理员管理</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/011.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('New/lists?p=1');?>">用户管理</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/006.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Industry/lists?p=1');?>">新闻管理</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/010.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Users/lists?p=1');?>">管理员管理</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/011.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('New/lists?p=1');?>">用户管理</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/006.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Industry/lists?p=1');?>">新闻管理</a></div></li>
                     </ul>
                     <ul class="short-list">
-                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/008.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Product/lists?p=1');?>">每日菜单管理</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/001.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Case/lists?p=1');?>">菜品管理</a></div></li>
-                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/012.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Apply/lists?p=1');?>">评价管理</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/008.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Product/lists?p=1');?>">每日菜单管理</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/001.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Case/lists?p=1');?>">菜品管理</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/012.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Apply/lists?p=1');?>">评价管理</a></div></li>
                     </ul>
                     <ul class="short-list">
-                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/003.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Honor/lists?p=1');?>">留言簿</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant1/restaurant/Public/admin/images/003.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Honor/lists?p=1');?>">留言簿</a></div></li>
                     </ul>
                 </div>
             </div>
@@ -115,7 +115,7 @@
     </div>
 
 
-<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
-<script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
+<!-- <script src="/restaurant1/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script> -->
+<script src="/restaurant1/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>

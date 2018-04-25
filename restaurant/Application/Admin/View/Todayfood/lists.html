@@ -12,11 +12,11 @@
                         
                     </div>
                 </div>
-                <div>
+                <!-- <div>
                     <volist name="todayfood" id="data">
                     <button type="submit" id="{$data.id}" class="btn btn-primary" onclick="choice(this)">{$data.name}</button> 
                     </volist>
-                </div>
+                </div> -->
 
 
 
@@ -33,7 +33,7 @@
                             <th width="12%">添加时间</th>
                             <th width="12%">操作</th>
                         </tr>
-                        <volist name="aaa" id="data">
+                        <volist name="food" id="data">
                         <tr>
                             <td><input type="checkbox" name="foodId[]" id="checkbox" value="{$data.id}"><label for="checkbox"></label></td>
                             <td><img src="__PUBLIC__/{$data.thumb}" width="60px" height="60px"></td>
@@ -61,15 +61,17 @@
 <script type="text/javascript">
     choice = function(res){
             var id = res.id;
+            console.log(id)
             $.ajax({
                 type:"POST",
-                url:"__MODULE__/Todayfood/edits",
+                url:"__MODULE__/Todayfood/lists",
                 data:{id:id},
                 dataType: "json",
                 success:function(res){
-                    if(res == 1){
-                        window.location.href="{:U('admin/Todayfood/lists?p=1')}";
-                    }
+                    console.log(res)
+                    // if(res){
+                    //     window.location.href="{:U('admin/Todayfood/lists?p=1')}";
+                    // }
                 }
             });
         }

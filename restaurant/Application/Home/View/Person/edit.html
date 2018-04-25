@@ -1,81 +1,77 @@
 <layout name="layout_home" />
 <div class="main-wrap">
-
-        <!-- <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/New/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>修改新闻</span></div>
-        </div> -->
-        <div class="result-wrap">
-            <div class="result-content">
-                <form action="__MODULE__/Person/doEdit" method="post" id="myform" name="myform" enctype="multipart/form-data">
-                    <table class="insert-tab" width="100%">
-                        <tbody>
-                             <tr><td>
-                                <input type="hidden" name="id" value="{$user.id}">
-                            </td></tr>
-                            <tr>
-                                <th>头像：</th>
-                                <td>
-                                <img src="__PUBLIC__/{$user.thumb}" width="60px" height="60px">
-                                <input name="thumb" id="thumb" type="file"></td>
-                            </tr>
-                             <tr>
-                                <th><!-- <i class="require-red">*</i> -->真实姓名：</th>
-                                <td>
-                                    <input class="common-text required" id="truename" name="truename" size="50" value="{$user.truename}" type="text">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>工号：</th>
-                                <td>
-                                    <input class="common-text required" id="read-style" size="50" name="number" value="{$user.number}" type="text" readonly>
-                                </td>
-                            </tr>
-                           <tr>
-                                <th>用户名：</th>
-                                <td>
-                                    <input class="common-text required" id="username" size="50" name="username" value="{$user.username}" type="text" >
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>所述部门：</th>
-                                <td>
-                                    <input class="common-text required" id="branch" size="50" name="branch" value="{$user.branch}" type="text" >
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>职位：</th>
-                                <td>
-                                    <input class="common-text required" id="job" size="50" name="job" value="{$user.job}" type="text" >
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>旧密码：</th>
-                                <td>
-                                    <input class="common-text required"  size="50" type="password">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>新密码：</th>
-                                <td>
-                                    <input class="common-text required" name="password" size="50" type="password">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>确认密码：</th>
-                                <td>
-                                     <input class="common-text required" name="repassword" size="50" type="password">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th></th>
-                                <td>
-                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
-                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
-                                </td>
-                            </tr>
-                        </tbody></table>
-                </form>
-            </div>
+    <div class="result-wrap">
+        <div class="result-content">
+            <form action="__MODULE__/Person/doEdit" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                <table class="insert-tab" width="100%">
+                    <tbody>
+                         <tr><td>
+                            <input type="hidden" name="id" value="{$user.id}">
+                        </td></tr>
+                        <tr>
+                            <th>头像：</th>
+                            <td>
+                            <img src="__PUBLIC__/{$user.thumb}" width="60px" height="60px">
+                            <input name="thumb" id="thumb" type="file"></td>
+                        </tr>
+                         <tr>
+                            <th><!-- <i class="require-red">*</i> -->真实姓名：</th>
+                            <td>
+                                <input class="common-text required" id="truename" name="truename" size="50" value="{$user.truename}" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>工号：</th>
+                            <td>
+                                <input class="common-text required" id="read-style" size="50" name="number" value="{$user.number}" type="text" readonly>
+                            </td>
+                        </tr>
+                       <tr>
+                            <th>用户名：</th>
+                            <td>
+                                <input class="common-text required" id="username" size="50" name="username" value="{$user.username}" type="text" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>所述部门：</th>
+                            <td>
+                                <input class="common-text required" id="branch" size="50" name="branch" value="{$user.branch}" type="text" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>职位：</th>
+                            <td>
+                                <input class="common-text required" id="job" size="50" name="job" value="{$user.job}" type="text" >
+                            </td>
+                        </tr>
+                        <!-- <tr>
+                            <th>旧密码：</th>
+                            <td>
+                                <input class="common-text required"  size="50" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>新密码：</th>
+                            <td>
+                                <input class="common-text required" name="password" size="50" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>确认密码：</th>
+                            <td>
+                                 <input class="common-text required" name="repassword" size="50" type="password">
+                            </td>
+                        </tr> -->
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                    </tbody></table>
+            </form>
         </div>
-
     </div>
+</div>
+</div>

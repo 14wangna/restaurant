@@ -9,22 +9,50 @@ class TodayfoodController extends Controller {
         }
     }
 	    public function lists(){
-	    	$foodModel = D("Todayfood");
+	    	$id = I("post.id");
+	    	$foodModel = M('foodtype');
+			$data =$foodModel ->select();
+			$this->assign('todayfood',$data);
+
+			$foodtypeModel=M('todayfood');
+
+	    	if(!$id){
 	        $cut=8;
 	        $currentPage = I("get.p");
 	        $offset = ($currentPage-1) * $cut;
-	        $food=$foodModel->where()->limit("$offset,$cut")->order('time desc')->select();
+	        $food=$foodtypeModel->where()->limit("$offset,$cut")->order('time desc')->select();
 	        $this->assign("food",$food);
-	        $count = $foodModel->count();
+	        $count = $foodtypeModel->count();
 	        $Page = new \Think\Page($count, $cut);
 	        $show = $Page->show();
 	        $this->assign("page", $show);
 
-	        $todayfoodModel = M('foodtype');
-			$data =$todayfoodModel ->select();
-			$this->assign('todayfood',$data);
+			// $this->ajaxReturn($food,"json");
+ 
+		}
+		else{
+	        $data =$foodModel ->find($id);
 
-	    	$this->display();  
+	        
+	        $condition['type']=$data['name'];
+	        // $cut=8;
+	        // $currentPage = I("get.p");
+	        // $offset = ($currentPage-1) * $cut;
+	        $food=$foodtypeModel->where($condition)->limit("$offset,$cut")->order('time desc')->select();
+	        $this->assign("foods",$food);
+	        // $count = $foodtypeModel->count();
+	        // $Page = new \Think\Page($count, $cut);
+	        // $show = $Page->show();
+	        // $this->assign("page", $show);
+
+
+			$this->ajaxReturn($food,"json");
+			
+		}
+			$this->display();  
+
+	        
+	    	
 	    }
 	    public function get_time(){
         	return date("Y-m-d");
@@ -154,11 +182,12 @@ class TodayfoodController extends Controller {
 	        $foodModel=M('todayfood');
 	        $condition['type']=$data['name'];
 	        $datas=$foodModel->where($condition)->select();
+	 
 	        if(!$datas){
            		$this->ajaxReturn("0",'JSON');
 	        }
 	        else{
-	            $this->ajaxReturn("1",'JSON');
+	            $this->ajaxReturn($datas,'JSON');
 	        }
 	        
     }

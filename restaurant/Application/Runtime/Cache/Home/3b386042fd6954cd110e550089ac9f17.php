@@ -3,27 +3,28 @@
 <head>
 	<title>首页</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/nav.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/index.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/about.css">
-	<!-- <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/manage.css"> -->
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu-content.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/news.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/order.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/person.css">
-	<link rel="stylesheet" href="/restaurant/restaurant/Public/home/css/bootstrap.css">
-	<script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
-	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
-	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/news.js"></script>
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/about.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css"> -->
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu-content.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/news.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/order.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/person.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/common.css">
+	<link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
+	<script src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
+	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
 		
 </head>
 <body>
 	<div class="head">
 		<div class="head-left">
 			<ul class="xm-nav">
-				<li><img src="/restaurant/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
+				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
 				<li><a href="<?php echo U('Home/Tmenu/menu');?>">每日菜单</a></li>
 				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
@@ -51,7 +52,7 @@
 			<ul class="nav-theme">
 				<li class="nav-theme-logo">
 					<a href="javascript: void (0);">
-						<img src="/restaurant/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
+						<img src="/restaurant1/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
 					</a>
 				</li>
 				<li class="nav-theme-nav">
@@ -80,7 +81,7 @@
 				</div>
 				<div class="left-mes">
 					<div class="mes-img">
-						<img src="/restaurant/restaurant/Public/<?php echo ($user["thumb"]); ?>" width="100%" height="100%">
+						<img src="/restaurant1/restaurant/Public/<?php echo ($user["thumb"]); ?>" width="100%" height="100%">
 					</div>
 					<div class="mes-name"><?php echo ($user["username"]); ?></div>
 				</div>
@@ -95,15 +96,15 @@
 					<div class="item-name">
 						<p>头像</p>
 					</div>
-					<form action="/restaurant/restaurant/index.php/Home/Person/doEdit" method="POST" id="myform" name="myform" enctype="multipart/form-data">
+					<form action="/restaurant1/restaurant/index.php/Home/Person/doEdit" method="POST" id="myform" name="myform" enctype="multipart/form-data">
 					<div class="item-img">
-						<img src="/restaurant/restaurant/Public/<?php echo ($user["thumb"]); ?>" id="imghead" width="48px" height="48px">
-					</div><!-- 
+						<img src="/restaurant1/restaurant/Public/<?php echo ($user["thumb"]); ?>" id="imghead" width="48px" height="48px">
+					</div>
 					<div class="btn-upload">
 						
 						<input type="file" onchange="previewImage(this)"  name="thumb" id="thumb" style="display: none">
 						<button type="button" class="btn-change" id="change" onclick="$('#thumb').click()">修改</button>
-					</div> -->
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div class="person-item" style="background-color:#FFFAF0">
@@ -133,7 +134,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				<div class="person-item" style="background-color:#FFFAF0">
+				<div class="person-item" >
 					<div class="item-name">
 						<p>所属部门</p>
 					</div>
@@ -143,7 +144,7 @@
 				
 					<div class="clear"></div>
 				</div>
-				<div class="person-item" >
+				<div class="person-item" style="background-color:#FFFAF0">
 					<div class="item-name">
 						<p>职位</p>
 					</div>
@@ -155,7 +156,7 @@
 
 				</div>
 
-				<div class="person-item" style="background-color:#FFFAF0">
+				<div class="person-item">
 					<div class="item-name">
 						<p>登录密码</p>
 					</div>
@@ -165,8 +166,10 @@
 					
 					<div class="clear"></div>
 				</div>
-				<!-- <button class="btn-change" type="submit">修改</button> -->
-				 <a class="link-update" href="/restaurant/restaurant/index.php/Home/Person/edit/id/<?php echo ($user["id"]); ?>">修改</a>
+				<button class="btn-change" type="submit">修改</button>
+				 <!-- <div class="person-items">
+				 	<a class="link-update" href="/restaurant1/restaurant/index.php/Home/Person/edit/id/<?php echo ($user["id"]); ?>">修改</a>
+				 </div> -->
 			</form>
 			</div>
 			<div class="clear"></div>
@@ -191,10 +194,10 @@
 			<div class="footer-right">
 				<p class="feel">餐厅展景</p>
 				<ul>
-					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
 					<div class="clear"></div>
 				</ul>
 			</div>
