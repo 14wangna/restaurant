@@ -102,21 +102,21 @@ body{
     margin:15px auto;
 }
 .nav-theme{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    width:100%;
 }
 .nav-theme>li{
-    float: left;
+    
 }
 .nav-theme-logo{
     display: inline-block;
     width:15%;
+    float: left;
 }
 .nav-theme-nav{
     text-align: center;
-    width:55%;
+    width:68%;
     margin:0 0 0 5%;
+    float: right;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
