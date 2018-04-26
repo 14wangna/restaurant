@@ -73,27 +73,52 @@
 			</ul>
 		</div>
 		
-		<!-- 导航结束 -->
-		<div class="menu-theme">
-			<h3>我的订单</h3>
-		</div>
-		<div class="menu-list">
-			<ul>
-				<?php if(is_array($order)): $i = 0; $__LIST__ = $order;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-					<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="150px" height="150px">
-					<p><?php echo ($data["name"]); ?></p>
-					<p class="color">￥<?php echo ($data["price"]); ?></p>
-					<div class="menu-number">
-						<button type="button" value="＋" id="<?php echo ($data["id"]); ?>" onclick="add(this)">＋</button>
-						<input id="order<?php echo ($data["id"]); ?>" type="text" name="" value="<?php echo ($data["sum"]); ?>">
-						<button type="button" value="＋" id="<?php echo ($data["id"]); ?>" onclick="reduce(this)">－</button>
-					</div>
-					<a href="/restaurant/restaurant/index.php/Home/Order/delete/orderId/<?php echo ($data["id"]); ?>" class="color">取消订单</a>
-				</li><?php endforeach; endif; else: echo "" ;endif; ?>
-			</ul>
-		</div>
-	</div>
-	
+<div class="main-wrap">
+    <div class="result-wrap">
+        <div class="result-content">
+            <form action="/restaurant/restaurant/index.php/Home/Person/doPwd" method="post" role="form">
+                <table class="insert-tab" width="100%">
+                    <tbody>
+                         <tr><td>
+                            <input type="hidden" name="id" value="<?php echo ($users["id"]); ?>">
+                        </td></tr>
+                        <tr>
+                            <th>工号：</th>
+                            <td>
+                                <input class="common-text required" id="read-style" size="50" name="number" value="<?php echo ($users["number"]); ?>" type="text" readonly>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>旧密码：</th>
+                            <td>
+                                <input class="common-text required"  size="50" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>新密码：</th>
+                            <td>
+                                <input class="common-text required" name="password" size="50" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>确认密码：</th>
+                            <td>
+                                 <input class="common-text required" name="repassword" size="50" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                    </tbody></table>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
 		<div class="footers">
 		<div class="footer">
 			<div class="footer-left">

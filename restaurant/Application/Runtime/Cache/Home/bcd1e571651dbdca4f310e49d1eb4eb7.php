@@ -3,28 +3,28 @@
 <head>
 	<title>首页</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/index.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/about.css">
-	<!-- <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/manage.css"> -->
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu-content.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/menu.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/news.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/order.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/person.css">
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/common.css">
-	<link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
-	<script src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
-	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
-	<script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/news.js"></script>
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/about.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/manage.css"> -->
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu-content.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/news.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/order.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/person.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/common.css">
+	<link rel="stylesheet" href="/restaurant/restaurant/Public/home/css/bootstrap.css">
+	<script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/news.js"></script>
 		
 </head>
 <body>
 	<div class="head">
 		<div class="head-left">
 			<ul class="xm-nav">
-				<li><img src="/restaurant1/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
+				<li><img src="/restaurant/restaurant/Public/home/images/ms03.png" width="100%" height="100%">
 				<li><a href="<?php echo U('Home/Index/index');?>">首页</a></li>
 				<li><a href="<?php echo U('Home/Tmenu/menu');?>">每日菜单</a></li>
 				<li><a href="<?php echo U('Home/News/news');?>">新闻中心</a></li>
@@ -52,7 +52,7 @@
 			<ul class="nav-theme">
 				<li class="nav-theme-logo">
 					<a href="javascript: void (0);">
-						<img src="/restaurant1/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
+						<img src="/restaurant/restaurant/Public/home/images/ms02.png" alt="" width="100%" height="100%">
 					</a>
 				</li>
 				<li class="nav-theme-nav">
@@ -90,8 +90,8 @@
 			<div class="page-menu-food" id="content">
 				<ul id="tab1">
 				<?php if(is_array($breakfastfood)): $i = 0; $__LIST__ = $breakfastfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="/restaurant1/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
-							<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -100,8 +100,8 @@
 				</ul>
 				<ul id="tab2">
 				<?php if(is_array($lunchfood)): $i = 0; $__LIST__ = $lunchfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="/restaurant1/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
-							<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -110,8 +110,8 @@
 				</ul>
 				<ul id="tab3">
 				<?php if(is_array($dinnerfood)): $i = 0; $__LIST__ = $dinnerfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="/restaurant1/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
-							<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -120,8 +120,8 @@
 				</ul>
 				<ul id="tab4">
 				<?php if(is_array($tea)): $i = 0; $__LIST__ = $tea;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="/restaurant1/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
-							<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -129,8 +129,8 @@
 				</ul>
 				<ul id="tab5">
 				<?php if(is_array($drink)): $i = 0; $__LIST__ = $drink;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="/restaurant1/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
-							<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -138,8 +138,8 @@
 				</ul>
 				<ul id="tab6">
 				<?php if(is_array($snack)): $i = 0; $__LIST__ = $snack;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="/restaurant1/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
-							<img src="/restaurant1/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
+							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>	
@@ -185,10 +185,10 @@
 			<div class="footer-right">
 				<p class="feel">餐厅展景</p>
 				<ul>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
-					<li><img src="/restaurant1/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
+					<li><img src="/restaurant/restaurant/Public/home/images/restaurant/1.jpg"></li>
 					<div class="clear"></div>
 				</ul>
 			</div>

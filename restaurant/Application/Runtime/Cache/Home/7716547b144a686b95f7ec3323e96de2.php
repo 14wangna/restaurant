@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>首页</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/nav.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/index.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/about.css">
@@ -11,9 +12,10 @@
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/news.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/order.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/person.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/common.css">
 	<link rel="stylesheet" href="/restaurant/restaurant/Public/home/css/bootstrap.css">
 	<script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-	<script src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
 	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/news.js"></script>
 		
@@ -87,13 +89,12 @@
 			</div>
 			<div class="page-menu-food" id="content">
 				<ul id="tab1">
-				<?php if(is_array($breakfastfood)): $i = 0; $__LIST__ = $breakfastfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="/restaurant/restaurant/index.php/Home/menu/contents/id/<?php echo ($data["id"]); ?>">
-							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
-						</a>
-						<p><?php echo ($data["name"]); ?></p>
-					</li><?php endforeach; endif; else: echo "" ;endif; ?>
-					
+					<?php if(is_array($breakfastfood)): $i = 0; $__LIST__ = $breakfastfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+							<a href="/restaurant/restaurant/index.php/Home/menu/contents/id/<?php echo ($data["id"]); ?>">
+								<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
+							</a>
+							<p><?php echo ($data["name"]); ?></p>
+						</li><?php endforeach; endif; else: echo "" ;endif; ?>			
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab2">
@@ -103,7 +104,6 @@
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>
-					
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab3">
@@ -113,7 +113,6 @@
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>
-					
 					<div class="clear"></div>
 				</ul>
 				<ul id="tab4">

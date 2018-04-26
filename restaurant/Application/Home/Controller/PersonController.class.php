@@ -46,23 +46,23 @@ class PersonController extends Controller {
                 $data =$usersModel ->create();
                 $data['thumb']=$info['thumb']['savepath'].$info['thumb']['savename'];
                 //修改密码
-                $condition['password'] = I("post.password");
-                $result = $usersModel->where($condition)->count();
-                if($result>0){ 
-                    $this->error("旧密码不正确",U("edit"));
-                }
-                $usersModel = D("user");
-                 $validate = array(
-                    array('repassword','password','两次输入密码不一致',0,'confirm'), // 仅仅需要进行验证码的验证
-                );
-                $usersModel-> setProperty("_validate",$validate);
-                $result = $usersModel->create();
-                if (!$result){
-                    $this->error($usersModel->getError(),U("person"));
-                }
-                if($usersModel->create() && $usersModel->save()) {
-                    $this->redirect('Person/person');
-                }
+                // $condition['password'] = I("post.password");
+                // $result = $usersModel->where($condition)->count();
+                // if($result>0){ 
+                //     $this->error("旧密码不正确",U("edit"));
+                // }
+                // $usersModel = D("user");
+                //  $validate = array(
+                //     array('repassword','password','两次输入密码不一致',0,'confirm'), // 仅仅需要进行验证码的验证
+                // );
+                // $usersModel-> setProperty("_validate",$validate);
+                // $result = $usersModel->create();
+                // if (!$result){
+                //     $this->error($usersModel->getError(),U("person"));
+                // }
+                // if($usersModel->create() && $usersModel->save()) {
+                //     $this->redirect('Person/person');
+                // }
                 if($newsModel->save($data)){
                     $this->redirect('Person/person');
                 }else{
@@ -70,5 +70,43 @@ class PersonController extends Controller {
 
                     }
                 }
+    }
+     public function pass() {
+        $condition['number'] = I("session.number");
+        $user = M("user")->where($condition)->find();
+        $this->assign("users", $user);
+        $this->display();
+    }
+
+    public function doPwd() {
+        
+            $usersModel = M('user'); //admin_user表
+            $condition = array(  //查询条件
+                "password" => I("post.password")
+            );
+            $result = $usersModel->where($condition)->count();
+            if($result>0){  //能查到数据，说明用户名密码正确
+                $this->error("旧密码不正确",U("pass"));
+            }
+
+            $usersModel = D("user");
+
+             $validate = array(
+                array('repassword','password','两次输入密码不一致',0,'confirm'), // 仅仅需要进行验证码的验证
+            );
+            $usersModel-> setProperty("_validate",$validate);
+            $result = $usersModel->create();
+            if (!$result){
+                // 如果创建失败 表示验证没有通过 输出错误提示信息
+                $this->error($usersModel->getError(),U("pass"));
+            }
+
+            if($usersModel->create() && $usersModel->save()) {
+               // $this->success("修改成功!", U('Users/lists?p=1'));
+                $this->redirect('Person/person');
+            }
+            else {
+                // $this->error($usersModel->getError());
+            }
     }
 }

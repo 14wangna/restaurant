@@ -1,0 +1,47 @@
+<layout name="layout_home" />
+<div class="main-wrap">
+    <div class="result-wrap">
+        <div class="result-content">
+            <form action="__MODULE__/Person/doPwd" method="post" role="form">
+                <table class="insert-tab" width="100%">
+                    <tbody>
+                         <tr><td>
+                            <input type="hidden" name="id" value="{$users.id}">
+                        </td></tr>
+                        <tr>
+                            <th>工号：</th>
+                            <td>
+                                <input class="common-text required" id="read-style" size="50" name="number" value="{$users.number}" type="text" readonly>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>旧密码：</th>
+                            <td>
+                                <input class="common-text required"  size="50" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>新密码：</th>
+                            <td>
+                                <input class="common-text required" name="password" size="50" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>确认密码：</th>
+                            <td>
+                                 <input class="common-text required" name="repassword" size="50" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                    </tbody></table>
+            </form>
+        </div>
+    </div>
+</div>
+</div>

@@ -5,12 +5,17 @@
 				<div class="left-header">
 					<h4>个人中心</h4>
 				</div>
+				<form action="__MODULE__/Person/dopwd" method="POST" id="myform" name="myform" enctype="multipart/form-data">
 				<div class="left-mes">
 					<div class="mes-img">
 						<img src="__PUBLIC__/{$user.thumb}" width="100%" height="100%">
 					</div>
 					<div class="mes-name">{$user.username}</div>
+					<div class="person-items">
+				 		<a class="link-update" href="__MODULE__/Person/pass/id/{$user.id}">修改个人密码</a>
+				 	</div>
 				</div>
+				</form>
 				<div class="left-content"></div>	
 			</div>
 			<div class="page-person">
@@ -25,11 +30,6 @@
 					<form action="__MODULE__/Person/doEdit" method="POST" id="myform" name="myform" enctype="multipart/form-data">
 					<div class="item-img">
 						<img src="__PUBLIC__/{$user.thumb}" id="imghead" width="48px" height="48px">
-					</div>
-					<div class="btn-upload">
-						
-						<input type="file" onchange="previewImage(this)"  name="thumb" id="thumb" style="display: none">
-						<button type="button" class="btn-change" id="change" onclick="$('#thumb').click()">修改</button>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -82,7 +82,7 @@
 
 				</div>
 
-				<div class="person-item">
+				<!-- <div class="person-item">
 					<div class="item-name">
 						<p>登录密码</p>
 					</div>
@@ -91,7 +91,7 @@
 					</div>
 					
 					<div class="clear"></div>
-				</div>
+				</div> -->
 				<!-- <button class="btn-change" type="submit">修改</button> -->
 				 <div class="person-items">
 				 	<a class="link-update" href="__MODULE__/Person/edit/id/{$user.id}">修改</a>

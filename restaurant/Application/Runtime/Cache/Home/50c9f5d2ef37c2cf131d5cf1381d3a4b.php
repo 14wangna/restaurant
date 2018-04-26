@@ -2,12 +2,12 @@
 <html>
 <head>
 	<title>登录注册</title>
-	<link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="/restaurant1/restaurant/Public/home/css/register.css">
-    <link rel="stylesheet" href="/restaurant1/restaurant/Public/home/css/bootstrap.css">
-    <script src="/restaurant1/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-    <script src="/restaurant1/restaurant/Public/home/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/restaurant1/restaurant/Public/home/js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/register.css">
+    <link rel="stylesheet" href="/restaurant/restaurant/Public/home/css/bootstrap.css">
+    <script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
+    <script src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
     <script type="text/javascript">
         function validate(){
 
@@ -18,7 +18,7 @@
 	<div class="head">
         <div class="head-left">
             <ul class="xm-nav">
-                <li><img src="/restaurant1/restaurant/Public/home/images/ms03.png"></li>
+                <li><img src="/restaurant/restaurant/Public/home/images/ms03.png"></li>
                 <li><a href="#">首页</a></li>
                 <li><a href="#">订单查询</a></li>
                 <li><a href="#">个人中心</a></li>
@@ -36,7 +36,7 @@
     </div>
     <div class="page-theme">
     	<div class="register_banner">
-    		<img src="/restaurant1/restaurant/Public/home/images/banner26.png" width="100%" >
+    		<img src="/restaurant/restaurant/Public/home/images/banner26.png" width="100%" >
     	</div>
     	<div class="xm-content">
             <div class="content-header">
@@ -44,17 +44,17 @@
                 <a href="#" id="register" onclick="register()">注册</a>
                 <div class="clear"></div>
             </div>
-            <form action="/restaurant1/restaurant/index.php/Home/Login/login" name="myform" method="post">
+            <form action="/restaurant/restaurant/index.php/Home/Login/login" name="myform" method="post">
             <div class="content-login" >
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
                     <input type="text" placeholder="工号" id="number" name="number">
                 </div>
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
                     <input type="password"  placeholder="密码" id="password" name="password">
                 </div>
@@ -62,23 +62,23 @@
                 <!-- <div class="signup-guide"><p>还没有账号？<a href="#">免费注册</a></p></div> -->
             </div>
             </form>
-            <form action="/restaurant1/restaurant/index.php/Home/Login/register" name="myform" method="post">
+            <form action="/restaurant/restaurant/index.php/Home/Login/register" name="myform" method="post">
             <div class="content-register" >
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
                     <input type="text" placeholder="工号" name="number">
                 </div>
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
                     <input type="text" placeholder="密码" name="password">
                 </div>
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
-                        <img src="/restaurant1/restaurant/Public/home/images/name_icon.png" alt="">
+                        <img src="/restaurant/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
                     <input type="text" placeholder="确认密码" name="repassword">
                 </div>
