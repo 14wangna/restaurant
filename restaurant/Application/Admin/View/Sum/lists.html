@@ -4,23 +4,32 @@
         <div class="crumb-wrap">
             <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">统计列表</span></div>
         </div>
+
         <div class="result-wrap">
             <form name="myform" id="myform" action="__MODULE__/New/delete">
+             <div class="result-title">
+                    <div class="result-list">
+                       <i class="icon-font">&#xe050;</i>统计列表   
+                    </div>
+                </div>
                 <div class="result-content">
                     <table class="result-tab" width="100%">
                         <tr>
                             <th class="tc" width="6%"><input class="allChoose" name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'></th>
                             <th width="15%">菜品名称</th>
                             <th width="15%">份数</th>
+                            <th width="15%">时间</th>
                             <th width="12%">操作</th>
                         </tr>
                         <volist name="news" id="data">
                         <tr>
                             <td><input type="checkbox" name="newsId[]" id="checkbox" value="{$data.id}"><label for="checkbox"></label></td>
                             <td>{$data.name}</td>
-                            <td>{$data.sum}</td>
+                            <td>{$data.count(sum)}</td>
+                            <!-- <td>{$Think.const.NOW_TIME}</td> -->
+                            <td>{:date('Y-m-d')}</td>
                             <td>
-                                <a class="link-del" href="__MODULE__/New/delete/newsId/{$data.id}">删除</a>
+                                <a class="link-del" href="__MODULE__/Sum/delete/newsId/{$data.id}">删除</a>
                             </td>
                         </tr>
                         </volist>

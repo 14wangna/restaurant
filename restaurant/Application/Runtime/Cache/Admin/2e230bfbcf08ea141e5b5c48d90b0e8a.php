@@ -83,22 +83,31 @@
         <div class="crumb-wrap">
             <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">统计列表</span></div>
         </div>
+
         <div class="result-wrap">
             <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/New/delete">
+             <div class="result-title">
+                    <div class="result-list">
+                       <i class="icon-font">&#xe050;</i>统计列表   
+                    </div>
+                </div>
                 <div class="result-content">
                     <table class="result-tab" width="100%">
                         <tr>
                             <th class="tc" width="6%"><input class="allChoose" name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'></th>
                             <th width="15%">菜品名称</th>
                             <th width="15%">份数</th>
+                            <th width="15%">时间</th>
                             <th width="12%">操作</th>
                         </tr>
                         <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
                             <td><input type="checkbox" name="newsId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
                             <td><?php echo ($data["name"]); ?></td>
-                            <td><?php echo ($data["sum"]); ?></td>
+                            <td><?php echo ($data["count(sum)"]); ?></td>
+                            <!-- <td><?php echo (NOW_TIME); ?></td> -->
+                            <td><?php echo date('Y-m-d');?></td>
                             <td>
-                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/New/delete/newsId/<?php echo ($data["id"]); ?>">删除</a>
+                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Sum/delete/newsId/<?php echo ($data["id"]); ?>">删除</a>
                             </td>
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     </table>

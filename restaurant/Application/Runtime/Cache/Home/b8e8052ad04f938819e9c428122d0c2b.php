@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>首页</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/nav.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/index.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/about.css">
@@ -11,9 +12,10 @@
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/news.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/order.css">
 	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/person.css">
+	<link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/home/css/common.css">
 	<link rel="stylesheet" href="/restaurant/restaurant/Public/home/css/bootstrap.css">
 	<script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
-	<script src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
 	<script type="text/javascript" src="/restaurant/restaurant/Public/home/js/news.js"></script>
 		
