@@ -33,4 +33,28 @@ class OrderController extends Controller {
                  $this->error($newsModel->geterror());
             }     
         }
+    public function doAdd(){
+        $id = I("post.id");
+        $orderModel = M("order");
+        // $orderModel-> where($id)->setField('num','2');
+        
+        if($orderModel-> where("id=$id")->setField('sum','2')){
+            $this->ajaxReturn("1",'JSON');
+        }
+        else{
+            $this->ajaxReturn("0",'JSON');
+        }
+    }
+    public function reduce(){
+        $id = I("post.id");
+        $orderModel = M("order");
+        // $orderModel-> where($id)->setField('num','2');
+        
+        if($orderModel-> where("id=$id")->setField('sum','1')){
+            $this->ajaxReturn("1",'JSON');
+        }
+        else{
+            $this->ajaxReturn("0",'JSON');
+        }
+    }
 }

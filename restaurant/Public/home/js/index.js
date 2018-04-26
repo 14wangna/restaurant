@@ -94,28 +94,49 @@ function doreduce(res){
 
 function add(res){
 	var a = res.id;
-	a = "order" + a;
-	var i = document.getElementById(a).value;
-	var j = doadd(i)
-	if(j >=2 ){
-		document.getElementById(a).value  = 2
-	}
-	else{
-		document.getElementById(a).value  = j
-	}
-	
+	console.log(a);
+	// var b = "order" + a;
+	// var i = document.getElementById(b).value;
+	// var j = doadd(i)
+	// document.getElementById(b).value  = 2;
+	$.ajax({
+        type:"POST",
+        url:"doAdd",
+        data:{id:a},
+        dataType: "json",
+        success:function(res){
+        	console.log(res);
+        	location.reload();
+        	// if(res == 1){
+        	// 	window.location.href="{:U('Home/Order/order')}";
+        	// }
+        }
+    });
 }
 
 function reduce(res){
 	var a = res.id;
-	a = "order" + a;
-	var i = document.getElementById(a).value;
-	var j = doreduce(i)
-	if(j <= 1){
-		document.getElementById(a).value = "1"
-	}
-	else{
-		document.getElementById(a).value = j 
-	}
+	// a = "order" + a;
+	// var i = document.getElementById(a).value;
+	// var j = doreduce(i)
+	// if(j <= 1){
+	// 	document.getElementById(a).value = "1"
+	// }
+	// else{
+	// 	document.getElementById(a).value = j 
+	// }
+	$.ajax({
+        type:"POST",
+        url:"reduce",
+        data:{id:a},
+        dataType: "json",
+        success:function(res){
+        	console.log(res);
+        	location.reload();
+        	// if(res == 1){
+        	// 	window.location.href="{:U('Home/Order/order')}";
+        	// }
+        }
+    });
 	
 }
