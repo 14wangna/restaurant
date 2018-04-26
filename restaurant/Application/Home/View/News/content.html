@@ -1,7 +1,7 @@
 <layout name="layout_home" />
 <div class="ne_content">
 	<h1>{$news.title}</h1>
-	<p>{$news.content}</p>
+	<p>{:html_entity_decode($news['content'])}</p>
 </div>
 <div class="ne_foot">
 	<ul>

@@ -124,7 +124,6 @@
 	flex-direction: column;
 	/*justify-content: center;*/
 	align-items: center;
-	height:260px;
 }
 .ne_content p{
 	text-indent: 2em;
