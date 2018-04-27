@@ -187,7 +187,7 @@
 				</div>
 				<div class="w-3">
 					<ul>
-						<?php if(is_array($newsa)): $i = 0; $__LIST__ = array_slice($newsa,3,6,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/News/content/id/<?php echo ($data["id"]); ?>"><?php echo ($data["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php if(is_array($newsa)): $i = 0; $__LIST__ = $newsa;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="/restaurant/restaurant/index.php/Home/News/content/id/<?php echo ($data["id"]); ?>"><?php echo ($data["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>
 				</div>
 			</div>

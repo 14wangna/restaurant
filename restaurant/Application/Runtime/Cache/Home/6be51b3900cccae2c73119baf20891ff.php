@@ -125,8 +125,7 @@
                             </div>
                             <div class="content_text">
                                 <h4><?php echo ($data["title"]); ?></h4>
-                                
-                                <p><?php echo (msubstr($data["content"],0,80,'utf-8',ture)); ?></p>
+                                <p><?php echo (msubstr($data["abstract"],0,50,'utf-8',ture)); ?></p>
                                 <div >
                                     <span style="float:left"><?php echo ($data["time"]); ?></span>
                                     <a href="/restaurant/restaurant/index.php/Home/News/content/id/<?php echo ($data["id"]); ?>" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
@@ -142,8 +141,7 @@
                             </div>
                             <div class="content_text">
                                 <h4><?php echo ($data["title"]); ?></h4>
-                                
-                                <p><?php echo (msubstr($data["content"],0,80,'utf-8',ture)); ?></p>
+                                <p><?php echo (msubstr($data["abstract"],0,50,'utf-8',ture)); ?></p>
                                 <div >
                                     <span style="float:left"><?php echo ($data["time"]); ?></span>
                                     <a href="/restaurant/restaurant/index.php/Home/News/content/id/<?php echo ($data["id"]); ?>" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>
@@ -159,8 +157,7 @@
                             </div>
                             <div class="content_text">
                                 <h4><?php echo ($data["title"]); ?></h4>
-                                
-                                <p><?php echo (msubstr($data["content"],0,80,'utf-8',ture)); ?></p>
+                                <p><?php echo (msubstr($data["abstract"],0,50,'utf-8',ture)); ?></p>
                                 <div >
                                     <span style="float:left"><?php echo ($data["time"]); ?></span>
                                     <a href="/restaurant/restaurant/index.php/Home/News/content/id/<?php echo ($data["id"]); ?>" style="color:#ff6767;float: right;font-size:16px;">查看更多>></a>

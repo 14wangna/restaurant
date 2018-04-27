@@ -11,6 +11,8 @@
     
     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
      <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
+     <script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.config.js"></script>  
+<script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.all.js"></script> 
 </head>
 <body>
 <div class="topbar-wrap white">

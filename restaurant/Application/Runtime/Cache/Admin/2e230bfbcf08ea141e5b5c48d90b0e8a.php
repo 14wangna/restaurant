@@ -11,6 +11,8 @@
     
     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
      <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
+     <script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.config.js"></script>  
+<script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.all.js"></script> 
 </head>
 <body>
 <div class="topbar-wrap white">
@@ -104,7 +106,6 @@
                             <td><input type="checkbox" name="newsId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
                             <td><?php echo ($data["name"]); ?></td>
                             <td><?php echo ($data["count(sum)"]); ?></td>
-                            <!-- <td><?php echo (NOW_TIME); ?></td> -->
                             <td><?php echo date('Y-m-d');?></td>
                             <td>
                                 <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Sum/delete/newsId/<?php echo ($data["id"]); ?>">删除</a>

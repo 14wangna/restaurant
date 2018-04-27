@@ -11,6 +11,8 @@
     
     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
      <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
+     <script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.config.js"></script>  
+<script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.all.js"></script> 
 </head>
 <body>
 <div class="topbar-wrap white">
@@ -97,11 +99,12 @@
                     <table class="result-tab" width="100%">
                         <tr>
                             <th class="tc" width="6%"><input class="allChoose" name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'></th>
-                            <th width="15%">新闻配图</th>
-                            <th width="15%">新闻类型</th>
-                            <th width="20%">新闻标题</th>
-                            <th width="20%">新闻内容</th>
-                            <th width="15%">添加时间</th>
+                            <th width="12%">配图</th>
+                            <th width="10%">类型</th>
+                            <th width="12%">标题</th>
+                            <th width="12%">摘要</th>
+                            <th width="20%">内容</th>
+                            <th width="15%">时间</th>
                             <th width="12%">操作</th>
                         </tr>
                         <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
@@ -109,6 +112,7 @@
                             <td><img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="60px" height="60px"></td>
                             <td><?php echo ($data["type"]); ?></td>
                             <td><?php echo (msubstr($data["title"],0,8,'utf-8',ture)); ?></td>
+                            <td><?php echo (msubstr($data["abstract"],0,8,'utf-8',ture)); ?></td>
                             <td><?php echo (msubstr($data["content"],0,8,'utf-8',ture)); ?></td>
                             <td><?php echo ($data["time"]); ?></td>
                             <td>

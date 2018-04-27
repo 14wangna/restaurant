@@ -6,21 +6,21 @@ class IndexController extends Controller {
     	// 新闻部分
      	$newsModel=M('news');
      	$conditiona['type']='健康饮食';
-     	$data=$newsModel->where($condition)->select();
+     	$data=$newsModel->where($conditiona)->select();
      	$this->assign('newsa',$data);
 
      	$conditionb['type']='饮食咨询';
-     	$data=$newsModel->where($conditionb)->select();
-     	$this->assign('newsb',$data);
+     	$datab=$newsModel->where($conditionb)->select();
+     	$this->assign('newsb',$datab);
 
      	$conditionc['type']='为您推荐';
-     	$data=$newsModel->where($conditionc)->select();
-     	$this->assign('newsc',$data);
+     	$datac=$newsModel->where($conditionc)->select();
+     	$this->assign('newsc',$datac);
 
      	// 今日菜单
      	$todayfoodModel=M('todayfood');
-     	$data=$todayfoodModel->select();
-     	$this->assign('todayfood',$data);
+     	$datad=$todayfoodModel->select();
+     	$this->assign('todayfood',$datad);
 
 
      	//一周热门
