@@ -6,7 +6,7 @@
         </div>
 
         <div class="result-wrap">
-            <form name="myform" id="myform" action="__MODULE__/New/delete">
+            <form name="myform" id="myform" action="__MODULE__/Sum/del">
              <div class="result-title">
                     <div class="result-list">
                        <i class="icon-font">&#xe050;</i>统计列表   
@@ -23,7 +23,7 @@
                         </tr>
                         <volist name="news" id="data">
                         <tr>
-                            <td><input type="checkbox" name="newsId[]" id="checkbox" value="{$data.id}"><label for="checkbox"></label></td>
+                            <td><input type="checkbox" name="sumId[]" id="checkbox" value="{$data.name}"><label for="checkbox"></label></td>
                             <td>{$data.name}</td>
                             <td>{$data.count(sum)}</td>
                             <td>{:date('Y-m-d')}</td>
@@ -33,9 +33,9 @@
                         </tr>
                         </volist>
                     </table>
-                    <!-- <div id="alldelete">
-                        <button type="submit" id="batchDel" class="btn btn-danger " href="__MODULE__/Sum/delete">批量删除</button> 
-                    </div> -->
+                    <div id="alldelete">
+                        <button type="submit" id="batchDel" class="btn btn-danger " href="__MODULE__/Sum/del">批量删除</button> 
+                    </div>
                     <div class="list-page">{$page}</div>
                 </div>
             </form>
@@ -57,5 +57,9 @@
                     }
                 }
             });
+        }
+        dele = function(){
+             $("#checkbox").val();
+            console.log($("#checkbox").val())
         }
     </script>

@@ -44,5 +44,16 @@ class SumController extends Controller {
              //单个删除	
             }
     	}
+        public function del() {
+            //全部删除
+            $id = $_GET['sumId'];
+            $newsModel = M("order");
+            foreach($id as $value){
+                $condition['name'] = $value;
+                $result = $newsModel->where($condition)->delete();
+            }  
+               // $this->success("批量删除成功！",U("lists?p=1"));
+            $this->redirect('Sum/lists?p=1');
+        }
          
 }
