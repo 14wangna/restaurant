@@ -28,16 +28,34 @@
                             <td>{$data.count(sum)}</td>
                             <td>{:date('Y-m-d')}</td>
                             <td>
-                                <a class="link-del" href="__MODULE__/Sum/delete/newsId/{$data.id}">删除</a>
+                                <a class="link-del" id="{$data.name}" href="javascript:void(0)" onclick="del(this)">删除</a>
                             </td>
                         </tr>
                         </volist>
                     </table>
-                    <div id="alldelete">
-                        <button type="submit" id="batchDel" class="btn btn-danger " href="__MODULE__/New/delete">批量删除</button> 
-                    </div>
+                    <!-- <div id="alldelete">
+                        <button type="submit" id="batchDel" class="btn btn-danger " href="__MODULE__/Sum/delete">批量删除</button> 
+                    </div> -->
                     <div class="list-page">{$page}</div>
                 </div>
             </form>
         </div>
     </div>
+    <script type="text/javascript">
+        del = function(res){
+            var id = res.id;
+            console.log(id);
+            $.ajax({
+                type:"POST",
+                url:"__MODULE__/Sum/delete",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                    // console.log(res);
+                    if(res == 1){
+                        location.reload();
+                    }
+                }
+            });
+        }
+    </script>

@@ -25,6 +25,24 @@ class SumController extends Controller {
 	    }
 	    public function get_time(){
         	return date("Y-m-d");
-    }
+    	}
+
+    	public function delete(){
+    		$id = I("post.id");
+
+            $orderModel = M("order");
+            $condition['name'] = $id;
+            // $data = $orderModel ->where($condition)->select();
+            $result = $orderModel->where($condition)->delete(); 
+            if($result){
+                
+               // $this->success("批量删除成功！",U("lists?p=1"));
+                $this->ajaxReturn("1",'JSON');
+            } 
+            else{
+                $this->ajaxReturn("0",'JSON');
+             //单个删除	
+            }
+    	}
          
 }
