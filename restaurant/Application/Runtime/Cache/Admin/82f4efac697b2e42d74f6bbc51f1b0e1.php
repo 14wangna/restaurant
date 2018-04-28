@@ -83,44 +83,67 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Evaluate/lists?p=1">评价管理</a><span class="crumb-step">&gt;</span><span>评价列表</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Admin/lists?p=1">管理员管理</a><span class="crumb-step">&gt;</span><span>添加信息</span></div>
         </div>
         <div class="result-wrap">
-            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/Evaluate/delete">
-                <div class="result-title">
-                    <div class="result-list">
-                        <i class="icon-font"></i>评价列表
-                        <!-- <input type="text" placeholder="请输入关键字..."/>
-                        <a href="/restaurant/restaurant/index.php/Admin/New/search"><input type="button" value="搜索" /></a> -->
-                        
-                    </div>
-                </div>
-                <div class="result-content">
-                    <table class="result-tab" width="100%">
-                        <tr>
-                            <th class="tc" width="6%"><input class="allChoose" name="checkall[]" type="checkbox" id="chkall" onclick='selectcheckbox(this.form)'></th>
-                            <th width="12%">用户名</th>
-                            <th width="12%">评价内容</th>
-                            <th width="12%">评价时间</th>
-                            <th width="5%">操作</th>
-                        </tr>
-                        <?php if(is_array($evaluate)): $i = 0; $__LIST__ = $evaluate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
-                            <td><input type="checkbox" name="evaluateId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
-                            <td><?php echo ($data["username"]); ?></td>
-                            <td><?php echo ($data["content"]); ?></td>
-                            <td><?php echo ($data["time"]); ?></td>
-                            <td>
-                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Evaluate/delete/evaluateId/<?php echo ($data["id"]); ?>">删除</a>
-                            </td>
-                        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                    </table>
-                    <div id="alldelete">
-                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/New/delete">批量删除</button> 
-                    </div>
-                    <div class="list-page"><?php echo ($page); ?></div>
-                </div>
-            </form>
+            <div class="result-content">
+                <form action="/restaurant/restaurant/index.php/Admin/Admin/doAdd" method="post" role="form">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th>用户名：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="username" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>真实姓名：</th>
+                                <td>
+                                    <input class="common-text required" name="truename" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>手机号码：</th>
+                                <td>
+                                    <input class="common-text required" name="phonenum" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>电子邮箱：</th>
+                                <td>
+                                    <input class="common-text required" name="email" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>添加时间：</th>
+                                <td>
+                                    <input class="common-text required" id="read-style" size="50" name="createtime" value="<?php echo ($time); ?>" type="text" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>设置密码：</th>
+                                <td>
+                                    <input class="common-text required" name="password" size="50" type="password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>确认密码：</th>
+                                <td>
+                                    <input class="common-text required" size="50" name="repassword" value="" type="password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="保存" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
         </div>
+
     </div>
 
 

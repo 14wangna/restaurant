@@ -105,6 +105,7 @@
                     </ul>
                     <ul class="short-list">
                         <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/003.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Honor/lists?p=1');?>">留言簿</a></div></li>
+                        <li><div class="short-img"><img src="/restaurant/restaurant/Public/admin/images/011.png" height="40px" width="50px"></div><div class="short-list1"><a href="<?php echo U('Sum/lists?p=1');?>">菜品列表</a></div></li>
                     </ul>
                 </div>
             </div>

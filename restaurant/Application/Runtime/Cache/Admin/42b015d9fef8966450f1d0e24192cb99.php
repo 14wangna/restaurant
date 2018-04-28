@@ -8,8 +8,11 @@
     <link rel="stylesheet" type="text/css" href="/restaurant/restaurant/Public/admin/css/mycss.css"/>
     <link rel="stylesheet" href="/restaurant/restaurant/Public/admin/css/style.css">
     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/modernizr.min.js"></script>
-    <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/showdate.js"></script>
+    
     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
+     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
+     <script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.config.js"></script>  
+<script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.all.js"></script> 
 </head>
 <body>
 <div class="topbar-wrap white">
@@ -42,7 +45,10 @@
             <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户列表</a></h2>
             <h2><a href="<?php echo U('Users/add');?>"><i class="icon-font">&#xe026;</i>添加用户</a></h2>
         </div>
-
+        <h1><i class="icon-font">&#xe018;</i>菜品统计</h1>
+        <div>
+            <h2><a href="<?php echo U('Sum/lists?p=1');?>"><i class="icon-font">&#xe050;</i>统计列表</a></h2>
+        </div>
         <h1><i class="icon-font">&#xe005;</i>每日菜单管理</h1>
         <div>
             <h2><a href="<?php echo U('Todayfood/lists?p=1');?>"><i class="icon-font">&#xe050;</i>菜品列表</a></h2>
@@ -77,18 +83,10 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">留言簿</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Advice/lists?p=1">留言簿</a><span class="crumb-step">&gt;</span><span>留言列表</span></div>
         </div>
         <div class="result-wrap">
             <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/New/delete">
-                <div class="result-title">
-                    <div class="result-list">
-                        <i class="icon-font"></i>留言簿列表
-                        <!-- <input type="text" placeholder="请输入关键字..."/>
-                        <a href="/restaurant/restaurant/index.php/Admin/New/search"><input type="button" value="搜索" /></a> -->
-                        
-                    </div>
-                </div>
                 <div class="result-content">
                     <table class="result-tab" width="100%">
                         <tr>
@@ -114,7 +112,7 @@
     </div>
 
 
-<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
+<!-- <script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script> -->
 <script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>

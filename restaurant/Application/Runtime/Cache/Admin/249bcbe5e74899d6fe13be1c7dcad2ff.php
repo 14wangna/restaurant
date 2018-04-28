@@ -11,6 +11,8 @@
     
     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
      <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
+     <script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.config.js"></script>  
+<script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.all.js"></script> 
 </head>
 <body>
 <div class="topbar-wrap white">
@@ -43,7 +45,10 @@
             <h2><a href="<?php echo U('Users/lists?p=1');?>"><i class="icon-font">&#xe050;</i>用户列表</a></h2>
             <h2><a href="<?php echo U('Users/add');?>"><i class="icon-font">&#xe026;</i>添加用户</a></h2>
         </div>
-
+        <h1><i class="icon-font">&#xe018;</i>菜品统计</h1>
+        <div>
+            <h2><a href="<?php echo U('Sum/lists?p=1');?>"><i class="icon-font">&#xe050;</i>统计列表</a></h2>
+        </div>
         <h1><i class="icon-font">&#xe005;</i>每日菜单管理</h1>
         <div>
             <h2><a href="<?php echo U('Todayfood/lists?p=1');?>"><i class="icon-font">&#xe050;</i>菜品列表</a></h2>
@@ -78,7 +83,7 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Users/lists">用户管理</a><span class="crumb-step">&gt;</span><span>修改用户</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/Users/lists?p=1">用户管理</a><span class="crumb-step">&gt;</span><span>修改用户</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
@@ -144,7 +149,7 @@
     </div>
 
 
-<script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script>
+<!-- <script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script> -->
 <script src="/restaurant/restaurant/Public/admin/js/index.js"></script>
 </body>
 </html>

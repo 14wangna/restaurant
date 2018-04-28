@@ -83,7 +83,7 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/New/lists">新闻管理</a><span class="crumb-step">&gt;</span><span>新增新闻</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/restaurant/restaurant/index.php/Admin/New/lists?p=1">新闻管理</a><span class="crumb-step">&gt;</span><span>新增新闻</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">

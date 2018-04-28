@@ -94,9 +94,9 @@
  				
  				<h3>菜品评价</h3>
  				<div class="content_evaluate">
- 					<?php if(is_array($ass)): $i = 0; $__LIST__ = $ass;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="evaluate_whole">
+ 					<?php if(is_array($evaluate)): $i = 0; $__LIST__ = $evaluate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="evaluate_whole">
 		 					<div class="evaluate_left">
-		 						<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="" height="">
+		 						<img src="/restaurant/restaurant/Public/home/images/touxiang.png" width="" height="">
 		 						<p><?php echo ($data["username"]); ?></p>
 		 					</div>
 		 					<div class="evaluate_right">

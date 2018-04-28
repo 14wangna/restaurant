@@ -83,11 +83,11 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">统计列表</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">菜品统计</span></div>
         </div>
 
         <div class="result-wrap">
-            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/New/delete">
+            <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/Sum/del">
              <div class="result-title">
                     <div class="result-list">
                        <i class="icon-font">&#xe050;</i>统计列表   
@@ -103,23 +103,45 @@
                             <th width="12%">操作</th>
                         </tr>
                         <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
-                            <td><input type="checkbox" name="newsId[]" id="checkbox" value="<?php echo ($data["id"]); ?>"><label for="checkbox"></label></td>
+                            <td><input type="checkbox" name="sumId[]" id="checkbox" value="<?php echo ($data["name"]); ?>"><label for="checkbox"></label></td>
                             <td><?php echo ($data["name"]); ?></td>
                             <td><?php echo ($data["count(sum)"]); ?></td>
                             <td><?php echo date('Y-m-d');?></td>
                             <td>
-                                <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Sum/delete/newsId/<?php echo ($data["id"]); ?>">删除</a>
+                                <a class="link-del" id="<?php echo ($data["name"]); ?>" href="javascript:void(0)" onclick="del(this)">删除</a>
                             </td>
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     </table>
                     <div id="alldelete">
-                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/New/delete">批量删除</button> 
+                        <button type="submit" id="batchDel" class="btn btn-danger " href="/restaurant/restaurant/index.php/Admin/Sum/del">批量删除</button> 
                     </div>
                     <div class="list-page"><?php echo ($page); ?></div>
                 </div>
             </form>
         </div>
     </div>
+    <script type="text/javascript">
+        del = function(res){
+            var id = res.id;
+            console.log(id);
+            $.ajax({
+                type:"POST",
+                url:"/restaurant/restaurant/index.php/Admin/Sum/delete",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                    // console.log(res);
+                    if(res == 1){
+                        location.reload();
+                    }
+                }
+            });
+        }
+        dele = function(){
+             $("#checkbox").val();
+            console.log($("#checkbox").val())
+        }
+    </script>
 
 
 <!-- <script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script> -->

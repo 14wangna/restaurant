@@ -11,6 +11,8 @@
     
     <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/quanxuan.js"></script>
      <script type="text/javascript" src="/restaurant/restaurant/Public/admin/js/jquery-1.11.3.js"></script>
+     <script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.config.js"></script>  
+<script type="text/javascript" charset="utf-8" src="/restaurant/restaurant/Public/ueditor/ueditor.all.js"></script> 
 </head>
 <body>
 <div class="topbar-wrap white">
@@ -81,7 +83,7 @@
 <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">菜品列表</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/restaurant/restaurant/index.php/Admin/Index/index">首页</a><span class="crumb-step">&gt;</span><a href="/restaurant/restaurant/index.php/Admin/Food/lists?p=1"><span class="crumb-name">菜品管理</span></a><span class="crumb-step">&gt;</span><span class="crumb-name">菜品列表</span></div>
         </div>
         <div class="result-wrap">
             <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/Food/delete">

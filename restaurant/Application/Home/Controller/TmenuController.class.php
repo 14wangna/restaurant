@@ -48,6 +48,12 @@ class TmenuController extends Controller {
 		$data =$foodsModel ->find($id);
 		//分配数据
 		$this->assign('food',$data);
+
+
+        $evaluateModel=M('evaluate');
+        $condition['foodname']=$data['name'];
+        $edata=$evaluateModel->where($condition)->select();
+        $this->assign('evaluate',$edata);
 		  // 新闻部分
      	$newsModel=M('news');
      	$conditiona['type']='健康饮食';
@@ -66,10 +72,6 @@ class TmenuController extends Controller {
         $conditiond['type']='甜品饮品';
         $data=$drinkModel->where($conditiond)->limit(0,4)->select();
         $this->assign('drink',$data);
-
-        $assessModel=M('evaluate');
-        $data=$assessModel->select();
-        $this->assign('ass',$data);
 
 
 
