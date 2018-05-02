@@ -60,5 +60,21 @@ class IndexController extends Controller {
         //$this->success('退出成功',U("Admin/login"));
         $this->redirect('Login/login',0);
     }
+    public function search(){
+         $name = $_POST['name'];
+
+        $gameModel = M("todayfood");
+        $condition['name'] = $name;
+        $data =$gameModel->where($condition)->find();
+        
+        $id = $data['id'];
+        print_r($id);
+        if($id){
+            $this->redirect("Menu/content",array("id"=>$id));
+        }else{
+            $this->error("很抱歉，暂时没有这个游戏！");
+        }
+
+    }
     
 }

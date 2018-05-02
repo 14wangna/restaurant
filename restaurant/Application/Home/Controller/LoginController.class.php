@@ -28,7 +28,7 @@ class LoginController extends Controller {
         if(IS_POST){
             $adminUsersModel = M('usernumber'); //admin_user表
                 $condition = array(  //查询条件
-                    "number" => I("post.num"),
+                    "num" => I("post.number"),
                 );
             $result = $adminUsersModel->where($condition)->count();
             if($result>0){  //能查到数据，说明用户名密码正确

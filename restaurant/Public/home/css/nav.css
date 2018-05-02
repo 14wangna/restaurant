@@ -105,7 +105,7 @@ body{
     width:100%;
 }
 .nav-theme>li{
-    
+    float: left;
 }
 .nav-theme-logo{
     display: inline-block;
@@ -114,9 +114,8 @@ body{
 }
 .nav-theme-nav{
     text-align: center;
-    width:68%;
+    width:55%;
     margin:0 0 0 5%;
-    float: right;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -156,7 +155,7 @@ body{
     line-height: 20px;
     padding: 3px;
 }
-.nav-theme-search-input>a{
+.nav-theme-search-input>button{
     border-radius: 0 3px 3px 0;
     width: 25%;
     height: 28px;
