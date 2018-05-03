@@ -12120,3 +12120,1325 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001876s ]
 
+[ 2018-05-03T20:11:11+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0187s ]
+SQL: SELECT sum(sum),`name` FROM `order` GROUP BY name  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0011s ]
+SQL: UPDATE `food` SET `name`='豆浆',`price`='2',`thumb`='../Public/uploads/2018-04-15/5ad36d6c05b59.jpg',`batch`='大豆',`function`='豆浆是防治高血脂、高血压、动脉硬化等疾病的理想食品。多喝鲜豆浆可预防老年痴呆症，防治气喘病。',`time`='2018-04-15',`type`='早餐',`num`='2' WHERE `id` = 6 [ RunTime:0.0921s ]
+SQL: UPDATE `food` SET `name`='炒饼',`price`='8',`thumb`='../Public/uploads/2018-04-15/5ad35ac0eac89.jpg',`batch`='烙饼，圆白菜，里脊肉',`function`='圆白菜性平、味甘，归脾、胃经；',`time`='2018-04-15',`type`='早餐',`num`='5' WHERE `id` = 9 [ RunTime:0.0434s ]
+SQL: UPDATE `food` SET `name`='豆腐脑',`price`='2',`thumb`='../Public/uploads/2018-04-24/5adf2b29081a8.jpg',`batch`='大豆，石膏，木耳，香菜，辣椒，水，盐，淀粉，葱',`function`='清热润燥、生津止渴、清洁肠胃',`time`='2018-04-24',`type`='早餐',`num`='1' WHERE `id` = 13 [ RunTime:0.0423s ]
+SQL: UPDATE `food` SET `name`='牛肉板面',`price`='6',`thumb`='../Public/uploads/2018-04-24/5adf2d0322e5f.jpg',`batch`='牛肉、面粉',`function`='无',`time`='2018-04-24',`type`='晚餐',`num`='1' WHERE `id` = 21 [ RunTime:0.0434s ]
+SQL: UPDATE `food` SET `name`='番茄炒蛋',`price`='4',`thumb`='../Public/uploads/2018-04-16/5ad40b9e875ae.jpg',`batch`='番茄,鸡蛋，植物油、白砂糖',`function`='营养搭配合理，符合大众口味。',`time`='2018-04-16',`type`='午餐',`num`='6' WHERE `id` = 38 [ RunTime:0.0311s ]
+SQL: UPDATE `food` SET `name`='冰淇淋',`price`='2',`thumb`='../Public/uploads/2018-04-16/5ad450c038dd1.jpg',`batch`='冰、雪，牛奶、奶油、酸奶，蛋黄，薄饼脆筒，砂糖',`function`='调节生理机能，保持渗透压，保持酸碱度，消暑。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 63 [ RunTime:0.0543s ]
+SQL: UPDATE `food` SET `name`='芒果慕斯',`price`='9',`thumb`='../Public/uploads/2018-04-16/5ad4554905e2d.jpg',`batch`='奶油，芝士，芒果，鸡蛋',`function`='轻轻的咬一口，凉凉的感觉，入口即化的质感，让人无法拒绝。',`time`='2018-04-16',`type`='下午茶',`num`='1' WHERE `id` = 72 [ RunTime:0.0423s ]
+SQL: UPDATE `food` SET `name`='奶油蛋糕',`price`='18',`thumb`='../Public/uploads/2018-04-16/5ad45c1f6eb0a.jpg',`batch`='鸡蛋，奶油',`function`='无。',`time`='2018-04-16',`type`='小吃夜宵',`num`='1' WHERE `id` = 77 [ RunTime:0.0434s ]
+SQL: UPDATE `food` SET `name`='泡芙',`price`='10',`thumb`='../Public/uploads/2018-04-16/5ad45df57a00f.jpg',`batch`='面粉，奶油，糖，鸡蛋，水',`function`='牛奶，细砂糖，蛋黄，低筋粉。',`time`='2018-04-16',`type`='小吃夜宵',`num`='1' WHERE `id` = 79 [ RunTime:0.0419s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '早餐'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `food` WHERE `type` = '午餐'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `food` WHERE `type` = '下午茶'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '晚餐'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `food` WHERE `type` = '小吃夜宵'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000547s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002215s ]
+
+[ 2018-05-03T20:11:16+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '早餐'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '午餐'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '晚餐'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '下午茶'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '甜品饮品'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '小吃夜宵'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002003s ]
+
+[ 2018-05-03T20:11:24+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/content/id/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `evaluate` WHERE `foodname` = '宫保鸡丁'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品' LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2018-05-03T20:11:26+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Menu/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0165s ]
+NOTIC: [8] Undefined index: validate D:\apa\PHP1\restaurant\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\apa\PHP1\restaurant\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `order` (`number`,`thumb`,`price`,`sum`,`name`,`time`) VALUES ('2014011721','../Public/uploads/2018-04-16/5ad40bdb567ff.jpg','5','1','宫保鸡丁','2018-05-03') [ RunTime:0.0806s ]
+
+[ 2018-05-03T20:11:27+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721'  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003495s ]
+
+[ 2018-05-03T22:44:35+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+ERR: 1146:Table 'restaurant.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+ERR: 1146:Table 'restaurant.order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `order`
+
+[ 2018-05-03T22:45:03+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721'  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2018-05-03T22:48:26+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002836s ]
+
+[ 2018-05-03T22:48:44+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0171s ]
+SQL: UPDATE `order` SET `sum`='2' WHERE ( id=37 ) [ RunTime:0.1504s ]
+
+[ 2018-05-03T22:48:45+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002279s ]
+
+[ 2018-05-03T22:48:55+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2018-05-03T22:49:18+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '早餐'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '午餐'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '晚餐'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '下午茶'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '甜品饮品'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '小吃夜宵'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004696s ]
+
+[ 2018-05-03T22:49:24+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/content/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `evaluate` WHERE `foodname` = '发糕'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品' LIMIT 0,4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005309s ]
+
+[ 2018-05-03T22:49:27+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Menu/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate D:\apa\PHP1\restaurant\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\apa\PHP1\restaurant\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `order` (`number`,`thumb`,`price`,`sum`,`name`,`time`) VALUES ('2014011721','../Public/uploads/2018-04-15/5ad3622e7f139.jpg','3','1','发糕','2018-05-03 22:49:27') [ RunTime:0.0860s ]
+
+[ 2018-05-03T22:49:28+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2018-05-03T22:49:53+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '早餐'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '午餐'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '晚餐'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '下午茶'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '甜品饮品'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '小吃夜宵'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000634s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002350s ]
+
+[ 2018-05-03T22:50:18+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/content/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `evaluate` WHERE `foodname` = '窝窝头'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品' LIMIT 0,4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000494s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002189s ]
+
+[ 2018-05-03T22:50:21+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Menu/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721'  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate D:\apa\PHP1\restaurant\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\apa\PHP1\restaurant\restaurant\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `order` (`number`,`thumb`,`price`,`sum`,`name`,`time`) VALUES ('2014011721','../Public/uploads/2018-04-15/5ad366453201e.jpg','2','1','窝窝头','2018-05-03 22:50:21') [ RunTime:0.0806s ]
+
+[ 2018-05-03T22:50:22+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005135s ]
+
+[ 2018-05-03T22:51:25+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '早餐'  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '午餐'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '晚餐'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '下午茶'  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '甜品饮品'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '小吃夜宵'  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002323s ]
+
+[ 2018-05-03T22:51:28+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002749s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '早餐'  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '午餐'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '晚餐'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '下午茶'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '甜品饮品'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '小吃夜宵'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012949s ]
+
+[ 2018-05-03T22:51:49+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002903s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0161s ]
+SQL: SELECT sum(sum),`name` FROM `order` GROUP BY name  [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0019s ]
+SQL: UPDATE `food` SET `name`='八宝粥',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad35a16bdbdf.jpg',`batch`='桂圆，花生米，葡萄干，莲子',`function`='促消化，增强食欲，补充体力，健脾养胃，消滞减肥，益气安神',`time`='2018-04-15',`type`='早餐',`num`='2' WHERE `id` = 7 [ RunTime:0.1435s ]
+SQL: UPDATE `food` SET `name`='炒饼',`price`='8',`thumb`='../Public/uploads/2018-04-15/5ad35ac0eac89.jpg',`batch`='烙饼，圆白菜，里脊肉',`function`='圆白菜性平、味甘，归脾、胃经；',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 9 [ RunTime:0.0530s ]
+SQL: UPDATE `food` SET `name`='发糕',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad3622e7f139.jpg',`batch`='纯粘米，加糖、发粉或糕种',`function`='其味清香，营养丰富，尤其适合老年人、儿童食用。',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 15 [ RunTime:0.0432s ]
+SQL: UPDATE `food` SET `name`='窝窝头',`price`='2',`thumb`='../Public/uploads/2018-04-15/5ad366453201e.jpg',`batch`='玉米粉，黄豆粉',`function`='刺激肠道蠕动',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 29 [ RunTime:0.0424s ]
+SQL: UPDATE `food` SET `name`='冰红茶',`price`='3',`thumb`='../Public/uploads/2018-04-16/5ad450934b4ff.jpg',`batch`='蛋白质，脂肪，维生素',`function`='防治骨质疏松，抗衰老。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 62 [ RunTime:0.0428s ]
+SQL: UPDATE `food` SET `name`='草莓奶茶',`price`='2',`thumb`='../Public/uploads/2018-04-16/5ad450edc4b63.jpg',`batch`='百花畔印尼紅茶，开水',`function`='饮品。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 64 [ RunTime:0.0419s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `food` WHERE `type` = '早餐'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `food` WHERE `type` = '午餐'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `food` WHERE `type` = '下午茶'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `food` WHERE `type` = '晚餐'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `food` WHERE `type` = '小吃夜宵'  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000764s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003287s ]
+
+[ 2018-05-03T22:53:16+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/About/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002255s ]
+
+[ 2018-05-03T22:53:22+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Person/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `user` WHERE `number` = 2014011721 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002035s ]
+
+[ 2018-05-03T22:53:27+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/About/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001961s ]
+
+[ 2018-05-03T22:53:30+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0180s ]
+SQL: SELECT sum(sum),`name` FROM `order` GROUP BY name  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0019s ]
+SQL: UPDATE `food` SET `name`='八宝粥',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad35a16bdbdf.jpg',`batch`='桂圆，花生米，葡萄干，莲子',`function`='促消化，增强食欲，补充体力，健脾养胃，消滞减肥，益气安神',`time`='2018-04-15',`type`='早餐',`num`='2' WHERE `id` = 7 [ RunTime:0.0989s ]
+SQL: UPDATE `food` SET `name`='炒饼',`price`='8',`thumb`='../Public/uploads/2018-04-15/5ad35ac0eac89.jpg',`batch`='烙饼，圆白菜，里脊肉',`function`='圆白菜性平、味甘，归脾、胃经；',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 9 [ RunTime:0.0533s ]
+SQL: UPDATE `food` SET `name`='发糕',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad3622e7f139.jpg',`batch`='纯粘米，加糖、发粉或糕种',`function`='其味清香，营养丰富，尤其适合老年人、儿童食用。',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 15 [ RunTime:0.0433s ]
+SQL: UPDATE `food` SET `name`='窝窝头',`price`='2',`thumb`='../Public/uploads/2018-04-15/5ad366453201e.jpg',`batch`='玉米粉，黄豆粉',`function`='刺激肠道蠕动',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 29 [ RunTime:0.0422s ]
+SQL: UPDATE `food` SET `name`='冰红茶',`price`='3',`thumb`='../Public/uploads/2018-04-16/5ad450934b4ff.jpg',`batch`='蛋白质，脂肪，维生素',`function`='防治骨质疏松，抗衰老。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 62 [ RunTime:0.0322s ]
+SQL: UPDATE `food` SET `name`='草莓奶茶',`price`='2',`thumb`='../Public/uploads/2018-04-16/5ad450edc4b63.jpg',`batch`='百花畔印尼紅茶，开水',`function`='饮品。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 64 [ RunTime:0.0313s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '早餐'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `food` WHERE `type` = '午餐'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `food` WHERE `type` = '下午茶'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `food` WHERE `type` = '晚餐'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `food` WHERE `type` = '小吃夜宵'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000688s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2018-05-03T22:54:58+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '早餐'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '午餐'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '晚餐'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '下午茶'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '甜品饮品'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '小吃夜宵'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002081s ]
+
+[ 2018-05-03T22:55:04+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news` ORDER BY click desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `newstype` [ RunTime:0.0168s ]
+NOTIC: [8] Undefined variable: id D:\apa\PHP1\restaurant\restaurant\Application\Home\Controller\NewsController.class.php 第 25 行.
+SQL: SELECT * FROM `newstype`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 132 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 132 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 132 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 132 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 132 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 132 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 148 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 148 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 148 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 148 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 148 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 148 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 164 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 164 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 164 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 164 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 164 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\apa\PHP1\restaurant\restaurant\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005194s ]
+
+[ 2018-05-03T22:55:11+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Person/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `user` WHERE `number` = 2014011721 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003338s ]
+
+[ 2018-05-03T22:56:06+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Person/person
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002260s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `user` WHERE `number` = 2014011721 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002958s ]
+
+[ 2018-05-03T22:56:10+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005672s ]
+
+[ 2018-05-03T22:56:15+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002669s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0185s ]
+SQL: SELECT sum(sum),`name` FROM `order` GROUP BY name  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0014s ]
+SQL: UPDATE `food` SET `name`='八宝粥',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad35a16bdbdf.jpg',`batch`='桂圆，花生米，葡萄干，莲子',`function`='促消化，增强食欲，补充体力，健脾养胃，消滞减肥，益气安神',`time`='2018-04-15',`type`='早餐',`num`='2' WHERE `id` = 7 [ RunTime:0.1607s ]
+SQL: UPDATE `food` SET `name`='炒饼',`price`='8',`thumb`='../Public/uploads/2018-04-15/5ad35ac0eac89.jpg',`batch`='烙饼，圆白菜，里脊肉',`function`='圆白菜性平、味甘，归脾、胃经；',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 9 [ RunTime:0.0435s ]
+SQL: UPDATE `food` SET `name`='发糕',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad3622e7f139.jpg',`batch`='纯粘米，加糖、发粉或糕种',`function`='其味清香，营养丰富，尤其适合老年人、儿童食用。',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 15 [ RunTime:0.0322s ]
+SQL: UPDATE `food` SET `name`='窝窝头',`price`='2',`thumb`='../Public/uploads/2018-04-15/5ad366453201e.jpg',`batch`='玉米粉，黄豆粉',`function`='刺激肠道蠕动',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 29 [ RunTime:0.0534s ]
+SQL: UPDATE `food` SET `name`='冰红茶',`price`='3',`thumb`='../Public/uploads/2018-04-16/5ad450934b4ff.jpg',`batch`='蛋白质，脂肪，维生素',`function`='防治骨质疏松，抗衰老。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 62 [ RunTime:0.0430s ]
+SQL: UPDATE `food` SET `name`='草莓奶茶',`price`='2',`thumb`='../Public/uploads/2018-04-16/5ad450edc4b63.jpg',`batch`='百花畔印尼紅茶，开水',`function`='饮品。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 64 [ RunTime:0.0423s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '早餐'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `food` WHERE `type` = '午餐'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `food` WHERE `type` = '下午茶'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `food` WHERE `type` = '晚餐'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `food` WHERE `type` = '小吃夜宵'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000706s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000954s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002277s ]
+
+[ 2018-05-03T22:56:21+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/About/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2018-05-03T22:56:24+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003380s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001923s ]
+
+[ 2018-05-03T22:57:01+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002210s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '早餐'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '午餐'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '晚餐'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '下午茶'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '甜品饮品'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '小吃夜宵'  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002628s ]
+
+[ 2018-05-03T22:57:09+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `todayfood` WHERE `name` = '窝窝头' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2018-05-03T22:57:09+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Menu/content/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+ERR: 非法操作:content
+
+[ 2018-05-03T22:57:29+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `todayfood` WHERE `name` = '窝窝头' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-05-03T22:57:29+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Menu/content/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+ERR: 非法操作:content
+
+[ 2018-05-03T22:57:54+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '早餐'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '午餐'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '晚餐'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '下午茶'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '甜品饮品'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '小吃夜宵'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2018-05-03T22:58:56+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004297s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0185s ]
+SQL: SELECT sum(sum),`name` FROM `order` GROUP BY name  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0012s ]
+SQL: UPDATE `food` SET `name`='八宝粥',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad35a16bdbdf.jpg',`batch`='桂圆，花生米，葡萄干，莲子',`function`='促消化，增强食欲，补充体力，健脾养胃，消滞减肥，益气安神',`time`='2018-04-15',`type`='早餐',`num`='2' WHERE `id` = 7 [ RunTime:0.0867s ]
+SQL: UPDATE `food` SET `name`='炒饼',`price`='8',`thumb`='../Public/uploads/2018-04-15/5ad35ac0eac89.jpg',`batch`='烙饼，圆白菜，里脊肉',`function`='圆白菜性平、味甘，归脾、胃经；',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 9 [ RunTime:0.0433s ]
+SQL: UPDATE `food` SET `name`='发糕',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad3622e7f139.jpg',`batch`='纯粘米，加糖、发粉或糕种',`function`='其味清香，营养丰富，尤其适合老年人、儿童食用。',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 15 [ RunTime:0.0423s ]
+SQL: UPDATE `food` SET `name`='窝窝头',`price`='2',`thumb`='../Public/uploads/2018-04-15/5ad366453201e.jpg',`batch`='玉米粉，黄豆粉',`function`='刺激肠道蠕动',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 29 [ RunTime:0.0655s ]
+SQL: UPDATE `food` SET `name`='冰红茶',`price`='3',`thumb`='../Public/uploads/2018-04-16/5ad450934b4ff.jpg',`batch`='蛋白质，脂肪，维生素',`function`='防治骨质疏松，抗衰老。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 62 [ RunTime:0.1334s ]
+SQL: UPDATE `food` SET `name`='草莓奶茶',`price`='2',`thumb`='../Public/uploads/2018-04-16/5ad450edc4b63.jpg',`batch`='百花畔印尼紅茶，开水',`function`='饮品。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 64 [ RunTime:0.0600s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '早餐'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '午餐'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `food` WHERE `type` = '下午茶'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `food` WHERE `type` = '晚餐'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `food` WHERE `type` = '小吃夜宵'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000718s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000957s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004126s ]
+
+[ 2018-05-03T22:59:00+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '早餐'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '午餐'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '晚餐'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '下午茶'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '甜品饮品'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `todayfood` WHERE `type` = '小吃夜宵'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006203s ]
+
+[ 2018-05-03T22:59:05+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/content/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `evaluate` WHERE `foodname` = '窝窝头'  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品' LIMIT 0,4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2018-05-03T22:59:08+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Menu/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721'  [ RunTime:0.0012s ]
+
+[ 2018-05-03T22:59:19+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2018-05-03T23:01:46+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0191s ]
+SQL: SELECT sum(sum),`name` FROM `order` GROUP BY name  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0014s ]
+SQL: UPDATE `food` SET `name`='八宝粥',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad35a16bdbdf.jpg',`batch`='桂圆，花生米，葡萄干，莲子',`function`='促消化，增强食欲，补充体力，健脾养胃，消滞减肥，益气安神',`time`='2018-04-15',`type`='早餐',`num`='2' WHERE `id` = 7 [ RunTime:0.1518s ]
+SQL: UPDATE `food` SET `name`='炒饼',`price`='8',`thumb`='../Public/uploads/2018-04-15/5ad35ac0eac89.jpg',`batch`='烙饼，圆白菜，里脊肉',`function`='圆白菜性平、味甘，归脾、胃经；',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 9 [ RunTime:0.0432s ]
+SQL: UPDATE `food` SET `name`='发糕',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad3622e7f139.jpg',`batch`='纯粘米，加糖、发粉或糕种',`function`='其味清香，营养丰富，尤其适合老年人、儿童食用。',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 15 [ RunTime:0.0422s ]
+SQL: UPDATE `food` SET `name`='窝窝头',`price`='2',`thumb`='../Public/uploads/2018-04-15/5ad366453201e.jpg',`batch`='玉米粉，黄豆粉',`function`='刺激肠道蠕动',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 29 [ RunTime:0.0431s ]
+SQL: UPDATE `food` SET `name`='冰红茶',`price`='3',`thumb`='../Public/uploads/2018-04-16/5ad450934b4ff.jpg',`batch`='蛋白质，脂肪，维生素',`function`='防治骨质疏松，抗衰老。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 62 [ RunTime:0.0422s ]
+SQL: UPDATE `food` SET `name`='草莓奶茶',`price`='2',`thumb`='../Public/uploads/2018-04-16/5ad450edc4b63.jpg',`batch`='百花畔印尼紅茶，开水',`function`='饮品。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 64 [ RunTime:0.0315s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `food` WHERE `type` = '早餐'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `food` WHERE `type` = '午餐'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '下午茶'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `food` WHERE `type` = '晚餐'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `food` WHERE `type` = '小吃夜宵'  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004107s ]
+
+[ 2018-05-03T23:01:49+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0184s ]
+SQL: SELECT sum(sum),`name` FROM `order` GROUP BY name  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0012s ]
+SQL: UPDATE `food` SET `name`='八宝粥',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad35a16bdbdf.jpg',`batch`='桂圆，花生米，葡萄干，莲子',`function`='促消化，增强食欲，补充体力，健脾养胃，消滞减肥，益气安神',`time`='2018-04-15',`type`='早餐',`num`='2' WHERE `id` = 7 [ RunTime:0.1497s ]
+SQL: UPDATE `food` SET `name`='炒饼',`price`='8',`thumb`='../Public/uploads/2018-04-15/5ad35ac0eac89.jpg',`batch`='烙饼，圆白菜，里脊肉',`function`='圆白菜性平、味甘，归脾、胃经；',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 9 [ RunTime:0.0423s ]
+SQL: UPDATE `food` SET `name`='发糕',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad3622e7f139.jpg',`batch`='纯粘米，加糖、发粉或糕种',`function`='其味清香，营养丰富，尤其适合老年人、儿童食用。',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 15 [ RunTime:0.0427s ]
+SQL: UPDATE `food` SET `name`='窝窝头',`price`='2',`thumb`='../Public/uploads/2018-04-15/5ad366453201e.jpg',`batch`='玉米粉，黄豆粉',`function`='刺激肠道蠕动',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 29 [ RunTime:0.0528s ]
+SQL: UPDATE `food` SET `name`='冰红茶',`price`='3',`thumb`='../Public/uploads/2018-04-16/5ad450934b4ff.jpg',`batch`='蛋白质，脂肪，维生素',`function`='防治骨质疏松，抗衰老。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 62 [ RunTime:0.0540s ]
+SQL: UPDATE `food` SET `name`='草莓奶茶',`price`='2',`thumb`='../Public/uploads/2018-04-16/5ad450edc4b63.jpg',`batch`='百花畔印尼紅茶，开水',`function`='饮品。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 64 [ RunTime:0.0537s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `food` WHERE `type` = '早餐'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `food` WHERE `type` = '午餐'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '下午茶'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '晚餐'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` WHERE `type` = '小吃夜宵'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000689s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002234s ]
+
+[ 2018-05-03T23:01:57+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `todayfood` WHERE `name` = '随便' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+
+[ 2018-05-03T23:02:07+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000288s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `todayfood` WHERE `name` = '窝窝头' LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2018-05-03T23:02:09+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Tmenu/content/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `evaluate` WHERE `foodname` = '窝窝头'  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品' LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000584s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000867s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007421s ]
+
+[ 2018-05-03T23:02:12+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Menu/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `todayfood` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721'  [ RunTime:0.0009s ]
+
+[ 2018-05-03T23:08:19+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003909s ]
+
+[ 2018-05-03T23:11:33+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2018-05-03T23:11:37+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0189s ]
+SQL: UPDATE `order` SET `sum`='2' WHERE ( id=41 ) [ RunTime:0.1121s ]
+
+[ 2018-05-03T23:11:38+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `order` WHERE `number` = '2014011721' ORDER BY time desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+

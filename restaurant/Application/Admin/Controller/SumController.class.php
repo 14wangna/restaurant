@@ -13,13 +13,12 @@ class SumController extends Controller {
 	        $cut=6;
 	        $currentPage = I("get.p");
 	        $offset = ($currentPage-1) * $cut;
-	        $news=$newsModel->where()->limit("$offset,$cut")->field('sum(sum),name')->group('name')->select();
+	        $news=$newsModel->where()->limit("$offset,$cut")->field('sum(sum),name')->group('name')->order('sum(sum) desc')->select();
 	        $this->assign("news",$news);
 	        $count = $newsModel->count();
 	        $Page = new \Think\Page($count, $cut);
 	        $show = $Page->show();
 	        $this->assign("page", $show);
-
 
 	    	$this->display();  
 	    }

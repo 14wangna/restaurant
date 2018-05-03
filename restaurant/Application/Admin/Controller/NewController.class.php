@@ -10,7 +10,7 @@ class NewController extends Controller {
     }
 	    public function lists(){
 	    	$newsModel = D("news");
-	        $cut=8;
+	        $cut=6;
 	        $currentPage = I("get.p");
 	        $offset = ($currentPage-1) * $cut;
 	        $news=$newsModel->where()->limit("$offset,$cut")->order('time desc')->select();

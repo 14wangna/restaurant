@@ -14,7 +14,7 @@ class OrderController extends Controller {
         $number=$_SESSION['number'];
         $userModel=M('order');
         $condition['number']=$number;
-        $data=$userModel->where($condition)->select();
+        $data=$userModel->where($condition)->order('time desc')->select();
         // print_r($data);
          $this->assign('order',$data);
 

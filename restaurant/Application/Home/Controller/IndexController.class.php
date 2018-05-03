@@ -87,9 +87,9 @@ class IndexController extends Controller {
         $id = $data['id'];
         print_r($id);
         if($id){
-            $this->redirect("Menu/content",array("id"=>$id));
+            $this->redirect("Tmenu/content",array("id"=>$id));
         }else{
-            $this->error("很抱歉，暂时没有这个游戏！");
+            $this->error("很抱歉，暂时没有这个菜品！");
         }
 
     }

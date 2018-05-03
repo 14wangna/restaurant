@@ -237,7 +237,7 @@
 			</div>
 			<div class="page-menu-food">
 				<ul>
-				<?php if(is_array($todayfood)): $i = 0; $__LIST__ = $todayfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
+				<?php if(is_array($todayfood)): $i = 0; $__LIST__ = array_slice($todayfood,0,20,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
 						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
 							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
