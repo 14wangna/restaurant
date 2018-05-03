@@ -133,22 +133,36 @@ class MenuController extends Controller {
         $id=I("post.id");
         $foodsModel = M('todayfood');
         $datas =$foodsModel ->find($id);
-        $create_time = date("Y-m-d");
+
+        $create_time = date("Y-m-d H:i:s");
+
         $User = M('order');
-        $data['number'] = $_SESSION['number'];
-        $data['thumb'] = $datas['thumb'];
-        $data['price'] = $datas['price'];
-        $data['sum'] = '1';
-        $data['name'] = $datas['name'];
-        $data['time'] = $create_time;
-        $result = $User->create();
-        if(!$result){
-            $this->ajaxReturn("0",'JSON');
+        $condition['number'] = $_SESSION['number'];
+        $order = $User -> where($condition)->select();
+        $exist = true;
+        foreach ($order as $key) {
+            if($key['name'] == $datas['name']){
+                // $this->error("你已订购该菜品");
+                $this->ajaxReturn("你已订购该菜品",'JSON');
+                break;
+            }
+            else{
+                $exist = false;
+                // 
+            }
         }
-        else{
+        if(! $exist) {
+            $data['number'] = $_SESSION['number'];
+            $data['thumb'] = $datas['thumb'];
+            $data['price'] = $datas['price'];
+            $data['sum'] = '1';
+            $data['name'] = $datas['name'];
+            $data['time'] = $create_time;
+            $result = $User->create();
             $User->data($data)->add();
             $this->ajaxReturn("1",'JSON');
         }
+        
     }
 
     public function assAdd(){
