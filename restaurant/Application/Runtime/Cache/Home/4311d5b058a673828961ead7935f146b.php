@@ -63,12 +63,16 @@
 					<a href="<?php echo U('Home/Person/person');?>">个人中心</a>
 					<a href="<?php echo U('Home/About/about');?>">关于我们</a>
 				</li>
-				<!-- <li class="nav-theme-search">
+				<li class="nav-theme-search">
+					<form action="/restaurant/restaurant/index.php/Home/Index/search" name="myform" method="post">
 					<div class="nav-theme-search-input">
-						<input type="text">
-						<a href="javascript: void (0);">搜索</a>
+						
+						<input type="text" name="name">
+						<button type="sunmit">搜索</button>
+						
 					</div>
-				</li> -->
+					</form>
+				</li>
 				<div class="clear"></div>
 			</ul>
 		</div>
@@ -82,7 +86,7 @@
  					<div class="top-intr">
  						<h3><?php echo ($food["name"]); ?></h3>
  						<h4 style="color:red;">￥<?php echo ($food["price"]); ?></h4>
- 						<p>“<?php echo ($food["function"]); ?>”</p>
+ 						<p>主要功能：“<?php echo ($food["function"]); ?>”</p>
  						<p>主要食材：<?php echo ($food["batch"]); ?></p>
  						<div class="assess">
  							<button id="<?php echo ($food["id"]); ?>" onclick="food(this)">订购</button>
@@ -94,17 +98,21 @@
  				
  				<h3>菜品评价</h3>
  				<div class="content_evaluate">
- 					<?php if(is_array($evaluate)): $i = 0; $__LIST__ = $evaluate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="evaluate_whole">
-		 					<div class="evaluate_left">
-		 						<img src="/restaurant/restaurant/Public/home/images/touxiang.png" width="" height="">
-		 						<p><?php echo ($data["username"]); ?></p>
-		 					</div>
-		 					<div class="evaluate_right">
-		 						<p><?php echo ($data["content"]); ?></p>
-		 						<p><?php echo ($data["time"]); ?></p>
-		 					</div>
-		 					<div class="clear"></div>
-	 					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+ 				<?php if(!empty($evaluate)): if(is_array($evaluate)): $i = 0; $__LIST__ = $evaluate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="evaluate_whole">
+			 					<div class="evaluate_left">
+			 						<img src="/restaurant/restaurant/Public/home/images/touxiang.png" width="" height="">
+			 						<p><?php echo ($data["username"]); ?></p>
+			 					</div>
+			 					<div class="evaluate_right">
+			 						<p><?php echo ($data["content"]); ?></p>
+			 						<p><?php echo ($data["time"]); ?></p>
+			 					</div>
+			 					<div class="clear"></div>
+		 					</div><?php endforeach; endif; else: echo "" ;endif; endif; ?>
+ 				<?php if(empty($evaluate)): ?><div class="evaluate_whole" style="display: flex;flex-direction: column;justify-content: center;align-items: center">
+ 						<img src="/restaurant/restaurant/Public/home/images/no_data.png" width="200px" height="200px">
+ 						<span style="font-size:28px;color:#666;margin-top:20px;">暂无评价</span>
+		 			</div><?php endif; ?>
  				</div>
 				<div class="content-rec">
 					<h3>热门饮品推荐</h3>

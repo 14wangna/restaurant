@@ -105,7 +105,7 @@
                         <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
                             <td><input type="checkbox" name="sumId[]" id="checkbox" value="<?php echo ($data["name"]); ?>"><label for="checkbox"></label></td>
                             <td><?php echo ($data["name"]); ?></td>
-                            <td><?php echo ($data["count(sum)"]); ?></td>
+                            <td><?php echo ($data["sum(sum)"]); ?></td>
                             <td><?php echo date('Y-m-d');?></td>
                             <td>
                                 <a class="link-del" id="<?php echo ($data["name"]); ?>" href="javascript:void(0)" onclick="del(this)">删除</a>

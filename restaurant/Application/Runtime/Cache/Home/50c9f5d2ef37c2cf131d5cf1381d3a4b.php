@@ -8,11 +8,6 @@
     <script src="/restaurant/restaurant/Public/home/js/jquery-1.11.3.js"></script>
     <script src="/restaurant/restaurant/Public/home/js/bootstrap.js"></script>
     <script type="text/javascript" src="/restaurant/restaurant/Public/home/js/index.js"></script>
-    <script type="text/javascript">
-        function validate(){
-
-        }
-    </script>
 </head>
 <body>
 	<div class="head">
@@ -74,13 +69,13 @@
                     <span class="xm-icon-size">
                         <img src="/restaurant/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
-                    <input type="text" placeholder="密码" name="password">
+                    <input type="password" placeholder="密码" name="password">
                 </div>
                 <div class="xm-input-box">
                     <span class="xm-icon-size">
                         <img src="/restaurant/restaurant/Public/home/images/name_icon.png" alt="">
                     </span>
-                    <input type="text" placeholder="确认密码" name="repassword">
+                    <input type="password" placeholder="确认密码" name="repassword">
                 </div>
                 <div class="xm-dlu"><input type="submit" id="Button1" value="注册"></div>
             </div>

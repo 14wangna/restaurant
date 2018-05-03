@@ -63,12 +63,16 @@
 					<a href="<?php echo U('Home/Person/person');?>">个人中心</a>
 					<a href="<?php echo U('Home/About/about');?>">关于我们</a>
 				</li>
-				<!-- <li class="nav-theme-search">
+				<li class="nav-theme-search">
+					<form action="/restaurant/restaurant/index.php/Home/Index/search" name="myform" method="post">
 					<div class="nav-theme-search-input">
-						<input type="text">
-						<a href="javascript: void (0);">搜索</a>
+						
+						<input type="text" name="name">
+						<button type="sunmit">搜索</button>
+						
 					</div>
-				</li> -->
+					</form>
+				</li>
 				<div class="clear"></div>
 			</ul>
 		</div>

@@ -25,7 +25,24 @@ class IndexController extends Controller {
 
      	//一周热门
 
-		$foodModel=M('food');
+        $orderModel=M('order');
+        $dataorder=$orderModel->field('sum(sum),name')->group('name')->select();
+        $foodModel=M('food');
+        $dataa=$foodModel->select();
+        foreach ($dataa as $key) {
+            foreach ($dataorder as $val) {
+                if($key['name']==$val['name']){
+                    $key['num']=$val['sum(sum)'];
+                    M("food")->data($key)->save();
+                    // echo $val['name'];
+                    // echo $val['sum(sum)'];
+                }
+            }
+        }
+        
+
+
+		// $foodModel=M('food');
      	$data=$foodModel->order('num desc')->limit(0,16)->select();
      	$this->assign('food',$data);
 
@@ -49,7 +66,7 @@ class IndexController extends Controller {
         $data=$foodModel->where($foode)->select();
         $this->assign('foode',$data);
 
-        $foodf['type']='小吃晚餐';
+        $foodf['type']='小吃夜宵';
         $data=$foodModel->where($foodf)->select();
         $this->assign('foodf',$data);
 

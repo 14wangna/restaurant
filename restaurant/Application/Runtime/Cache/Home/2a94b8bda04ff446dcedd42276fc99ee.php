@@ -63,12 +63,16 @@
 					<a href="<?php echo U('Home/Person/person');?>">个人中心</a>
 					<a href="<?php echo U('Home/About/about');?>">关于我们</a>
 				</li>
-				<!-- <li class="nav-theme-search">
+				<li class="nav-theme-search">
+					<form action="/restaurant/restaurant/index.php/Home/Index/search" name="myform" method="post">
 					<div class="nav-theme-search-input">
-						<input type="text">
-						<a href="javascript: void (0);">搜索</a>
+						
+						<input type="text" name="name">
+						<button type="sunmit">搜索</button>
+						
 					</div>
-				</li> -->
+					</form>
+				</li>
 				<div class="clear"></div>
 			</ul>
 		</div>
@@ -227,14 +231,14 @@
 			<div class="page-menu-item">
 				<ul>
 					<li id="menu" onclick="menu()" class="actived"><a href="javascript:void(0)">今日菜单</a></li>
-					<li id="hot" onclick="hot()"><a href="javascript:void(0)">一周热门</a></li>
+					<li id="hot" onclick="hot()"><a href="javascript:void(0)">热门推荐</a></li>
 					<div class="clear"></div>
 				</ul>
 			</div>
 			<div class="page-menu-food">
 				<ul>
 				<?php if(is_array($todayfood)): $i = 0; $__LIST__ = $todayfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="/restaurant/restaurant/index.php/Home/Menu/content/id/<?php echo ($data["id"]); ?>">
+						<a href="/restaurant/restaurant/index.php/Home/Tmenu/content/id/<?php echo ($data["id"]); ?>">
 							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
@@ -245,7 +249,7 @@
 			<div class="page-menu-food2" style="display: none;">
 				<ul>
 				<?php if(is_array($food)): $i = 0; $__LIST__ = $food;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li>
-						<a href="/restaurant/restaurant/index.php/Home/Menu/content/id/<?php echo ($data["id"]); ?>">
+						<a href="/restaurant/restaurant/index.php/Home/Menu/contents/id/<?php echo ($data["id"]); ?>">
 							<img src="/restaurant/restaurant/Public/<?php echo ($data["thumb"]); ?>" width="100%" height="100%">
 						</a>
 						<p><?php echo ($data["name"]); ?></p>
