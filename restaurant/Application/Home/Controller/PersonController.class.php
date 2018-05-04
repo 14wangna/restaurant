@@ -45,25 +45,7 @@ class PersonController extends Controller {
                $usersModel = M('user');
                 $data =$usersModel ->create();
                 $data['thumb']=$info['thumb']['savepath'].$info['thumb']['savename'];
-                //修改密码
-                // $condition['password'] = I("post.password");
-                // $result = $usersModel->where($condition)->count();
-                // if($result>0){ 
-                //     $this->error("旧密码不正确",U("edit"));
-                // }
-                // $usersModel = D("user");
-                //  $validate = array(
-                //     array('repassword','password','两次输入密码不一致',0,'confirm'), // 仅仅需要进行验证码的验证
-                // );
-                // $usersModel-> setProperty("_validate",$validate);
-                // $result = $usersModel->create();
-                // if (!$result){
-                //     $this->error($usersModel->getError(),U("person"));
-                // }
-                // if($usersModel->create() && $usersModel->save()) {
-                //     $this->redirect('Person/person');
-                // }
-                if($newsModel->save($data)){
+                if($usersModel->save($data)){
                     $this->redirect('Person/person');
                 }else{
                     $this->error();
