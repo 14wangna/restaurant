@@ -20,6 +20,10 @@ class SumController extends Controller {
 	        $show = $Page->show();
 	        $this->assign("page", $show);
 
+
+            $numModel=D('num');
+            $count=$numModel->count();
+            $this->assign("counts", $count);
 	    	$this->display();  
 	    }
 	    public function get_time(){
@@ -52,6 +56,12 @@ class SumController extends Controller {
                 $result = $newsModel->where($condition)->delete();
             }  
                // $this->success("批量删除成功！",U("lists?p=1"));
+            $this->redirect('Sum/lists?p=1');
+        }
+
+        public function deleteuser() {
+            $newsModel = M("num");
+            $result = $newsModel->where('1')->delete();
             $this->redirect('Sum/lists?p=1');
         }
          

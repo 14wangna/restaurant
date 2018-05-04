@@ -99,6 +99,10 @@ class MenuController extends Controller {
 
         $create_time = date("Y-m-d H:i:s");
 
+        $datab = $_SESSION['number'];
+        $numberModel = M('num');
+        $results = $numberModel->find($datab);
+        if(!$results){
         $User = M('order');
         $condition['number'] = $_SESSION['number'];
         $order = $User -> where($condition)->select();
@@ -125,7 +129,10 @@ class MenuController extends Controller {
             $User->data($data)->add();
             $this->ajaxReturn("1",'JSON');
         }
-        
+        }
+        else{
+            $this->ajaxReturn("您还没有申请用餐名额，请先申请用餐名额",'JSON');
+        }
     }
 
     public function assAdd(){

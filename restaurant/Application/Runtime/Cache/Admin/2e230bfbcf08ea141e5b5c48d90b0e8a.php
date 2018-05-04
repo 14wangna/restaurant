@@ -89,6 +89,11 @@
         <div class="result-wrap">
             <form name="myform" id="myform" action="/restaurant/restaurant/index.php/Admin/Sum/del">
              <div class="result-title">
+                    
+                    <div class="result-list">
+                       当前申请用餐人数：<?php echo ($counts); ?>  
+                       <a class="link-del" href="/restaurant/restaurant/index.php/Admin/Sum/deleteuser"style="padding-left:50px">清空用户申请</a> 
+                    </div>
                     <div class="result-list">
                        <i class="icon-font">&#xe050;</i>统计列表   
                     </div>

@@ -41,7 +41,10 @@ class IndexController extends Controller {
         }
         
 
-
+        $applyModel = M('num');
+        $num['number'] = $_SESSION['number'];
+        $applydata = $applyModel ->where($num)->select();
+        $this->assign('apply',$applydata);
 		// $foodModel=M('food');
      	$data=$foodModel->order('num desc')->limit(0,16)->select();
      	$this->assign('food',$data);
@@ -78,19 +81,43 @@ class IndexController extends Controller {
         $this->redirect('Login/login',0);
     }
     public function search(){
-         $name = $_POST['name'];
-
+        $name = $_POST['name'];
         $gameModel = M("todayfood");
         $condition['name'] = $name;
         $data =$gameModel->where($condition)->find();
         
         $id = $data['id'];
-        print_r($id);
+        // print_r($id);
         if($id){
             $this->redirect("Tmenu/content",array("id"=>$id));
         }else{
             $this->error("很抱歉，暂时没有这个菜品！");
         }
+
+    }
+
+    public function assAdd(){
+        $number=I('post.id');
+        if($number==null){
+            $this->ajaxReturn("0",'JSON');
+        }else{
+
+        $numModel=M('num');
+        $condition['number']=$number;
+        $result = $numModel->where($condition)->count();
+        // $this->ajaxReturn($data,'JSON');
+        if($result>0){
+            $this->ajaxReturn("你已申请用餐名额，切勿重复申请",'JSON');
+            
+        }else{
+            $results = $numModel->create();
+            $data['number'] = $number;
+            $numModel->data($data)->add();
+            $this->ajaxReturn("1",'JSON');
+        }
+
+        }
+        
 
     }
     

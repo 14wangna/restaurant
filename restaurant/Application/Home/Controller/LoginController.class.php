@@ -10,7 +10,7 @@ class LoginController extends Controller {
                 "password" => I("post.password"),
             );
             $result = $adminUsersModel->where($condition)->count();
-            print_r($result);
+            // print_r($result);
             if($result>0){  //能查到数据，说明用户名密码正确
                 session("number",I("post.number"));
                 $this->redirect('Index/index',0);

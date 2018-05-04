@@ -194,7 +194,7 @@
    			console.log(id);
    			$.ajax({
                 type:"POST",
-                url:"/restaurant/restaurant/index.php/Home/Menu/doAdd",
+                url:"/restaurant/restaurant/index.php/Home/Tmenu/doAdd",
                 data:{id:id},
                 dataType: "json",
                 success:function(res){
@@ -223,7 +223,6 @@
                 data:{id:id,content:content},
                 dataType: "json",
                 success:function(res){
-                	console.log(res)
                 	  location.reload() 
                 }
             });

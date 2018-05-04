@@ -269,6 +269,71 @@
 		<a><img src="/restaurant/restaurant/Public/home/images/back.png"></a>
 	</div>
 	<!-- 页脚 -->
+	<?php if(empty($apply)): ?><div class="change-branch" id="branch" style="display:block">
+			<div class="branch-content" >
+				<div class="branch-header">
+					<div class="header-left">
+						<p>申请用餐名额</p>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="branch-center">
+					<div class="row">
+						
+					</div>
+					<div class="row">
+						<label class="field-name">是否申请用餐名额：</label>
+						<!-- <textarea type="textarea" id="content" style="height:150px;width:220px"></textarea> -->
+					</div>
+				</div>
+				<div class="branch-bottom">
+					<button class="button button-ok button-disabled" id="<?php echo (session('number')); ?>" onclick="esti(this)">是</button>
+					<!-- <button class="button button-ok button-disabled"
+					onclick="estis(this)">否</button> -->
+				</div>
+			</div>
+	</div><?php endif; ?>
+<script type="text/javascript">
+	esti = function(res){
+   			var id = res.id;
+   			$.ajax({
+                type:"POST",
+                url:"/restaurant/restaurant/index.php/Home/Index/assAdd",
+                data:{id:id},
+                dataType: "json",
+                success:function(res){
+                	if(res == 1){
+                		location.reload() 
+                	}
+                	else if(res == 0){
+                		window.location.href="<?php echo U('Home/Login/login');?>";
+                	}
+                	else{
+                		alert(res)
+                	}
+                }
+            });
+   		}
+
+   		// estis = function(res){
+   		// 	var id = res.id;
+   		// 	console.log(id);
+   		// 	$.ajax({
+     //            type:"POST",
+     //            url:"/restaurant/restaurant/index.php/Home/Index/assAdd",
+     //            data:{id:id},
+     //            dataType: "json",
+     //            success:function(res){
+     //            	if(res == 1){
+     //            		location.reload() 
+     //            	}
+     //            	else{
+     //            		alert(res)
+     //            	}
+     //            }
+     //        });
+   		// }
+</script>
 	
 		<div class="footers">
 		<div class="footer">
