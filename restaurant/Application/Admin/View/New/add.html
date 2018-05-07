@@ -13,16 +13,18 @@
                                 <th><i class="require-red">*</i>标题：</th>
                                 <td>
                                     <input class="common-text required" id="title" name="title" size="50" value="" type="text">
+                                    <i class="info1" style="color:red;">标题不能为空</i>
                                 </td>
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>摘要：</th>
                                 <td>
                                     <input class="common-text required" id="abstract" name="abstract" size="50" value="" type="text">
+                                    <i class="info2" style="color:red;">摘要不能为空</i>
                                 </td>
                             </tr>
                             <tr>
-                                <th>新闻配图：</th>
+                                <th><i class="require-red">*</i>新闻配图：</th>
                                 <td>
                                 <input name="thumb" id="thumb" type="file"></td>
                             </tr>
@@ -76,4 +78,26 @@
         });  
         editor.render("EditorId");//此处的EditorId与<textarea name="content" id="EditorId">的id值对应 </textarea>  
     }  
+
+    $(document).ready(function(){
+        $(".info1").hide();
+        $("#title").blur(function(){
+            if($(this).val()==''){
+                $(".info1").show();
+            }      
+        });
+         $("#title").focus(function(){
+                $(".info1").hide();
+        });
+
+         $(".info2").hide();
+        $("#abstract").blur(function(){
+            if($(this).val()==''){
+                $(".info2").show();
+            }      
+        });
+         $("#abstract").focus(function(){
+                $(".info2").hide();
+        });
+    });
 </script>  

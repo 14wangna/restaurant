@@ -96,17 +96,17 @@
                             <tr>
                                 <th><i class="require-red">*</i>标题：</th>
                                 <td>
-                                    <input class="common-text required" id="title" name="title" size="50" value="<?php echo ($news["title"]); ?>" type="text">
+                                    <input class="common-text required" id="title" name="title" size="50" value="<?php echo ($news["title"]); ?>" type="text"><i class="info1" style="color:red;">标题不能为空</i>
                                 </td>
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>摘要：</th>
                                 <td>
-                                    <input class="common-text required" id="abstract" name="abstract" size="50" value="<?php echo ($news["abstract"]); ?>" type="text">
+                                    <input class="common-text required" id="abstract" name="abstract" size="50" value="<?php echo ($news["abstract"]); ?>" type="text"><i class="info2" style="color:red;">摘要不能为空</i>
                                 </td>
                             </tr>
                             <tr>
-                                <th>新闻配图：</th>
+                                <th><i class="require-red">*</i>新闻配图：</th>
                                 <td>
                                 <img src="/restaurant/restaurant/Public/<?php echo ($news["thumb"]); ?>" width="60px" height="60px">
                                 <input name="thumb" id="" type="file"></td>
@@ -129,7 +129,7 @@
                             </tr> 
                             <tr>
                                 <th>内容：</th>
-                                <td><!-- <textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"><?php echo ($news["content"]); ?></textarea> -->
+                                <td>
                                     <textarea  type="text"  name="content" id="EditorId" placeholder="请输入内容" class="common-textarea" cols="30" style="width: 98%;" rows="10"><?php echo ($news["content"]); ?></textarea>  
                                 </td>
                             </tr>
@@ -161,6 +161,27 @@
         });  
         editor.render("EditorId");//此处的EditorId与<textarea name="content" id="EditorId">的id值对应 </textarea>  
     }  
+    $(document).ready(function(){
+        $(".info1").hide();
+        $("#title").blur(function(){
+            if($(this).val()==''){
+                $(".info1").show();
+            }      
+        });
+         $("#title").focus(function(){
+                $(".info1").hide();
+        });
+
+         $(".info2").hide();
+        $("#abstract").blur(function(){
+            if($(this).val()==''){
+                $(".info2").show();
+            }      
+        });
+         $("#abstract").focus(function(){
+                $(".info2").hide();
+        });
+    });
 </script>  
 
 

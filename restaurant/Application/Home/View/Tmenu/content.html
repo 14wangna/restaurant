@@ -125,14 +125,12 @@
    		}
    		food = function(res){
    			var id = res.id;
-   			console.log(id);
    			$.ajax({
                 type:"POST",
                 url:"__MODULE__/Tmenu/doAdd",
                 data:{id:id},
                 dataType: "json",
                 success:function(res){
-                	console.log(res);
                 	if(res == 1){
                 		window.location.href="{:U('Home/Order/order')}";
                 	}

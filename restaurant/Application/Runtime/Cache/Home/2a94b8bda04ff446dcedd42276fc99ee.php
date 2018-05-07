@@ -283,13 +283,10 @@
 					</div>
 					<div class="row">
 						<label class="field-name">是否申请用餐名额：</label>
-						<!-- <textarea type="textarea" id="content" style="height:150px;width:220px"></textarea> -->
 					</div>
 				</div>
 				<div class="branch-bottom">
 					<button class="button button-ok button-disabled" id="<?php echo (session('number')); ?>" onclick="esti(this)">是</button>
-					<!-- <button class="button button-ok button-disabled"
-					onclick="estis(this)">否</button> -->
 				</div>
 			</div>
 	</div><?php endif; ?>
@@ -314,25 +311,6 @@
                 }
             });
    		}
-
-   		// estis = function(res){
-   		// 	var id = res.id;
-   		// 	console.log(id);
-   		// 	$.ajax({
-     //            type:"POST",
-     //            url:"/restaurant/restaurant/index.php/Home/Index/assAdd",
-     //            data:{id:id},
-     //            dataType: "json",
-     //            success:function(res){
-     //            	if(res == 1){
-     //            		location.reload() 
-     //            	}
-     //            	else{
-     //            		alert(res)
-     //            	}
-     //            }
-     //        });
-   		// }
 </script>
 	
 		<div class="footers">

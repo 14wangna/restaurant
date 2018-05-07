@@ -101,24 +101,12 @@ class IndexController extends Controller {
         if($number==null){
             $this->ajaxReturn("0",'JSON');
         }else{
-
         $numModel=M('num');
-        $condition['number']=$number;
-        $result = $numModel->where($condition)->count();
-        // $this->ajaxReturn($data,'JSON');
-        if($result>0){
-            $this->ajaxReturn("你已申请用餐名额，切勿重复申请",'JSON');
-            
-        }else{
-            $results = $numModel->create();
-            $data['number'] = $number;
-            $numModel->data($data)->add();
-            $this->ajaxReturn("1",'JSON');
-        }
+        $results = $numModel->create();
+        $data['number'] = $number;
+        $numModel->data($data)->add();
+        $this->ajaxReturn("1",'JSON');
 
         }
-        
-
     }
-    
 }

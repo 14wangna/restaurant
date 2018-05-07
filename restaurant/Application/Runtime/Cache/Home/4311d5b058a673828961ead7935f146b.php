@@ -191,14 +191,12 @@
    		}
    		food = function(res){
    			var id = res.id;
-   			console.log(id);
    			$.ajax({
                 type:"POST",
                 url:"/restaurant/restaurant/index.php/Home/Tmenu/doAdd",
                 data:{id:id},
                 dataType: "json",
                 success:function(res){
-                	console.log(res);
                 	if(res == 1){
                 		window.location.href="<?php echo U('Home/Order/order');?>";
                 	}

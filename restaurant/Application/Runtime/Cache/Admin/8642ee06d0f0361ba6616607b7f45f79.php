@@ -93,12 +93,6 @@
                         
                     </div>
                 </div>
-                <!-- <div>
-                    <?php if(is_array($todayfood)): $i = 0; $__LIST__ = $todayfood;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><button type="submit" id="<?php echo ($data["id"]); ?>" class="btn btn-primary" onclick="choice(this)"><?php echo ($data["name"]); ?></button><?php endforeach; endif; else: echo "" ;endif; ?>
-                </div> -->
-
-
-
                 <div class="result-content">
                     <table class="result-tab" width="100%">
                         <tr>

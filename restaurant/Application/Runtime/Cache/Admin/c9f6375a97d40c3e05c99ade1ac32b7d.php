@@ -94,18 +94,21 @@
                                 <th><i class="require-red">*</i>名称：</th>
                                 <td>
                                     <input class="common-text required" id="name" name="name" size="50" value="" type="text">
+                                    <i class="info1" style="color:red;">菜品名称不能为空</i>
                                 </td>
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>价格：</th>
                                 <td>
                                     <input class="common-text required" id="price" name="price" size="50" value="" type="text">
+                                    <i class="info2" style="color:red;">价格不能为空</i>
                                 </td>
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>配料：</th>
                                 <td>
                                     <input class="common-text required" id="batch" name="batch" size="50" value="" type="text">
+                                    <i class="info3" style="color:red;">配料不能为空</i>
                                 </td>
                             </tr>
                             <tr>
@@ -117,7 +120,7 @@
                                 </td>
                             </tr> 
                             <tr>
-                                <th>菜品配图：</th>
+                                <th><i class="require-red">*</i>菜品配图：</th>
                                 <td>
                                 <input name="thumb" id="thumb" type="file"></td>
                             </tr>
@@ -144,6 +147,39 @@
         </div>
 
     </div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".info1").hide();
+        $("#name").blur(function(){
+            if($(this).val()==''){
+                $(".info1").show();
+            }      
+        });
+         $("#name").focus(function(){
+                $(".info1").hide();
+        });
+
+         $(".info2").hide();
+        $("#price").blur(function(){
+            if($(this).val()==''){
+                $(".info2").show();
+            }      
+        });
+         $("#price").focus(function(){
+                $(".info2").hide();
+        });
+         $(".info3").hide();
+        $("#batch").blur(function(){
+            if($(this).val()==''){
+                $(".info3").show();
+            }      
+        });
+         $("#batch").focus(function(){
+                $(".info3").hide();
+        });
+    });
+</script>
 
 
 <!-- <script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script> -->

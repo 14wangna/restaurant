@@ -79,19 +79,6 @@ function closeJob(){
 function closePassword(){
 	document.getElementById("password").style.display="none";
 }
-
-function doadd(res){
-	var res = parseInt(res)
-	res = res + 1;
-	return res;
-}
- 
-function doreduce(res){
-	var res = parseInt(res);
-	res = res - 1;
-	return res;
-}
-
 function add(res){
 	var a = res.id;
 	$.ajax({

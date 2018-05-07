@@ -1,0 +1,73 @@
+[ 2018-05-06T21:47:00+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014216s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `news` WHERE `type` = '健康饮食'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news` WHERE `type` = '饮食咨询'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news` WHERE `type` = '为您推荐'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `todayfood` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `todayfood`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0183s ]
+SQL: SELECT sum(sum),`name` FROM `order` GROUP BY name  [ RunTime:0.0706s ]
+SQL: SHOW COLUMNS FROM `food` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `food`  [ RunTime:0.0011s ]
+SQL: UPDATE `food` SET `name`='八宝粥',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad35a16bdbdf.jpg',`batch`='桂圆，花生米，葡萄干，莲子',`function`='促消化，增强食欲，补充体力，健脾养胃，消滞减肥，益气安神',`time`='2018-04-15',`type`='早餐',`num`='2' WHERE `id` = 7 [ RunTime:0.1226s ]
+SQL: UPDATE `food` SET `name`='炒饼',`price`='8',`thumb`='../Public/uploads/2018-04-15/5ad35ac0eac89.jpg',`batch`='烙饼，圆白菜，里脊肉',`function`='圆白菜性平、味甘，归脾、胃经；',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 9 [ RunTime:0.0420s ]
+SQL: UPDATE `food` SET `name`='发糕',`price`='3',`thumb`='../Public/uploads/2018-04-15/5ad3622e7f139.jpg',`batch`='纯粘米，加糖、发粉或糕种',`function`='其味清香，营养丰富，尤其适合老年人、儿童食用。',`time`='2018-04-15',`type`='早餐',`num`='1' WHERE `id` = 15 [ RunTime:0.0434s ]
+SQL: UPDATE `food` SET `name`='水煮蛋',`price`='1',`thumb`='../Public/uploads/2018-04-24/5adf2c5b248aa.jpg',`batch`='鸡蛋',`function`='营养丰富，容易消化。',`time`='2018-04-24',`type`='早餐',`num`='1' WHERE `id` = 25 [ RunTime:0.0424s ]
+SQL: UPDATE `food` SET `name`='冰红茶',`price`='3',`thumb`='../Public/uploads/2018-04-16/5ad450934b4ff.jpg',`batch`='蛋白质，脂肪，维生素',`function`='防治骨质疏松，抗衰老。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 62 [ RunTime:0.0543s ]
+SQL: UPDATE `food` SET `name`='草莓奶茶',`price`='2',`thumb`='../Public/uploads/2018-04-16/5ad450edc4b63.jpg',`batch`='百花畔印尼紅茶，开水',`function`='饮品。',`time`='2018-04-16',`type`='甜品饮品',`num`='1' WHERE `id` = 64 [ RunTime:0.0755s ]
+SQL: SHOW COLUMNS FROM `num` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `num` WHERE `number` = 2014011721  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `food` ORDER BY num desc LIMIT 0,16   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `food` WHERE `type` = '早餐'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `food` WHERE `type` = '午餐'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `food` WHERE `type` = '下午茶'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `food` WHERE `type` = '晚餐'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `food` WHERE `type` = '甜品饮品'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `food` WHERE `type` = '小吃夜宵'  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000552s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000777s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007477s ]
+
+[ 2018-05-06T21:47:12+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Index/loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003592s ]
+
+[ 2018-05-06T21:47:12+08:00 ] 127.0.0.1 /restaurant/restaurant/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002122s ]
+

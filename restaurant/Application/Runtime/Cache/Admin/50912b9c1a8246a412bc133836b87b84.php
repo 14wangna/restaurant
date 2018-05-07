@@ -96,19 +96,19 @@
                             <tr>
                                 <th><i class="require-red">*</i>名称</th>
                                 <td>
-                                    <input class="common-text required" id="name" name="name" size="50" value="<?php echo ($food["name"]); ?>" type="text">
+                                    <input class="common-text required" id="name" name="name" size="50" value="<?php echo ($food["name"]); ?>" type="text"> <i class="info1" style="color:red;">菜品名称不能为空</i>
                                 </td>
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>价格</th>
                                 <td>
-                                    <input class="common-text required" id="price" name="price" size="50" value="<?php echo ($food["price"]); ?>" type="text">
+                                    <input class="common-text required" id="price" name="price" size="50" value="<?php echo ($food["price"]); ?>" type="text"><i class="info2" style="color:red;">价格不能为空</i>
                                 </td>
                             </tr>
                             <tr>
                                 <th><i class="require-red">*</i>配料</th>
                                 <td>
-                                    <input class="common-text required" id="price" name="batch" size="50" value="<?php echo ($food["batch"]); ?>" type="text">
+                                    <input class="common-text required" id="batch" name="batch" size="50" value="<?php echo ($food["batch"]); ?>" type="text"><i class="info3" style="color:red;">配料不能为空</i>
                                 </td>
                             </tr>
                             <tr>
@@ -133,19 +133,9 @@
                                     <input class="common-text required" id="read-style" size="50" name="time" value="<?php echo ($time); ?>" type="text" readonly>
                                 </td>
                             </tr>
-                            <!-- <tr>
-                                <th><i class="require-red">*</i>类型：</th>
-                                <td>
-                                    <select  class="common-text required" id="type" name="type" value="" style="width:200px">
-                                        <?php if(is_array($foodtypes)): $i = 0; $__LIST__ = $foodtypes;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i; if($food[type] == $data[name]): ?><option value="<?php echo ($data["name"]); ?>" selected="selected"><?php echo ($data["name"]); ?></option>
-                                            <?php else: ?>
-                                               <option value="<?php echo ($data["name"]); ?>"><?php echo ($data["name"]); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
-                                    </select>
-                                </td>
-                            </tr>  -->
                             <tr>
                                 <th>菜品功能：</th>
-                                <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"><?php echo ($food["content"]); ?></textarea></td>
+                                <td><textarea name="function" class="common-textarea" id="function" cols="30" style="width: 98%;" rows="10"><?php echo ($food["function"]); ?></textarea></td>
                             </tr>
                             <tr>
                                 <th></th>
@@ -160,6 +150,39 @@
         </div>
 
     </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".info1").hide();
+        $("#name").blur(function(){
+            if($(this).val()==''){
+                $(".info1").show();
+            }      
+        });
+         $("#name").focus(function(){
+                $(".info1").hide();
+        });
+
+         $(".info2").hide();
+        $("#price").blur(function(){
+            if($(this).val()==''){
+                $(".info2").show();
+            }      
+        });
+         $("#price").focus(function(){
+                $(".info2").hide();
+        });
+         $(".info3").hide();
+        $("#batch").blur(function(){
+            if($(this).val()==''){
+                $(".info3").show();
+            }      
+        });
+         $("#batch").focus(function(){
+                $(".info3").hide();
+        });
+    });
+</script>
+
 
 
 <!-- <script src="/restaurant/restaurant/Public/admin/js/jquery-1.8.3.min.js"></script> -->

@@ -48,8 +48,6 @@ class TmenuController extends Controller {
 		$data =$foodsModel ->find($id);
 		//分配数据
 		$this->assign('food',$data);
-
-
         $evaluateModel=M('evaluate');
         $condition['foodname']=$data['name'];
         $edata=$evaluateModel->where($condition)->select();
@@ -106,22 +104,17 @@ class TmenuController extends Controller {
         $id=I("post.id");
         $foodsModel = M('todayfood');
         $datas =$foodsModel ->find($id);
-
         $create_time = date("Y-m-d H:i:s");
         $User = M('order');
         $condition['number'] = $_SESSION['number'];
         $order = $User -> where($condition)->select();
-        // $this->ajaxReturn("1111111",'JSON');
         $exist = true;
         foreach ($order as $key) {
             if($key['name'] == $datas['name']){
-                // $this->error("你已订购该菜品");
                 $this->ajaxReturn("你已订购该菜品",'JSON');
                 break;
-            }
-            else{
+            }else{
                 $exist = false;
-                // 
             }
         }
         if(!$exist) {
@@ -142,20 +135,16 @@ class TmenuController extends Controller {
         $content = I("post.content");
         $foodsModel = M('todayfood');
         $data1 =$foodsModel ->find($id);
-
         $userModel = M('user');
         $user['number'] = $_SESSION['number'];
         $data2 = $userModel ->find($user);
-        
         $create_time = date('Y-m-d');
-
         $User = M('evaluate');
         $data['foodname'] = $data1['name'];
         $data['username'] = $data2['username'];
         $data['thumb'] = $data2['thumb'];
         $data['content'] = $content;
         $data['time'] = $create_time;
-
         $result = $User->create();
         if(!$result){
             $this->ajaxReturn("0",'JSON');
